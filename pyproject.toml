@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iba-interpretable"
+version = "0.1.0"
+description = "Interpretable-by-construction factor reduction with Interpolative Boolean Algebra for forecasting index time series (package: iba)"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Aleksa Radosavčević", email = "aleksaradosavcevic@gmail.com" }]
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "scipy>=1.13",
+  "scikit-learn>=1.5",
+  "xgboost>=2.1",
+  "lightgbm>=4.3",
+  "arch>=7.0",
+  "statsmodels>=0.14",
+  "pyyaml>=6.0",
+  "tabulate>=0.9",
+]
+
+[project.urls]
+Repository = "https://github.com/aleksa-r/iba-interpretable"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "hypothesis>=6", "pytest-xdist>=3", "ruff>=0.6"]
+data = ["yfinance>=0.2", "requests>=2.32", "xlrd>=2.0"]
+paper = ["matplotlib>=3.8", "markdown>=3.5"]          # figures and the HTML/PDF reading copy
+llm = ["anthropic>=0.40"]                             # elicitation and explanation requests
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["iba*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110

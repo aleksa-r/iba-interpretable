@@ -1,0 +1,387 @@
+{
+ "frequency": "weekly",
+ "asset_class": "real_estate",
+ "procedure": "K",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "f2f91fba592aeee5d33ffce4fdd249c6d80fb3255e43099fdc0de998531b6d43",
+ "attempts": [
+  {
+   "id": "msg_011Ch32Y7dRBokeWsHuQgxzo",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 3585,
+    "output_tokens": 4449
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "REITs are long-duration, bond-like equities. A bear steepening, with intermediate and long yields rising against the policy rate, raises discount rates and funding costs and tends to weigh on REIT prices."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Narrowing Baa spreads together with strong high-yield returns mark easy credit conditions. REITs are leveraged and depend on debt markets, so they benefit from this state."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High equity implied volatility signals an elevated risk premium. Subsequent returns on risky, levered assets such as REITs tend to be higher as fear mean-reverts."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "REITs have a sizeable equity-market beta. Broad market moves feed into REITs with a short lag through slower-moving real-estate investors."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong short-term reversal returns indicate that liquidity providers are being rewarded. That state tends to coincide with price pressure in recently sold sectors such as REITs, which subsequently rebounds."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A strengthening broad dollar tightens global financial conditions and often accompanies higher US real rates, which is a headwind for rate-sensitive real estate."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad commodity gains signal reflation and rising nominal-rate pressure. Real assets partly hedge this, but higher rates hurt REIT valuations, so the net effect is left for the model to learn."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions are associated with depressed prices and higher subsequent expected returns on levered real assets."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Recent REIT performance relative to its own history captures short-horizon momentum or reversal in the index."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Sharp rises in intermediate yields relative to the policy rate are rate shocks. Duration-sensitive REITs reprice violently in response, which raises their subsequent variance."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening credit spreads together with weak high-yield returns signal deteriorating credit conditions. Credit deterioration amplifies equity volatility for leveraged real-estate firms."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "EPU",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied equity volatility combined with high policy uncertainty forecasts realised volatility beyond what past realised variance already contains."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Through the leverage effect, negative market returns raise subsequent volatility more than positive returns do."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum losses typically occur in turbulent, rebounding markets and indicate unstable risk pricing that precedes higher volatility."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen appreciation is a classic safe-haven, risk-off signal associated with carry unwinds and rising cross-asset volatility."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Oil price drops often reflect global demand scares, which raise volatility in equity markets including REITs."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     },
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated financial stress together with tight financial conditions marks a systemic stress regime, in which volatility is persistently elevated."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Variance is persistent. High recent realised variance may predict further excess variance if decay is slower than the baseline assumes."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Abrupt rises in intermediate and long yields are the main rate shock that produces sharp REIT drawdowns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Credit spread widening and high-yield losses signal tightening debt markets. That raises the risk of steep declines for leveraged property owners."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "A high VIX widens the return distribution and raises the probability of extreme negative outcomes."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "SMB",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak market returns with small caps underperforming reflect a flight to quality. Mid-cap-heavy REIT indices are exposed to this."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum drawdowns accompany market turbulence and deleveraging episodes in which tail losses cluster."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Sharp dollar strength tightens global dollar funding and risk appetite, which raises downside tail risk."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling commodity prices signal global growth scares that raise crash risk in risky assets."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "High financial stress raises the likelihood of forced selling and large losses in levered sectors."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak recent REIT returns indicate a stressed state in which large losses tend to cluster."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling intermediate yields with a flattening curve (a bull flattening) lower discount rates and favour strong REIT rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong high-yield returns signal improving risk appetite and credit availability, which supports outsized REIT gains."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Large rebounds occur mainly in high-volatility states, so an elevated VIX also raises the chance of an upper-tail return."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong market returns spill over into REITs with a lag and raise the probability of large gains."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "high"
+     }
+    ],
+    "rationale": "A strong reversal factor marks environments where recently sold assets rebound sharply."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A weakening dollar eases global financial conditions and supports risk-asset rallies."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Commodity strength signals improving global growth and reflation, which supports real-asset gains."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight conditions coincide with depressed valuations and high risk premia, from which sharp relief rallies emerge."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "After weak recent performance, short-horizon reversal makes large rebounds more likely."
+   }
+  }
+ },
+ "draw": 3
+}

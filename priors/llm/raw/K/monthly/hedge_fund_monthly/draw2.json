@@ -1,0 +1,351 @@
+{
+ "frequency": "monthly",
+ "asset_class": "hedge_fund_monthly",
+ "procedure": "K",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "6e6c97a735e597e21e9caddc3bfb7b8898e8eee2f588d74591ee4e0282d7cccb",
+ "attempts": [
+  {
+   "id": "msg_011Ch2zBWndTNLEDtSoLtD6w",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 3883,
+    "output_tokens": 4286
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A steepening curve signals improving growth expectations and wider carry for macro and fixed-income relative-value books, which tends to support hedge-fund returns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAMLH0A2HYBEY_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising high-yield yields mark tightening credit and funding conditions. Credit, distressed and arbitrage strategies carry exposure to that premium, and stale pricing carries the shock forward into the next months."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIXCLS",
+      "state": "high"
+     },
+     {
+      "factor": "EMVFINCRISES",
+      "state": "high"
+     }
+    ],
+    "rationale": "High equity volatility that is also driven by financial-crisis news marks a deleveraging state. Such states hurt near-term hedge-fund returns but raise the risk premia earned afterwards."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     },
+     {
+      "factor": "SMB",
+      "state": "high"
+     }
+    ],
+    "rationale": "Hedge-fund indices load on the market and on small caps with a lag because of illiquid holdings and smoothed marks. A strong, broad equity rally therefore feeds into subsequent reported returns."
+   },
+   "TF": {
+    "literals": [
+     {
+      "factor": "PTFSSTK",
+      "state": "high"
+     }
+    ],
+    "rationale": "High payoffs on the stock trend-following straddle indicate large, directional equity moves. CTAs gain in that state, while short-volatility-like arbitrage strategies suffer."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Momentum factor strength reflects persistent trends that long/short equity and trend strategies harvest; momentum regimes are themselves somewhat persistent."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A weaker yen together with a stronger Australian dollar is the carry-friendly, risk-on state, which coincides with ample leverage and good hedge-fund performance."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "COMIDX_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad commodity strength signals global demand and trend opportunities for macro and CTA funds."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "CFNAI",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Tight financial conditions combined with weak activity mean scarce funding liquidity. Leveraged arbitrage strategies are constrained in that state, though it later carries elevated expected returns."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Hedge-fund returns are positively autocorrelated because of illiquid holdings and return smoothing (Getmansky-Lo-Makarov), so recent strength predicts near-term strength."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "TB3MS_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Falling bill rates together with a bull-steepening curve characterise emergency easing and flight to quality, which accompany drawdowns in risky strategies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAMLH0A2HYBEY_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "BAMLEMCBPIEY_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Simultaneous jumps in US high-yield and EM corporate yields signal a global credit shock. Such shocks trigger forced deleveraging and large losses in credit, distressed and arbitrage funds."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIXCLS",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility raises the dispersion of future returns and the risk of margin-driven fire sales, increasing left-tail probability."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "MSCIEM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak developed and emerging equity markets together indicate global risk-off. Lagged equity exposure then propagates into hedge-fund losses."
+   },
+   "TF": {
+    "literals": [
+     {
+      "factor": "PTFSSTK",
+      "state": "high"
+     },
+     {
+      "factor": "PTFSBD",
+      "state": "high"
+     }
+    ],
+    "rationale": "Large trend-straddle payoffs in stocks and bonds together mark cross-asset turbulence, in which strategies short optionality (arbitrage, event driven) suffer tail losses."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "high"
+     }
+    ],
+    "rationale": "High short-term reversal returns indicate expensive liquidity provision (Nagel), a sign of liquidity stress that precedes or accompanies hedge-fund drawdowns."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen appreciation together with a falling Australian dollar is the signature of a carry-trade unwind and deleveraging, which raises crash risk."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "COPPER_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Joint declines in oil and copper signal falling global demand and stress for energy-linked credit and EM exposures."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated financial stress raises funding costs and margin requirements, increasing the chance of extreme losses for leveraged strategies."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Because of return smoothing and the persistence of deleveraging, weak recent returns raise the likelihood of further large losses."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Large curve moves create directional opportunities for macro funds and coincide with reflationary rebounds."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAMLH0A2HYBEY_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "BAMLEMCBPIEY_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling high-yield and EM corporate yields mark a credit rally, which produces strong gains for credit, distressed and event-driven strategies."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIXCLS",
+      "state": "high"
+     }
+    ],
+    "rationale": "High volatility widens both tails, and post-stress rebounds deliver the largest subsequent gains."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     },
+     {
+      "factor": "MSCIEM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong developed and EM equity markets carry through lagged exposures into exceptionally strong hedge-fund months."
+   },
+   "TF": {
+    "literals": [
+     {
+      "factor": "PTFSCOM",
+      "state": "high"
+     },
+     {
+      "factor": "PTFSBD",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong trend payoffs in commodities and bonds indicate persistent trends that CTA and macro funds convert into large gains."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Persistent momentum regimes favour trend and long/short equity strategies, raising the chance of outsized gains."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "PTFSFX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong currency trends are a key source of large gains for CTAs and global macro funds."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "COMIDX_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad commodity rallies signal reflation and strong trends that benefit macro and CTA books."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions raise expected premia and return dispersion, so large rebounds tend to follow stressed states."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Return persistence from illiquidity and trend capture makes recent strong performance predictive of further large gains."
+   }
+  }
+ },
+ "draw": 2
+}

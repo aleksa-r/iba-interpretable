@@ -1,0 +1,16 @@
+\begin{algorithm}[H]
+\caption{ABC refinement of group formulas (one asset class, task and re-selection date)}\label{alg:1}
+\small
+\emph{Fitness of a formula set \ensuremath{\Phi}.} Fit each series' linear model on the features of \ensuremath{\Phi}, on four validation folds. The fitness is the mean over series of the validation loss divided by the loss under the prior, plus 0.005 for each literal beyond the prior's. Lower is better.
+
+\begin{enumerate}
+\item \emph{Initialise.} The colony is the prior and 19 distinct formula sets one move away from it.
+\item \emph{Employed phase.} For each member, generate a neighbour by one random move. If its fitness is lower, it replaces the member; otherwise the member's failure count rises by one.
+\item \emph{Onlooker phase.} Repeat step 2 twenty times on members drawn with probability proportional to their fitness rank.
+\item \emph{Scout phase.} A member with more than 10 consecutive failures is replaced by a formula set one or two moves away from the prior.
+\item \emph{Stop} when 2,000 distinct formula sets have been evaluated.
+\item \emph{Acceptance test.} The best formula set replaces the prior only if, on validation rows that the search never used, its loss is lower than the prior's by more than one standard error.
+\end{enumerate}
+
+\emph{Output:} the tested winner, the untested winner and the final colony.
+\end{algorithm}

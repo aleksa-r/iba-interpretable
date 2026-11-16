@@ -1,0 +1,15 @@
+# r8 fixed IBA formulas (docs/R8_EXPERT_FORMULAS.md). One conjunction of at most two literals
+# per group, identical for every target; every predicate uses the LONGER z-score window of the run.
+# DISCLOSURE: written by the Dell Claude session (not a human domain expert) AFTER the r6/r7 results
+# had been seen; generic textbook "benign / risk-on" statements, not copied from any searched selection.
+panel: weekly
+groups:
+  IR:   [[T10Y2Y_CHG, high], [TB3M_CHG, not_high]]
+  B:    [[BAA10Y_CHG, not_high], [HYG_RET, high]]
+  V:    [[VIX, not_high], [OVX, not_high]]
+  AP:   [[Mkt_RF, high], [EEM_RET, high]]
+  ST:   [[MOM, high], [ST_REV, not_high]]
+  FX:   [[AUDUSD_RET, high], [USD_BROAD_RET, not_high]]
+  COM:  [[WTI_RET, high], [DBC_RET, high]]
+  MC:   [[NFCI, not_high], [STLFSI, not_high]]
+  ENDG: [[__target__, high]]

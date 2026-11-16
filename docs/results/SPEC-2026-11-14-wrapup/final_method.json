@@ -1,0 +1,28 @@
+{
+ "formula_set": "Kc",
+ "algorithm": "ABC",
+ "interpretable": "Kc|lin",
+ "accuracy": "iba_ca_b",
+ "rules": [
+  {
+   "candidate": "iba_ca|lin",
+   "incumbent": "Kc|lin",
+   "tasks": 18,
+   "tasks better": 0,
+   "tasks worse": 2,
+   "types with lower mean loss": "1/4",
+   "mean rel. diff % (types equally weighted)": 0.208,
+   "qualifies": false
+  },
+  {
+   "candidate": "iba_ca_b",
+   "incumbent": "Kc_nb",
+   "tasks": 18,
+   "tasks better": 3,
+   "tasks worse": 0,
+   "types with lower mean loss": "4/4",
+   "mean rel. diff % (types equally weighted)": -0.089,
+   "qualifies": true
+  }
+ ]
+}

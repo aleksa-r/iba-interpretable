@@ -1,0 +1,1301 @@
+source: LLM-elicited, procedure K, draw 3, model claude-opus-5-5, knowledge cut-off
+  30 September 2017
+classes:
+  monthly:
+    hedge_fund_monthly:
+      return:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          - - TB3MS_CHG
+            - not_high
+          B:
+          - - BAMLH0A2HYBEY_CHG
+            - high
+          - - BAMLEMCBPIEY_CHG
+            - high
+          V:
+          - - VIXCLS
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          - - MSCIEM
+            - high
+          TF:
+          - - PTFSSTK
+            - high
+          ST:
+          - - MOM
+            - high
+          FX:
+          - - USDJPY_RET
+            - high
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - COMIDX_RET
+            - high
+          MC:
+          - - NFCI
+            - high
+          - - CFNAI
+            - not_high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T1YFF_CHG
+            - not_high
+          B:
+          - - BAMLH0A2HYBEY_CHG
+            - high
+          V:
+          - - VIXCLS
+            - high
+          - - EMVFINCRISES
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          TF:
+          - - PTFSSTK
+            - high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - COMIDX_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - BAMLH0A2HYBEY_CHG
+            - high
+          V:
+          - - VIXCLS
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          - - SMB
+            - high
+          TF:
+          - - PTFSBD
+            - high
+          ST:
+          - - MOM
+            - high
+          FX:
+          - - PTFSFX
+            - high
+          COM:
+          - - COMIDX_RET
+            - high
+          MC:
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - high
+  weekly:
+    bonds_gov_ig:
+      return:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - T10YIE_CHG
+            - high
+          - - CLAIMS_CHG
+            - not_high
+          ENDG:
+          - - __target__
+            - high
+      logrv:
+        groups:
+          IR:
+          - - T1YFF_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          V:
+          - - VIX
+            - high
+          - - EPU
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - HYG_RET
+            - high
+          - - BAA10Y_CHG
+            - not_high
+          V:
+          - - VIX
+            - not_high
+          AP:
+          - - Mkt_RF
+            - high
+          FX:
+          - - USDJPY_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - T10YIE_CHG
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - not_high
+          - - T1YFF_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+    commodities:
+      return:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - HYG_RET
+            - high
+          - - BAA10Y_CHG
+            - not_high
+          V:
+          - - OVX
+            - high
+          AP:
+          - - EEM_RET
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - T10YIE_CHG
+            - high
+          - - NFCI
+            - not_high
+          ENDG:
+          - - __target__
+            - high
+      logrv:
+        groups:
+          IR:
+          - - T1YFF_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - OVX
+            - high
+          - - GVZ
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - EMB_RET
+            - not_high
+          V:
+          - - OVX
+            - high
+          - - VIX
+            - high
+          AP:
+          - - EEM_RET
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          - - AUDUSD_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - not_high
+          MC:
+          - - NFCI
+            - high
+          - - T10YIE_CHG
+            - not_high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - HYG_RET
+            - high
+          - - EMB_RET
+            - high
+          V:
+          - - OVX
+            - high
+          - - VIX
+            - not_high
+          AP:
+          - - EEM_RET
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - T10YIE_CHG
+            - high
+          ENDG:
+          - - __target__
+            - high
+    credit_em_debt:
+      return:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - HYG_RET
+            - high
+          - - BAA10Y_CHG
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          - - EEM_RET
+            - high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          - - AUDUSD_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      logrv:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          - - OVX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          - - EEM_RET
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          - - AUDUSD_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - not_high
+          MC:
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          - - EEM_RET
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          - - AUDUSD_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - not_high
+          - - DBC_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - not_high
+          B:
+          - - HYG_RET
+            - high
+          - - BAA10Y_CHG
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          - - EEM_RET
+            - high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - WTI_RET
+            - high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+    equity_developed_exus:
+      return:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - not_high
+          - - HYG_RET
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          - - EEM_RET
+            - high
+          ST:
+          - - RMW
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      logrv:
+        groups:
+          IR:
+          - - TB3M_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          - - EPU
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          ST:
+          - - ST_REV
+            - high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          - - AUDUSD_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          - - EEM_RET
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          - - CLAIMS_CHG
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - HYG_RET
+            - high
+          - - EMB_RET
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - EEM_RET
+            - high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+    equity_emerging:
+      return:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - EMB_RET
+            - high
+          - - BAA10Y_CHG
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - EEM_RET
+            - high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - NFCI
+            - not_high
+          ENDG:
+          - - __target__
+            - high
+      logrv:
+        groups:
+          IR:
+          - - TB3M_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          V:
+          - - VIX
+            - high
+          - - OVX
+            - high
+          AP:
+          - - EEM_RET
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          COM:
+          - - WTI_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - EMB_RET
+            - not_high
+          - - BAA10Y_CHG
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - EEM_RET
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          - - AUDUSD_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - EEM_RET
+            - not_high
+          ST:
+          - - ST_REV
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+    equity_us_broad:
+      return:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - not_high
+          - - HYG_RET
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - EEM_RET
+            - high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - AUDUSD_RET
+            - high
+          - - USDJPY_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - NFCI
+            - high
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      logrv:
+        groups:
+          IR:
+          - - TB3M_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          - - EPU
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          ST:
+          - - ST_REV
+            - high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - TB3M_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          - - EPU
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          - - EEM_RET
+            - not_high
+          ST:
+          - - ST_REV
+            - high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          - - AUDUSD_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - not_high
+          MC:
+          - - NFCI
+            - high
+          - - CLAIMS_CHG
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - HYG_RET
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - EEM_RET
+            - high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+    equity_us_sectors:
+      return:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          - - TB3M_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - not_high
+          - - HYG_RET
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          ST:
+          - - MOM
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          COM:
+          - - WTI_RET
+            - high
+          MC:
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      logrv:
+        groups:
+          IR:
+          - - TB3M_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          ST:
+          - - ST_REV
+            - high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T1YFF_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - HYG_RET
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          ST:
+          - - ST_REV
+            - high
+          FX:
+          - - AUDUSD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+    hedge_fund_daily:
+      return:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          - - EEM_RET
+            - not_high
+          ST:
+          - - MOM
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      logrv:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          V:
+          - - VIX
+            - high
+          - - GVZ
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - HYG_RET
+            - high
+          - - BAA10Y_CHG
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          - - EEM_RET
+            - high
+          ST:
+          - - MOM
+            - not_high
+          - - ST_REV
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_gain:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - not_high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          ST:
+          - - MOM
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - not_high
+          MC:
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - high
+    real_estate:
+      return:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          - - T10Y2Y_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - not_high
+          - - HYG_RET
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          ST:
+          - - ST_REV
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      logrv:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          - - EPU
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USDJPY_RET
+            - not_high
+          COM:
+          - - WTI_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - high
+      tail_loss:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - high
+          B:
+          - - BAA10Y_CHG
+            - high
+          - - HYG_RET
+            - not_high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - not_high
+          - - SMB
+            - not_high
+          ST:
+          - - MOM
+            - not_high
+          FX:
+          - - USD_BROAD_RET
+            - high
+          COM:
+          - - DBC_RET
+            - not_high
+          MC:
+          - - STLFSI
+            - high
+          ENDG:
+          - - __target__
+            - not_high
+      tail_gain:
+        groups:
+          IR:
+          - - T5YFF_CHG
+            - not_high
+          - - T10Y2Y_CHG
+            - not_high
+          B:
+          - - HYG_RET
+            - high
+          V:
+          - - VIX
+            - high
+          AP:
+          - - Mkt_RF
+            - high
+          ST:
+          - - ST_REV
+            - high
+          FX:
+          - - USD_BROAD_RET
+            - not_high
+          COM:
+          - - DBC_RET
+            - high
+          MC:
+          - - NFCI
+            - high
+          ENDG:
+          - - __target__
+            - not_high

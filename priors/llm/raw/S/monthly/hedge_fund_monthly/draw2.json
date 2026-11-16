@@ -1,0 +1,347 @@
+{
+ "frequency": "monthly",
+ "asset_class": "hedge_fund_monthly",
+ "procedure": "S",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "c2c0874eac5eb87b9810d73b1dc4afcfbebc4d05d7c4c237dc0d47719274f1a7",
+ "attempts": [
+  {
+   "id": "msg_011Ch2zBJRESYCR6vc14tZTF",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 5909,
+    "output_tokens": 4001
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T1YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A rising 1-year yield relative to Fed Funds signals expected tightening. Tighter expected policy raises funding costs and pressures the leveraged carry and arbitrage positions held by hedge funds."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAMLH0A2HYBEY_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "BAMLEMCBPIEY_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Simultaneous widening in US high-yield and EM corporate yields marks a global credit risk-off state. Event-driven, distressed and arbitrage strategies carry short credit-liquidity exposure, so this state should hurt them."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "EMVFINCRISES",
+      "state": "high"
+     }
+    ],
+    "rationale": "Crisis-related volatility captures funding and liquidity stress, which forces deleveraging and hurts relative-value strategies."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "MSCIEM",
+      "state": "high"
+     },
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "Joint strength in US and EM equities is a broad risk-on state. Hedge funds have substantial net beta and lagged, smoothed exposure to it, which is why we expect it to carry forward into their returns."
+   },
+   "TF": {
+    "literals": [
+     {
+      "factor": "PTFSIR",
+      "state": "high"
+     }
+    ],
+    "rationale": "High payoffs on the short-rate trend-following straddle mean large, trending moves in short rates. Such rate shocks tend to disrupt fixed-income arbitrage and macro books."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "high"
+     },
+     {
+      "factor": "ST_REV",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Quality outperforming while short-term reversal fails indicates a flight to quality with poor liquidity provision. That is an unfavourable environment for hedge funds, which are effectively liquidity providers."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "EURUSD_RET",
+      "state": "high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A broadly weaker dollar alongside a strong commodity/carry currency signals easy global dollar funding and risk appetite."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "COPPER_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising copper is a gauge of global growth and risk appetite, which supports risk-taking strategies."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "CFNAI",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Tight financial conditions combined with weak activity is the classic deleveraging state. Funding constraints bind on levered funds in that state."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Hedge-fund returns are positively autocorrelated because of illiquid holdings, return smoothing and slow-moving capital."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "TB3MS_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising bill rates tighten short-term funding for leveraged positions. This raises the risk of forced unwinds."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAMLHE00EHYIEY_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "BAMLH0A2HYBEY_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Joint widening of European and US high-yield yields signals a transatlantic credit shock. Hedge funds' short-put-like credit exposure produces tail losses in that state."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "EMVFINCRISES",
+      "state": "high"
+     }
+    ],
+    "rationale": "Financial-crisis volatility flags systemic stress, where correlations rise and arbitrage spreads blow out."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "MSCIEM",
+      "state": "not_high"
+     },
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak US and EM equity markets together indicate a global risk-off regime. Such regimes precede drawdowns through funds' net beta and lagged marks."
+   },
+   "TF": {
+    "literals": [
+     {
+      "factor": "PTFSIR",
+      "state": "high"
+     }
+    ],
+    "rationale": "Large trending moves in short rates are a source of crowded-trade losses in fixed-income and macro strategies."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "high"
+     },
+     {
+      "factor": "ST_REV",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A flight to quality with failed liquidity provision characterises deleveraging episodes. These are the episodes in which hedge-fund tail losses cluster."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "EURUSD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A strengthening dollar tightens global dollar funding and is associated with risk-off unwinds."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "COPPER_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling oil and copper together signal weakening global demand and stress for commodity-linked credit and EM exposures."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "CFNAI",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Tight financial conditions in a weak economy are the strongest documented precursor of funding-driven hedge-fund drawdowns."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Poor recent performance tends to persist through redemptions, smoothing and fire-sale dynamics, raising the chance of further large losses."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T1YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling expected policy rates ease funding conditions and support levered strategies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAMLEMCBPIEY_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "BAMLH0A2HYBEY_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Joint tightening of EM and US high-yield yields marks a credit rally. Credit rallies produce strong gains for event-driven, distressed and credit-arbitrage funds."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIXCLS",
+      "state": "high"
+     },
+     {
+      "factor": "EMVFINCRISES",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Elevated equity volatility without acute crisis stress means high risk premia that are not yet a funding crisis. This state tends to precede rebounds."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "MSCIEM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong EM equities signal global risk appetite, which spreads to hedge-fund returns with a lag."
+   },
+   "TF": {
+    "literals": [
+     {
+      "factor": "PTFSIR",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Calm short-rate markets favour carry and relative-value strategies, which can then compound gains."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak firms outperforming quality indicates a junk or risk-on rally. Such rallies coincide with recovery gains in distressed and event-driven strategies."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A strong Australian dollar reflects carry and commodity risk appetite, which accompanies large gains in macro and risk-taking strategies."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "COPPER_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising copper signals an improving global growth outlook and broad risk-on conditions."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated stress widens the distribution of outcomes and offers high expected returns to liquidity providers. Large rebounds often follow stress peaks."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong recent performance persists because of smoothing and slow-moving capital, raising the probability of further large gains."
+   }
+  }
+ },
+ "draw": 2
+}

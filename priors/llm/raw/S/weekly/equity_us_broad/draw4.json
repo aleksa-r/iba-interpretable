@@ -1,0 +1,379 @@
+{
+ "frequency": "weekly",
+ "asset_class": "equity_us_broad",
+ "procedure": "S",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "1ca0afc39fa8b47ee474372734661d980b6440d4fc53eb5e050e7b806da7673f",
+ "attempts": [
+  {
+   "id": "msg_011Ch31ri3kExq7PDYjGSfxc",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 5720,
+    "output_tokens": 4986
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A rising 5-year yield relative to the policy rate signals a tightening path or a higher term premium. Both raise discount rates and weigh on near-term equity returns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening Baa spreads together with weak high-yield returns mark a credit sell-off. That raises the required risk premium, so expected equity returns over the following weeks rise."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility carries a large variance risk premium. Elevated VIX has been documented to predict higher subsequent equity returns as fear is compensated."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "Index returns at weekly frequency show mild short-horizon reversal. A strong recent market excess return therefore tends to be followed by weaker returns."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "CMA",
+      "state": "high"
+     }
+    ],
+    "rationale": "Conservative-investment firms outperforming aggressive ones reflects defensive rotation. Such rotation tends to precede recovery as risk appetite returns."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "The Australian dollar is a risk-on carry currency. Its strength captures a global risk appetite already priced into equities, leaving less upside."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising oil prices signal firm global demand, which supports cash-flow expectations for US equities."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions restrict funding and risk-taking. They are associated with weaker near-term equity performance."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "A strong recent own return captures short-horizon overextension. That tends to partially reverse."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling intermediate yields relative to the policy rate reflect flight-to-safety flows and expected easing. Both accompany rising risk and future volatility."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Credit sell-offs with widening spreads often lead equity turbulence. Credit markets price default risk that spills into equity volatility."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Implied volatility contains forward-looking information about realised variance beyond what recent realised variance already captures."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Through the leverage effect and volatility feedback, negative market returns raise subsequent volatility."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "high"
+     }
+    ],
+    "rationale": "Outperformance of profitable, robust firms is a flight-to-quality signal. It tends to precede turbulent markets."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen appreciation reflects safe-haven demand and carry-trade unwinding. Both are associated with rising equity volatility."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Broad commodity sell-offs signal global growth fears and deleveraging. These feed into equity volatility."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "T10YIE_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Tight financial conditions combined with falling inflation expectations describe a deflationary risk-off state. In that state realised volatility tends to rise."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Very high recent realised variance tends to mean-revert faster than a smooth persistence model assumes."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T1YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A falling 1-year yield relative to Fed Funds signals the market pricing in easing. That reflects deteriorating growth news and raises crash risk."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Credit stress, shown by widening spreads and falling high-yield prices, raises default and funding risk. That fattens the equity left tail."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "OVX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Simultaneously high equity and oil implied volatility indicates broad cross-asset uncertainty. Under such uncertainty large drawdowns are more likely."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "SMB",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Small caps underperforming large caps signals declining risk appetite and tighter liquidity. Both precede tail losses."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Losses on short-term reversal strategies indicate impaired liquidity provision. Impaired liquidity amplifies sell-offs."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen strength marks safe-haven flows and carry unwinds. These coincide with equity crash risk."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling oil prices can reflect collapsing demand and stress in energy credit. Both raise downside risk for equities."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions are a documented predictor of downside risk to economic and financial outcomes."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak recent returns cluster with further large losses through volatility clustering and forced deleveraging."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling intermediate yields relative to Fed Funds occur in stress episodes that are often followed by sharp relief rallies as easing is priced."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "After credit sell-offs, risk premia are elevated. Elevated premia make large rebounds more likely."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility widens the return distribution and embeds a high risk premium. Both raise the odds of large upside moves."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak recent market returns are followed by higher-variance states with rebound potential, consistent with short-horizon reversal."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "CMA",
+      "state": "high"
+     }
+    ],
+    "rationale": "Defensive rotation toward conservative-investment firms marks risk-off phases. Sharp recoveries often follow such phases."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Safe-haven yen strength marks stressed markets. Large rebounds are concentrated in stressed markets."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Commodity sell-offs coincide with risk-off episodes and elevated volatility. That raises the chance of a large subsequent rebound."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated financial stress raises both volatility and expected returns. That makes large gains more likely when stress eases."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Poor recent own returns precede high-volatility states with rebound potential, so large gains follow weak periods."
+   }
+  }
+ },
+ "draw": 4
+}

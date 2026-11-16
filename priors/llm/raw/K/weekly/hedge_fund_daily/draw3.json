@@ -1,0 +1,383 @@
+{
+ "frequency": "weekly",
+ "asset_class": "hedge_fund_daily",
+ "procedure": "K",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "53577be1e60bd6726efe83c4a8c21c81c3f108644ad7137b7849a6fa30df02d6",
+ "attempts": [
+  {
+   "id": "msg_011Ch32GL4qCiHNqaTUmk93a",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 3595,
+    "output_tokens": 5172
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Trend followers typically carry long-duration bond positions built up in a falling-yield environment. A jump in intermediate yields relative to the policy rate marks a bond sell-off that reverses these positions and drags on returns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening spreads together with weak high-yield returns mark a deteriorating credit state. Such states tend to develop into persistent cross-asset risk-off trends that time-series momentum strategies monetise (the 'crisis alpha' pattern)."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "CTA payoffs resemble long lookback straddles (Fung-Hsieh). Elevated implied volatility signals large directional moves, which are the environment in which trend following earns."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Broad weakness in both US and EM equities is the global risk-off state. In that state the convex, often short-equity positioning of trend followers tends to pay."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Cross-sectional equity momentum and time-series momentum across futures share a common trend-persistence component. A strong momentum factor therefore indicates a trending environment."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad dollar moves are among the most persistent macro trends and a large share of CTA risk. A strengthening dollar describes the state of the main FX trend."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad commodity moves are a core component of managed-futures books. The direction of the commodity complex summarises the trend state of that sleeve."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising systemic financial stress coincides with sustained deleveraging trends across asset classes. Historically this is where managed futures deliver positive convexity."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strategy returns show mild persistence because the underlying market trends persist. Recent strong performance signals an ongoing trending regime."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rate shocks raise bond-futures volatility. Fixed income is the largest risk allocation of most CTAs, so these shocks transmit into index variance beyond what its own past variance predicts."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Credit spread widening signals rising aggregate risk and a coming increase in cross-asset volatility."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "CTA variance reflects volatility across many asset classes. Joint high equity and gold implied volatility indicates broad, cross-asset uncertainty rather than an equity-specific episode."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Negative equity returns are followed by higher volatility (the leverage and volatility-feedback effects). This spills over to the futures markets that CTAs trade."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak momentum returns indicate trend reversals and momentum-crash conditions. These are associated with turbulent, high-variance trend-follower returns."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen appreciation is the classic signature of carry unwinds and flight to safety. Such episodes bring abrupt cross-asset moves and higher variance."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Commodity sell-offs tend to be accompanied by rising commodity volatility, a component of CTA risk."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated financial stress indexes predict higher future market volatility across asset classes."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Very high recent variance tends to mean-revert faster than a simple persistence model implies. Its level is therefore informative about the residual."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Sharp bond sell-offs abruptly reverse the long-duration trend positions CTAs commonly hold. This is a frequent source of their worst weeks."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     },
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A sharp credit rally with tightening spreads marks a risk-on rebound. Such rebounds catch trend followers positioned for continued stress."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility widens the distribution of outcomes for convex trend strategies. It raises the chance of tail outcomes, including losses from whipsaws."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     },
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong broad equity rallies, especially after declines, are the setting of momentum crashes. Short or underweight trend positions suffer most there (Daniel-Moskowitz)."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     },
+     {
+      "factor": "ST_REV",
+      "state": "high"
+     }
+    ],
+    "rationale": "Momentum losses combined with strong short-term reversal indicate a market reversal regime. That regime is hostile to trend persistence."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A sudden dollar reversal cuts against one of the most persistent and heavily held CTA trends."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Sharp commodity rebounds squeeze the short commodity trend positions that build up during declining markets."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Stressed conditions bring policy interventions and abrupt reversals that can produce large trend-follower drawdowns."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "After unusually strong recent performance, positions are extended and crowded. This raises the risk of a sharp reversal loss."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling intermediate yields relative to the policy rate mark flight-to-quality bond rallies. These deliver large gains to long-duration trend positions."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Persistent credit deterioration develops into sustained risk-off trends. These are where managed futures historically post their largest gains."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "The straddle-like payoff of trend following earns most when realised moves are large. Elevated implied volatility anticipates such moves."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Equity sell-offs are the classic 'crisis alpha' setting in which CTAs' convex positioning produces outsized gains."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong momentum returns indicate a persistent trending environment that supports large trend-following profits."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong dollar trends, often accompanying global risk-off phases, are a major source of big CTA gains."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Extended commodity declines have historically produced large profits on short commodity trend positions."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tightening financial conditions accompany broad deleveraging trends across asset classes, which trend followers capture."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong recent performance indicates an established trend regime that tends to persist over the next weeks."
+   }
+  }
+ },
+ "draw": 3
+}

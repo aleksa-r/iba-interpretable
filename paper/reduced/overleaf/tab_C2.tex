@@ -1,0 +1,20 @@
+{\scriptsize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.069\linewidth}>{\raggedright\arraybackslash}p{0.226\linewidth}>{\raggedright\arraybackslash}p{0.254\linewidth}>{\raggedright\arraybackslash}p{0.141\linewidth}>{\raggedright\arraybackslash}p{0.254\linewidth}@{}}
+\caption{Claims for the hedge-fund indices of the second provider, with the same quantity on the 11 development indices.}\label{tab:C2}\\
+\toprule
+\textbf{Claim} & \textbf{Statement} & \textbf{Result} & \textbf{Decision} & \textbf{Development (11 CISDM indices; decisions were not made there)} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Claim} & \textbf{Statement} & \textbf{Result} & \textbf{Decision} & \textbf{Development (11 CISDM indices; decisions were not made there)} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+H1 & No factor method (the two IBA readings and the six reductions, linear model) is significantly better than the reference in any task & none & CONFIRMED & none \\
+H2 & Group PCA is significantly better than the interpretable reading in at most 1 task & group PCA significantly better in 1 of 8; interpretable reading significantly better in 0; mean difference +0.68\,\%; upper end of the interval below +3\,\% in 4 of 8 (reported,~no~rule) & CONFIRMED & group PCA significantly better in 1 of 8; interpretable reading significantly better in 0; mean difference +1.10\,\%; upper end of the interval below +3\,\% in 4 of 8 (reported,~no~rule) \\
+H3 & Accuracy reading better than the interpretable one in more tasks than worse & \ensuremath{-}0.52\,\% (1~better,~0~worse~of~8) & holds & \ensuremath{-}0.47\,\% (2~better,~0~worse~of~8) \\
+H4 & Elicited formulas at parity with generic and with random formulas: at most 1 task with a significant difference against each & against generic: +0.07\,\% (0~better,~0~worse~of~8); against random: +0.06\,\% (0~better,~0~worse~of~8) & holds & against generic: +1.04\,\% (0~better,~0~worse~of~8); against random: +0.29\,\% (0~better,~0~worse~of~8) \\
+H5 & Trees do not help: XGBoost and LightGBM significantly worse than the linear model in more tasks than better (IBA, raw factors, group PCA) & IBA + XGBoost: 0 better, 6 worse of 8; IBA + LightGBM: 0 better, 3 worse of 8; raw factors + XGBoost: 0 better, 4 worse of 8; raw factors + LightGBM: 0 better, 4 worse of 8; group PCA + XGBoost: 0 better, 4 worse of 8; group PCA + LightGBM: 0 better, 6 worse of 8 & holds & IBA + XGBoost: 0 better, 4 worse of 8; IBA + LightGBM: 0 better, 3 worse of 8; raw factors + XGBoost: 0 better, 4 worse of 8; raw factors + LightGBM: 0 better, 4 worse of 8; group PCA + XGBoost: 0 better, 4 worse of 8; group PCA + LightGBM: 0 better, 5 worse of 8 \\
+H6 & The interpretable reading against the reference, by target (no~direction~claimed) & returns: +0.85\,\% (0~better,~0~worse~of~4); large losses: +2.58\,\% (0~better,~1~worse~of~2); large gains: +0.73\,\% (0~better,~0~worse~of~2) & reported & returns: +2.95\,\% (0~better,~1~worse~of~4); large losses: +0.08\,\% (0~better,~0~worse~of~2); large gains: +0.87\,\% (0~better,~1~worse~of~2) \\
+\end{longtable}}

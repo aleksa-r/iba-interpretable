@@ -1,0 +1,57 @@
+{\scriptsize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.243\linewidth}>{\raggedright\arraybackslash}p{0.179\linewidth}>{\raggedright\arraybackslash}p{0.180\linewidth}>{\raggedright\arraybackslash}p{0.171\linewidth}>{\raggedright\arraybackslash}p{0.171\linewidth}@{}}
+\caption{Loss relative to the reference, every method, on the two confirmation sets. Entry: mean over tasks (tasks significantly better / worse).}\label{tab:E1}\\
+\toprule
+\textbf{Method} & \textbf{Return} & \textbf{Volatility} & \textbf{Large loss} & \textbf{Large gain} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Method} & \textbf{Return} & \textbf{Volatility} & \textbf{Large loss} & \textbf{Large gain} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+IBA, interpretable reading & +1.5\,\% (0/0~of~3) & \ensuremath{-}6.7\,\% (3/0~of~3) & +0.4\,\% (0/1~of~2) & \ensuremath{-}1.5\,\% (1/0~of~2) \\
+IBA, accuracy reading & +1.2\,\% (0/0~of~3) & \ensuremath{-}6.8\,\% (3/0~of~3) & +0.2\,\% (0/1~of~2) & \ensuremath{-}1.6\,\% (1/0~of~2) \\
+IBA, generic formulas & +1.6\,\% (0/1~of~3) & \ensuremath{-}5.6\,\% (2/0~of~3) & +0.3\,\% (0/1~of~2) & \ensuremath{-}0.1\,\% (0/0~of~2) \\
+IBA, random formulas & +0.9\,\% (0/1~of~3) & \ensuremath{-}3.1\,\% (2/0~of~3) & +0.3\,\% (0/0~of~2) & \ensuremath{-}0.6\,\% (0/0~of~2) \\
+Group PCA & +2.1\,\% (0/2~of~3) & \ensuremath{-}5.5\,\% (2/0~of~3) & +0.8\,\% (0/1~of~2) & \ensuremath{-}1.0\,\% (1/0~of~2) \\
+PCA & +1.1\,\% (0/2~of~3) & \ensuremath{-}3.9\,\% (2/0~of~3) & +0.6\,\% (0/1~of~2) & \ensuremath{-}1.1\,\% (1/0~of~2) \\
+LASSO & +2.6\,\% (0/1~of~3) & \ensuremath{-}4.3\,\% (2/0~of~3) & +0.4\,\% (0/0~of~2) & \ensuremath{-}0.8\,\% (1/0~of~2) \\
+Raw factors & +3.6\,\% (0/2~of~3) & \ensuremath{-}5.2\,\% (2/0~of~3) & +1.1\,\% (0/1~of~2) & +0.3\,\% (0/0~of~2) \\
+Kernel PCA & +0.7\,\% (0/2~of~3) & \ensuremath{-}1.5\,\% (2/0~of~3) & +0.7\,\% (0/1~of~2) & \ensuremath{-}0.0\,\% (0/1~of~2) \\
+Autoencoder & +0.9\,\% (0/2~of~3) & \ensuremath{-}3.3\,\% (2/0~of~3) & +0.6\,\% (0/1~of~2) & \ensuremath{-}1.1\,\% (1/0~of~2) \\
+Time-series momentum & +15.1\,\% (0/3~of~3) & -- & -- & -- \\
+GARCH(1,1) & -- & +12.9\,\% (0/1~of~3) & -- & -- \\
+GJR-GARCH & -- & +7.7\,\% (0/1~of~3) & -- & -- \\
+Volatility logit & -- & -- & +1.6\,\% (0/1~of~2) & \ensuremath{-}5.8\,\% (1/0~of~2) \\
+GARCH probability & -- & -- & +3.2\,\% (0/0~of~2) & \ensuremath{-}6.4\,\% (1/0~of~2) \\
+\end{longtable}}
+
+{\scriptsize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.223\linewidth}>{\raggedright\arraybackslash}p{0.204\linewidth}>{\raggedright\arraybackslash}p{0.133\linewidth}>{\raggedright\arraybackslash}p{0.193\linewidth}>{\raggedright\arraybackslash}p{0.193\linewidth}@{}}
+\toprule
+\textbf{Method} & \textbf{Return} & \textbf{Volatility} & \textbf{Large loss} & \textbf{Large gain} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Method} & \textbf{Return} & \textbf{Volatility} & \textbf{Large loss} & \textbf{Large gain} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+IBA, interpretable reading & +0.8\,\% (0/0~of~4) & -- & +2.6\,\% (0/1~of~2) & +0.7\,\% (0/0~of~2) \\
+IBA, accuracy reading & +0.6\,\% (0/0~of~4) & -- & +1.5\,\% (0/0~of~2) & +0.3\,\% (0/0~of~2) \\
+IBA, generic formulas & +1.0\,\% (0/0~of~4) & -- & +1.2\,\% (0/0~of~2) & +1.6\,\% (0/2~of~2) \\
+IBA, random formulas & +1.2\,\% (0/0~of~4) & -- & +1.1\,\% (0/1~of~2) & +1.3\,\% (0/2~of~2) \\
+Group PCA & +0.7\,\% (0/0~of~4) & -- & +0.2\,\% (0/0~of~2) & +0.6\,\% (0/1~of~2) \\
+PCA & +1.6\,\% (0/0~of~4) & -- & +0.8\,\% (0/0~of~2) & +0.5\,\% (0/0~of~2) \\
+LASSO & +1.4\,\% (0/0~of~4) & -- & +4.5\,\% (0/1~of~2) & +1.1\,\% (0/2~of~2) \\
+Raw factors & +4.0\,\% (0/0~of~4) & -- & +5.5\,\% (0/0~of~2) & +2.6\,\% (0/2~of~2) \\
+Kernel PCA & +0.3\,\% (0/0~of~4) & -- & +2.0\,\% (0/1~of~2) & +1.5\,\% (0/0~of~2) \\
+Autoencoder & +1.5\,\% (0/0~of~4) & -- & +0.5\,\% (0/0~of~2) & +0.5\,\% (0/0~of~2) \\
+Time-series momentum & +58.6\,\% (0/4~of~4) & -- & -- & -- \\
+Volatility logit & -- & -- & +6.4\,\% (0/2~of~2) & \ensuremath{-}3.2\,\% (0/0~of~2) \\
+GARCH probability & -- & -- & +6.8\,\% (0/1~of~2) & \ensuremath{-}7.1\,\% (2/0~of~2) \\
+\end{longtable}}
+\addtocounter{table}{-1}

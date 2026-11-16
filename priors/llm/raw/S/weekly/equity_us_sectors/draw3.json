@@ -1,0 +1,386 @@
+{
+ "frequency": "weekly",
+ "asset_class": "equity_us_sectors",
+ "procedure": "S",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "3a0cb508f1f6abbfe0f0cd8101905dd25433f56dbf3e19c2f6039b884c83234f",
+ "attempts": [
+  {
+   "id": "msg_011Ch325GdegqYBjHdz4kfnn",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 5755,
+    "output_tokens": 4980
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A rising 5-year yield relative to the funding rate signals expected tightening and higher discount rates. This tends to weigh on near-term equity returns, especially in rate-sensitive sectors."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening Baa spreads together with weak high-yield returns mark a credit-stress week. In that state the required risk premium rises, and subsequent equity returns tend to be higher."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility reflects an elevated variance risk premium and risk aversion, both of which predict higher subsequent equity returns."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "Weekly market returns show short-horizon reversal from liquidity provision and overreaction. A strong market week therefore says something about the next weeks' sector returns."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "CMA",
+      "state": "high"
+     }
+    ],
+    "rationale": "Conservative-investment firms outperforming signals a defensive style rotation. This is informative about cross-sector return patterns."
+   },
+   "FX": {
+    "literals": [],
+    "rationale": "Currency moves carry little consistent information for US sector returns at these horizons."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Oil price moves feed through to energy-sector cash flows and to input costs for other sectors. They are therefore a direct cash-flow signal for sector returns."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions raise discount rates and constrain intermediaries. The level of tightness is informative for subsequent equity returns."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Sector returns exhibit short-term reversal at weekly-to-monthly horizons, so a strong recent run is informative about the next period."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Abrupt changes in curve slope often accompany risk-off repricing or shifts in policy expectations. Those moves tend to precede higher equity variance."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Falling high-yield bonds with widening spreads indicate deteriorating credit conditions. Through the leverage channel these spill into higher equity volatility."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Implied volatility contains forward-looking information about future realised variance beyond what past realised variance already shows."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Joint declines in US and EM equities signal a global risk-off shock. The leverage effect and volatility feedback make such declines predict higher subsequent variance."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "high"
+     }
+    ],
+    "rationale": "Profitable firms outperforming indicates flight to quality. That state usually accompanies stressed, more volatile markets."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     },
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Broad dollar strength combined with yen appreciation is the classic safe-haven, carry-unwind pattern that precedes equity turbulence."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Broad commodity selloffs signal weakening global demand. They raise volatility, particularly in cyclical and energy sectors."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions reduce intermediary risk-bearing capacity and amplify shocks. This predicts higher equity variance."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Volatility is persistent and mean-reverting. Elevated recent variance relative to its own history informs future variance beyond the baseline."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A falling 5-year yield relative to Fed Funds signals markets pricing easing or a growth scare. That state raises downside tail risk for equities."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Credit spread widening with high-yield losses indicates rising default risk and funding stress. Credit markets often lead equity drawdowns."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "OVX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Simultaneously elevated equity and oil implied volatility marks broad, cross-asset uncertainty. In that state the left tail of sector returns fattens."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "SMB",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A falling market with small caps underperforming is a risk-off, liquidity-driven state. Such states tend to cluster with further large losses."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong, crowded momentum performance raises the risk of abrupt unwinds and momentum crashes. These coincide with sharp sector losses."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen appreciation reflects safe-haven demand and carry-trade unwinding, which are associated with equity tail losses."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Oil price collapses hit energy sectors directly and signal weak global demand. They raise the probability of large sector losses."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions combined with elevated financial stress identify a fragile system. In that regime the left tail is most pronounced."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak recent returns coincide with volatility clustering. This raises the chance that the next period also falls into the lower tail."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling intermediate yields relative to policy rates lower discount rates and often follow stress. Both raise the odds of sharp equity rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak high-yield returns signal recent stress and elevated risk premia. Those conditions set up the large rebounds that populate the upper tail."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "EPU",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility with high policy uncertainty widens the return distribution. Both tails grow, including large relief rallies once uncertainty resolves."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "After weak market weeks, reversal and elevated risk premia make large subsequent gains more likely."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "CMA",
+      "state": "high"
+     }
+    ],
+    "rationale": "Outperformance of conservative-investment firms marks a defensive rotation. Such rotations often precede sharp risk-on reversals."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Dollar strength episodes reflect global risk aversion. Their reversal tends to coincide with strong equity rebounds."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Commodity selloffs depress cyclical and energy sectors. This creates scope for outsized subsequent gains as prices mean-revert."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated financial stress raises volatility and risk premia. That is the regime in which the largest equity up-moves also occur."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Poor recent sector performance predicts short-term reversal and higher volatility. Both raise the probability of an upper-tail return."
+   }
+  }
+ },
+ "draw": 3
+}

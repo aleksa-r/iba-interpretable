@@ -1,0 +1,37 @@
+code,label,description,group,source,series,transform,lag
+T1YFF_CHG,1Y-FedFunds spread change,1-year Treasury minus Fed Funds rate; monthly change,IR,fred,T1YFF,mean_diff,0
+T10Y2Y_CHG,10Y-2Y term spread change,10-year minus 2-year Treasury term spread; monthly change,IR,fred,T10Y2Y,mean_diff,0
+TB3MS_CHG,3M T-bill rate change,3-month Treasury bill secondary market rate; monthly change,IR,fred,TB3MS,mean_diff,0
+T5YFF_CHG,5Y-FedFunds spread change,5-year Treasury minus Fed Funds rate; monthly change,IR,fred,T5YFF,mean_diff,0
+BAMLEMCBPIEY_CHG,EM corporate yield change,ICE BofA Emerging Markets Corporate Plus effective yield; monthly change,B,fred,BAMLEMCBPIEY,mean_diff,0
+BAMLHE00EHYIEY_CHG,Euro high-yield yield change,ICE BofA Euro High Yield effective yield; monthly change,B,fred,BAMLHE00EHYIEY,mean_diff,0
+BAMLC0A1CAAAEY_CHG,US AAA corporate yield change,ICE BofA US AAA Corporate effective yield; monthly change,B,fred,BAMLC0A1CAAAEY,mean_diff,0
+BAMLH0A2HYBEY_CHG,US single-B high-yield yield change,ICE BofA US Single-B High Yield effective yield; monthly change,B,fred,BAMLH0A2HYBEY,mean_diff,0
+VIXCLS,Equity VIX,CBOE equity volatility index; monthly mean,V,fred,VIXCLS,mean,0
+EMVCOMMMKT,Commodity-market volatility,Equity-market volatility tracker: commodity markets,V,fred,EMVCOMMMKT,level,0
+EMVFINCRISES,Financial-crisis volatility,Equity-market volatility tracker: financial crises,V,fred,EMVFINCRISES,level,0
+EMVMACRORE,Macro/real-estate volatility,Equity-market volatility tracker: macro and real estate,V,fred,EMVMACRORE,level,0
+Mkt_RF,Market excess return,Fama-French market excess return,AP,ken_french,Mkt-RF,level,0
+SMB,SMB (size),Fama-French size factor (small minus big),AP,ken_french,SMB,level,0
+HML,HML (value),Fama-French value factor (high minus low book-to-market),AP,ken_french,HML,level,0
+MSCIEM,MSCI Emerging Markets,"MSCI Emerging Markets price index (USD); monthly return, percent",AP,msci,891800,pct,0
+PTFSBD,Trend-following: bonds,Primitive trend-following straddle on bonds,TF,fung_hsieh,PTFSBD,level,0
+PTFSCOM,Trend-following: commodities,Primitive trend-following straddle on commodities,TF,fung_hsieh,PTFSCOM,level,0
+PTFSIR,Trend-following: short rates,Primitive trend-following straddle on short-term interest rates,TF,fung_hsieh,PTFSIR,level,0
+PTFSSTK,Trend-following: stocks,Primitive trend-following straddle on stocks,TF,fung_hsieh,PTFSSTK,level,0
+MOM,Momentum (UMD),Fama-French/Carhart momentum factor,ST,ken_french,Mom,level,0
+RMW,RMW (profitability),Fama-French profitability factor (robust minus weak),ST,ken_french,RMW,level,0
+CMA,CMA (investment),Fama-French investment factor (conservative minus aggressive),ST,ken_french,CMA,level,0
+ST_REV,Short-term reversal,Fama-French short-term reversal factor,ST,ken_french,ST_Rev,level,0
+EURUSD_RET,EUR/USD return,US dollars per euro; month-end log return (positive = weaker dollar),FX,fred,DEXUSEU,last_logret,0
+USDJPY_RET,USD/JPY return,"Yen per US dollar; month-end log return (positive = weaker yen, carry-friendly)",FX,fred,DEXJPUS,last_logret,0
+AUDUSD_RET,AUD/USD return,US dollars per Australian dollar; month-end log return (commodity / carry currency),FX,fred,DEXUSAL,last_logret,0
+PTFSFX,Trend-following: currencies,Primitive trend-following straddle on currencies,FX,fung_hsieh,PTFSFX,level,0
+WTI_RET,Crude oil (WTI) return,WTI spot price; log change of the monthly mean,COM,fred,DCOILWTICO,mean_logret,0
+NATGAS_RET,Natural gas return,Henry Hub spot price; log change of the monthly mean,COM,fred,DHHNGSP,mean_logret,0
+COPPER_RET,Copper return,"Global copper price (IMF); monthly log change, 1-month publication lag",COM,fred,PCOPPUSDM,mean_logret,1
+COMIDX_RET,All-commodity index return,"IMF global price index of all commodities; monthly log change, 1-month publication lag",COM,fred,PALLFNFINDEXM,mean_logret,1
+NFCI,Financial conditions (NFCI),Chicago Fed National Financial Conditions Index; last weekly value of the month,MC,fred,NFCI,last,0
+STLFSI,Financial stress (STLFSI),St. Louis Fed Financial Stress Index; last weekly value of the month,MC,fred,STLFSI4,last,0
+CFNAI,Economic activity (CFNAI),Chicago Fed National Activity Index; 1-month publication lag,MC,fred,CFNAI,level,1
+T10YIE_CHG,Inflation expectations change,10-year breakeven inflation rate; monthly change,MC,fred,T10YIE,mean_diff,0

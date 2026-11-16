@@ -1,0 +1,91 @@
+# Universe of index series (approved by the owner 2026-11-13). First dates = first Yahoo bar as
+# verified on 2026-11-12 (scratch/data_sources_check.md). Source yahoo = adjusted close, daily.
+# Do not edit after the split manifest exists: the manifest stores this file's sha256.
+strata:
+  equity_us_broad:
+    - {ticker: SPY, first: 1993-01-29}
+    - {ticker: QQQ, first: 1999-03-10}
+    - {ticker: IWM, first: 2000-05-26}
+    - {ticker: DIA, first: 1998-01-20}
+    - {ticker: MDY, first: 1995-05-04}
+  equity_developed_exus:
+    - {ticker: EFA, first: 2001-08-27}
+    - {ticker: EWJ, first: 1996-03-18}
+    - {ticker: EWG, first: 1996-03-18}
+    - {ticker: EWU, first: 1996-03-18}
+    - {ticker: EWC, first: 1996-03-18}
+    - {ticker: EWA, first: 1996-03-18}
+    - {ticker: EWH, first: 1996-03-18}
+    - {ticker: EWS, first: 1996-03-18}
+    - {ticker: EWL, first: 1996-03-18}
+    - {ticker: EWQ, first: 1996-03-18}
+    - {ticker: EWD, first: 1996-03-18}
+    - {ticker: EWI, first: 1996-03-18}
+    - {ticker: EWN, first: 1996-03-18}
+    - {ticker: EWP, first: 1996-03-18}
+  equity_emerging:
+    - {ticker: EEM, first: 2003-04-14}
+    - {ticker: EWZ, first: 2000-07-14}
+    - {ticker: EWT, first: 2000-06-23}
+    - {ticker: EWY, first: 2000-05-12}
+    - {ticker: EWW, first: 1996-03-18}
+    - {ticker: EZA, first: 2003-02-07}
+    - {ticker: FXI, first: 2004-10-08}
+  equity_us_sectors:
+    - {ticker: XLB, first: 1998-12-22}
+    - {ticker: XLE, first: 1998-12-22}
+    - {ticker: XLF, first: 1998-12-22}
+    - {ticker: XLI, first: 1998-12-22}
+    - {ticker: XLK, first: 1998-12-22}
+    - {ticker: XLP, first: 1998-12-22}
+    - {ticker: XLU, first: 1998-12-22}
+    - {ticker: XLV, first: 1998-12-22}
+    - {ticker: XLY, first: 1998-12-22}
+  bonds_gov_ig:
+    - {ticker: AGG, first: 2003-09-29}
+    - {ticker: TLT, first: 2002-07-30}
+    - {ticker: IEF, first: 2002-07-30}
+    - {ticker: SHY, first: 2002-07-30}
+    - {ticker: LQD, first: 2002-07-30}
+    - {ticker: TIP, first: 2003-12-05}
+    - {ticker: MUB, first: 2007-09-10}
+    - {ticker: BND, first: 2007-04-10}
+  credit_em_debt:
+    - {ticker: HYG, first: 2007-04-11}
+    - {ticker: EMB, first: 2007-12-19}
+  real_estate:
+    - {ticker: VNQ, first: 2004-09-29}
+    - {ticker: IYR, first: 2000-06-19}
+  commodities:
+    - {ticker: GLD, first: 2004-11-18}
+    - {ticker: SLV, first: 2006-04-28}
+    - {ticker: USO, first: 2006-04-10}
+    - {ticker: UNG, first: 2007-04-18}
+    - {ticker: DBC, first: 2006-02-06}
+    - {ticker: GSG, first: 2006-07-21}
+    - {ticker: DBE, first: 2007-01-05}
+    - {ticker: DBB, first: 2007-01-05}
+    - {ticker: DBP, first: 2007-01-05}
+    - {ticker: DBA, first: 2007-01-05}
+    - {ticker: "^SPGSCI", first: 1985-01-02}
+  hedge_fund_daily:
+    - {ticker: SG_CTA, first: 2000-01-03, source: socgen}
+    - {ticker: SG_TREND, first: 2000-01-03, source: socgen}
+  hedge_fund_monthly:
+    - {ticker: CTA, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: CA, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: DS, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: ELS, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: EMN, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: EDMS, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: FIA, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: GM, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: MA, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: FOF, first: 2005-01-31, source: cisdm, frequency: monthly}
+    - {ticker: EWHF, first: 2005-01-31, source: cisdm, frequency: monthly}
+split:
+  salt: iba-next-2026-11-13
+  development_share: 0.6
+  min_confirmation: 2
+  forced_development: [SPY, IWM, EFA, XLE, AGG, TLT, VNQ, GLD, HYG, EMB,
+                       CTA, CA, DS, ELS, EMN, EDMS, FIA, GM, MA, FOF, EWHF]

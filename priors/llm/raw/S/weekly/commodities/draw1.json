@@ -1,0 +1,401 @@
+{
+ "frequency": "weekly",
+ "asset_class": "commodities",
+ "procedure": "S",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "b80aefccd03333b44f03e9042318f4ae46b1e57d03f3fd64748ba01e490658b2",
+ "attempts": [
+  {
+   "id": "msg_011Ch2zhKjCh4f6GZcapLoJf",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 5779,
+    "output_tokens": 4748
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T1YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising 1-year yields relative to Fed Funds signal that markets are pricing a stronger growth path, which supports commodity demand."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "EMB_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Stable or narrowing corporate spreads together with strong EM sovereign returns describe easy global credit. That is the regime in which cyclical and EM-driven commodity demand is financed."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated implied volatility in both oil and gold marks commodity-specific stress, and it tends to precede weak commodity returns as speculative capital retreats."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     },
+     {
+      "factor": "SMB",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong emerging-market equities and outperforming small caps mark a risk-on, cyclical-growth state. That state is linked to rising commodity demand."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong equity momentum payoffs reflect crowded trend positioning, which tends to come before weaker risky-asset and commodity returns."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     },
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A strong commodity currency alongside a weak broad dollar signals global reflation. A weak dollar also lowers the price of dollar-denominated commodities for non-US buyers."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Time-series momentum in commodity futures is well documented, so strong recent returns on the broad basket carry forward."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "T10YIE_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Tight financial conditions combined with falling inflation expectations describe a deflationary tightening, the worst macro state for commodity returns."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Time-series momentum in commodities implies that a strong recent own return partly persists."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling intermediate yields relative to Fed Funds reflect flight to safety and growth fears, which come before turbulent commodity markets."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening spreads together with falling high-yield prices mark a deteriorating credit state. That state raises funding stress, especially for energy producers, and increases future volatility."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "Commodity implied volatilities contain forward-looking variance information beyond what realised variance already captures."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Joint declines in US and EM equities transmit a leverage-effect and risk-off shock that raises subsequent variance in commodities."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "high"
+     }
+    ],
+    "rationale": "Outperformance of profitable firms signals a flight to quality, typical of uncertain periods with higher cross-asset volatility."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen appreciation is a safe-haven, carry-unwind signal associated with rising volatility across risky assets."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "In commodities, price declines raise future volatility through an inventory and leverage asymmetry, as falling prices strain producers and margin holders."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "T10YIE_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Tight financial conditions with falling inflation expectations mark a stress regime in which commodity variance rises."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Variance is mean-reverting, so after high recent realised variance the excess variance beyond its own forecast tends to be negative."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T1YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling front-end yields relative to Fed Funds price in a weaker growth outlook, raising the risk of commodity sell-offs."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Widening credit spreads signal deteriorating risk appetite and funding conditions, which raise the odds of sharp commodity declines."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "High commodity implied volatility widens the left tail and reflects hedging demand ahead of large losses."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "SMB",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Small-cap underperformance reflects tightening risk appetite and a weaker cyclical outlook, raising downside risk for commodities."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Crowded momentum positioning is prone to abrupt unwinds that spill over to other risky assets."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A strengthening dollar combined with a weakening commodity currency signals global deflationary pressure on commodity prices."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "SLV_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Speculative spikes in silver, a high-beta and sentiment-driven metal, tend to precede sharp reversals."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions constrain leverage and speculative positions, raising the probability of large commodity losses."
+   },
+   "ENDG": {
+    "literals": [],
+    "rationale": "The recent own return has no clear link to the left tail, as momentum and reversal effects offset each other."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Curve steepening reflects reflationary growth expectations that can trigger strong commodity rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "EMB_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Easy credit together with strong EM bond returns signals abundant global liquidity supporting commodity upswings."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High oil implied volatility widens both tails, including the chance of large rebounds."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong EM equities signal the demand impulse from commodity-intensive economies."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak momentum payoffs often mark turning points where lagging cyclical assets, commodities included, rebound sharply."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A weak dollar with a strong commodity currency is the classic setting for large commodity gains."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Commodity trend-following flows can extend strong moves into large gains."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "T10YIE_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "CLAIMS_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Rising inflation expectations with a firm labour market describe a reflationary state favouring large commodity gains."
+   },
+   "ENDG": {
+    "literals": [],
+    "rationale": "The recent own return carries little information about the right tail."
+   }
+  }
+ },
+ "draw": 1
+}

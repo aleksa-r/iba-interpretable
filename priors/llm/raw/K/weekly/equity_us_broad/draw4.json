@@ -1,0 +1,379 @@
+{
+ "frequency": "weekly",
+ "asset_class": "equity_us_broad",
+ "procedure": "K",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "819c4ef4efe4fe3c87576d9e675911e1487a443a3accaaf2e830f41e2df27e8b",
+ "attempts": [
+  {
+   "id": "msg_011Ch31qmUbCnAawt85N9dDG",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 3597,
+    "output_tokens": 4117
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A steepening term spread signals improving growth expectations or easier policy ahead, both of which support equity cash-flow expectations and risk appetite."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Narrowing Baa spreads together with strong high-yield returns mark easing credit conditions. Credit tends to lead equities because the two share default and discount-rate risk."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "A high VIX embeds a large variance and equity risk premium, so elevated implied volatility has historically preceded higher subsequent equity returns."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong emerging-market equity returns proxy for global risk appetite and world growth news that spill over into US equities with a lag."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak momentum returns typically occur in market rebounds out of stress, when beaten-down stocks rally. This flags turning-point states for the broad market."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A rising Australian dollar is a classic risk-on, carry and commodity-growth signal associated with favourable conditions for equities."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad commodity strength reflects global demand news that is positively related to equity cash-flow expectations."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions coincide with high risk aversion and depressed prices, which raises expected returns going forward."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Recent index performance captures short-horizon continuation or reversal in the index's own return."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "TB3M_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling bill yields reflect flight-to-safety demand or expected policy easing, both typical of turbulent markets."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening spreads with falling high-yield prices signal rising default risk and deleveraging. These conditions raise future equity variance through leverage and funding channels."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "EPU",
+      "state": "high"
+     }
+    ],
+    "rationale": "Implied volatility forecasts realised variance beyond its own history. When policy uncertainty is also high, the uncertainty is fundamental rather than transient."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "The leverage and volatility-feedback effect: negative market returns raise subsequent volatility more than positive returns of the same size."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "high"
+     }
+    ],
+    "rationale": "High reversal returns indicate costly liquidity provision and price pressure, characteristic of illiquid, volatile markets."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen appreciation reflects safe-haven demand and carry-trade unwinding, which accompany rising risk and volatility."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Oil price collapses signal demand shocks and stress among energy issuers, which tend to raise equity volatility."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Financial stress indices aggregate funding, credit and volatility strains that predict persistent elevated equity variance."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Volatility clustering means high recent realised variance carries forward."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "TB3M_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling bill rates reflect flight to quality and expected emergency easing, which coincide with crash-prone states."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Deteriorating credit marks a tightening of credit conditions that tends to precede or accompany sharp equity drawdowns."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "EPU",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility widens the return distribution. Combined with high policy uncertainty, it marks states where large losses are more likely."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak recent market returns raise volatility and the potential for continued forced selling, fattening the left tail."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "high"
+     }
+    ],
+    "rationale": "High reversal profits indicate scarce liquidity, a condition under which price declines can cascade."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A rising yen together with a falling Australian dollar is the carry-unwind, risk-off configuration associated with equity tail losses."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Sharp oil declines signal global demand weakness and energy-sector credit stress."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions amplify shocks through leverage and funding constraints, raising crash risk."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Recent poor performance signals a high-volatility regime in which further extreme losses are more likely."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Curve steepening on easing expectations or improving growth news tends to precede strong equity rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "High-yield bond rebounds signal returning risk appetite and often lead equity relief rallies."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Large gains cluster in high-volatility regimes, where both tails are wide and risk premia are elevated."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Sharp rebounds typically follow selloffs, so weak recent market returns raise the chance of an extreme up move."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum crashes occur in violent market rebounds led by past losers, so weak momentum flags rebound states."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Australian dollar strength signals a return of risk appetite and carry demand that accompanies strong equity gains."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Commodity strength reflects reflationary global demand news that is associated with strong equity rallies."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated stress raises expected returns and the probability of policy-driven or relief rallies as stress abates."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "After weak index returns, mean reversion and higher volatility increase the chance of an extreme gain."
+   }
+  }
+ },
+ "draw": 4
+}

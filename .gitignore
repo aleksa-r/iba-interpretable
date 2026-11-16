@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.hypothesis/
+bridge/runs/
+data/raw/
+data/cache/
+artifacts/
+*.log
+.DS_Store
+
+# credentials (never commit)
+.env
+
+# LaTeX build files of the Overleaf project
+paper/overleaf/*.log
+paper/overleaf/*.aux
+paper/overleaf/*.blg
+paper/overleaf/*.bbl
+paper/overleaf/*.out
+
+paper/reduced/overleaf/*.log
+paper/reduced/overleaf/*.aux
+paper/reduced/overleaf/*.blg
+paper/reduced/overleaf/*.bbl
+paper/reduced/overleaf/*.out

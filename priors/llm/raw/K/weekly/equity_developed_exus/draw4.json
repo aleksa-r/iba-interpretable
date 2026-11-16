@@ -1,0 +1,403 @@
+{
+ "frequency": "weekly",
+ "asset_class": "equity_developed_exus",
+ "procedure": "K",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "b40829f3ce8c18f2c6dad5613556dfe4323bef01e2ac8709b210c8e3e66a1359",
+ "attempts": [
+  {
+   "id": "msg_011Ch31LrJkFRzygCg1UqdEe",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 3609,
+    "output_tokens": 5200
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "TB3M_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A steepening curve without a rise at the front end points to better growth expectations without monetary tightening. That reflationary state supports global equity cash-flow expectations."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Narrowing spreads together with strong high-yield returns mark easing credit conditions and rising risk appetite. Corporate bond and equity risk premia share common drivers that carry across borders."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility carries a large variance and equity risk premium. Elevated VIX has been documented to predict higher subsequent global equity returns over weeks to months."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "US market returns lead other developed markets' returns, as documented in research on the predictive role of the US market. Global time-series momentum adds to that effect at short horizons."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak momentum returns tend to coincide with junk rallies and rebounds after drawdowns. This makes the momentum factor a coarse signal of the market's turning state."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A weakening dollar together with a strong commodity currency marks a global risk-on, easier dollar-funding state. That state favours non-US equities, especially in dollar terms."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad commodity gains signal stronger global demand. Europe and Asia have large cyclical and resource sectors that benefit from it."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "High financial stress raises required risk premia and marks states with depressed prices. In such states subsequent expected returns differ systematically from normal times."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Equity indices show time-series momentum at horizons of one to twelve months. Recent strength therefore carries information about the next weeks."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "TB3M_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Sharp falls in bill yields reflect flight-to-quality demand and expected policy easing in response to stress. Both precede turbulent equity markets."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening spreads with falling high-yield prices signal deteriorating credit and funding conditions. Through the leverage and credit channel these predict higher equity volatility."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Implied volatility contains forward-looking information about future realised variance beyond its own history. Global equity volatilities are tightly linked to the VIX."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Joint declines in US and emerging equities signal a global sell-off. Through the leverage effect and volatility feedback, falls raise subsequent volatility asymmetrically."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "high"
+     }
+    ],
+    "rationale": "High short-term reversal returns reflect high returns to liquidity provision. Those returns arise when markets are disorderly and liquidity is scarce, conditions that persist into higher volatility."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen appreciation with commodity-currency weakness is the signature of carry-trade unwinding and global deleveraging. That state is associated with spikes in equity volatility."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Broad commodity declines signal falling global demand and risk-off flows. Such states tend to precede more volatile equity markets."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     },
+     {
+      "factor": "CLAIMS_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Financial stress coinciding with a deteriorating labour market marks a recessionary stress state. Stock market volatility is markedly higher and more persistent in such states."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Volatility is persistent and partly nonlinear, so very high recent variance carries extra information. Long-memory effects of that kind go beyond a linear autoregression."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A falling medium-term rate relative to the policy rate signals a growth scare and expected easing. Such scares precede equity drawdowns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Credit deterioration tends to lead equity crashes. Widening spreads and falling junk prices indicate rising default risk and tightening funding."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "EPU",
+      "state": "high"
+     }
+    ],
+    "rationale": "High market fear combined with high policy uncertainty widens the left tail of the return distribution. Large losses cluster in such high-volatility regimes."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "US market declines transmit to other developed markets with a lag. Crashes are contagious and cluster across markets."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum underperformance accompanies turning points and deleveraging episodes. In those episodes broad equity drawdowns are more likely."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A rising yen with a falling Australian dollar indicates carry unwinding and global risk aversion. Carry-trade crash risk is tied to equity crash risk."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Oil price collapses signal weakening global demand and stress in energy credit. Both raise downside risk for cyclical non-US markets."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated financial stress indicates impaired intermediation. Large equity losses are much more frequent in such states."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Poor recent returns raise the chance of further large losses. Volatility clustering and short-horizon momentum both work in that direction."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Curve steepening reflects improving growth expectations or easing. Both precede strong equity rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong high-yield returns signal recovering risk appetite and easing credit stress. Sharp equity rebounds tend to follow."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Large gains, like large losses, cluster in high-volatility regimes. Rebound rallies occur when risk premia are elevated."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong emerging-market equities signal global risk-on and growth momentum. These spill over to Europe and developed Asia."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum crashes coincide with violent rallies led by past losers after market declines. They mark rebound states."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Dollar weakness with commodity-currency strength marks easing global dollar funding and risk-on flows. That state favours big gains in non-US equities."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A broad commodity rally signals reflation and global demand recovery. Resource-heavy and cyclical non-US markets benefit."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     },
+     {
+      "factor": "CLAIMS_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Elevated financial stress without real-economy deterioration describes overdone fear. Sharp relief rallies are likely in that state."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "After large declines, return dispersion and the chance of sharp rebounds rise. Volatility clustering and reversal of extreme moves both contribute."
+   }
+  }
+ },
+ "draw": 4
+}

@@ -1,0 +1,24 @@
+{
+ "chosen": "Kc",
+ "rule_S_against_K": {
+  "candidate": "Sc|lin",
+  "incumbent": "Kc|lin",
+  "tasks": 18,
+  "tasks better": 0,
+  "tasks worse": 0,
+  "types with lower mean loss": "2/4",
+  "mean rel. diff % (types equally weighted)": -0.356,
+  "qualifies": false
+ },
+ "chosen_against_G": {
+  "candidate": "Kc|lin",
+  "incumbent": "G|lin",
+  "tasks": 18,
+  "tasks better": 0,
+  "tasks worse": 0,
+  "types with lower mean loss": "2/4",
+  "mean rel. diff % (types equally weighted)": 0.148,
+  "qualifies": false
+ },
+ "negative_finding_against_G": false
+}

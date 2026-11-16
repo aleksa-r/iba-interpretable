@@ -1,0 +1,39 @@
+# Extension of the universe for SPEC-2026-11-15-confirmation-hf: monthly hedge-fund indices of a second
+# provider (BarclayHedge), all CONFIRMATION series of the asset class hedge_fund_monthly. Added after the
+# one-time split (data/universe.yaml and its manifest are unchanged); recorded as an extension in the spec.
+# Every spreadsheet the owner downloaded on 2026-11-15 is listed; which of them enter the run is decided
+# mechanically by the coverage rule of the spec when the panel is built.
+asset_class: hedge_fund_monthly
+source: barclayhedge
+raw_dir: data/raw/barclayhedge_2026_11
+# The series that pass the coverage rule of the spec (every month of the factor panel, January 2005 to September 2026),
+# as established by `scripts/ingest_barclayhedge.py --check`. The panel is written only if exactly these pass and every
+# file has the checksum recorded below.
+expected_series: [BH_HF, BH_CA, BH_DS, BH_EM, BH_ELB, BH_ELS, BH_EMN, BH_ED, BH_FIA, BH_FOF, BH_GM, BH_MA, BH_MS, BH_EUR, BH_HCB, BH_PAC, BH_TECH, BH_EMAS, BH_EMAE, BH_EMEE, BH_EMGE, BH_EMLA, BH_OPT]
+series:
+  - {code: BH_HF,     name: Barclay Hedge Fund Index,                       file: Barclay_Hedge_Fund_Indexhistorical_data.xls, sha256: ccb878a88dbd5568e18eeb48a96ed641969b21d8afd2557b84c5140092de749d}
+  - {code: BH_CA,     name: Barclay Convertible Arbitrage Index,            file: Barclay_Convertible_Arbitrage_Indexhistorical_data.xls, sha256: 11949ac3600713b2c20a6a70bb10a1138d54ebc4d81986d6bf4628fb383e8c8b}
+  - {code: BH_DS,     name: Barclay Distressed Securities Index,            file: Barclay_Distressed_Securities_Indexhistorical_data.xls, sha256: 1b4615f49f29f001b900509a03ccd4ef777e1d3405a23c03ae3967042b1f68ee}
+  - {code: BH_EM,     name: Barclay Emerging Markets Index,                 file: Barclay_Emerging_Markets_Indexhistorical_data.xls, sha256: 0ddeb368f52b6b7f495fe6b8743fe4650060453125472a2eeae8387f95368ba9}
+  - {code: BH_ELB,    name: Barclay Equity Long Bias Index,                 file: Barclay_Equity_Long_Bias_Indexhistorical_data.xls, sha256: f71e0e213beba490736b429a8c6b1d02229005d1ab95df240f825d84e7af8980}
+  - {code: BH_ELS,    name: Barclay Equity Long/Short Index,                file: Barclay_Equity_Long_Short_Indexhistorical_data.xls, sha256: 36804964756cdbaa73ba0206aec1a943e13e53184f743a408c41e482a6598fba}
+  - {code: BH_EMN,    name: Barclay Equity Market Neutral Index,            file: Barclay_Equity_Market_Neutral_Indexhistorical_data.xls, sha256: 0d98f23e23fa0230f98a3420902da855dfb7c2f92065582ff74d90317efcc198}
+  - {code: BH_ED,     name: Barclay Event Driven Index,                     file: Barclay_Event_Driven_Indexhistorical_data.xls, sha256: 341f91c979310cb057e2ab3f3652c6107eada2649c462ca54d2e37a18ad9000e}
+  - {code: BH_FIA,    name: Barclay Fixed Income Arbitrage Index,           file: Barclay_Fixed_Income_Arbitrage_Indexhistorical_data.xls, sha256: 28fdf6238d464868a2948338ce7d0df470f85c9d8d913d3b0cb11db730b6f2d0}
+  - {code: BH_FOF,    name: Barclay Fund of Funds Index,                    file: Barclay_Fund_of_Funds_Indexhistorical_data.xls, sha256: 1efd00ecdb8ccbaffb7647eb7c87b48c76825586dc15fcd0125ed973f68d833c}
+  - {code: BH_GM,     name: Barclay Global Macro Index,                     file: Barclay_Global_Macro_Indexhistorical_data.xls, sha256: 4a780d2847f16adb80eb82ee6bf25c515bc0b65bf04ed574a6b724af2a54c22e}
+  - {code: BH_MA,     name: Barclay Merger Arbitrage Index,                 file: Barclay_Merger_Arbitrage_Indexhistorical_data.xls, sha256: d11f361243298e0efb3d4d950556ba1c2b6127f1672c3240125df408580025dd}
+  - {code: BH_MS,     name: Barclay Multi Strategy Index,                   file: Barclay_Multi_Strategy_Indexhistorical_data.xls, sha256: 809d843f27e4be7883f19a4f6ef28ec05af9588128f54bbe16915d701a1ba5cf}
+  - {code: BH_EUR,    name: Barclay European Equities Index,                file: Barclay_European_Equities_Indexhistorical_data.xls, sha256: de94fcbaaf298cad30aa984c74971d0d10d32fb9fecf8677a7ee8e0684d365e2}
+  - {code: BH_HCB,    name: Barclay Healthcare & Biotechnology Index,       file: "Barclay_Healthcare_&_Biotechnology_Indexhistorical_data.xls", sha256: f2dec045cd48ef29b49b497ab327ffc6c39c8d3a38cc1c196df3dcfb4f71a25c}
+  - {code: BH_PAC,    name: Barclay Pacific Rim Equities Index,             file: Barclay_Pacific_Rim_Equities_Indexhistorical_data.xls, sha256: 100bdf0dda5634683c0446b356e3ca6afe2d9fcb6a8e428ee0fc2162202f47a1}
+  - {code: BH_TECH,   name: Barclay Technology Index,                       file: Barclay_Technology_Indexhistorical_data.xls, sha256: 02cae97bfa59e9321228e219477f9ac7b82caa9c004860c0bdc60456333cc645}
+  - {code: BH_EMAS,   name: Barclay Emerging Markets Asia Index,            file: Barclay_Emerging_Markets_Asia_Indexhistorical_data.xls, sha256: 04f3afb1e7a4749cc36186442316c532c27fce75438dc8bf1967fb7c5a67de6d}
+  - {code: BH_EMAE,   name: Barclay Emerging Markets Asian Equities Index,  file: Barclay_Emerging_Markets_Asian_Equities_Indexhistorical_data.xls, sha256: 8cb47302e55aa959e664f23c3c779baf48d195fea1f4438a811e55b27a26d3f3}
+  - {code: BH_EMEE,   name: Barclay Emerging Markets Eastern Europe Index,  file: Barclay_Emerging_Markets_Eastern_Europe_Indexhistorical_data.xls, sha256: 61349034e25269455174f194390531d9adcaa3a41d579dfbea17e5e3c591aa09}
+  - {code: BH_EMGE,   name: Barclay Emerging Markets Global Equities Index, file: Barclay_Emerging_Markets_Global_Equities_Indexhistorical_data.xls, sha256: 2cbf8dbfdb8e66368e700eb451fb7a12cf4c110acdaf94cd012f3387ae28c4d2}
+  - {code: BH_EMLA,   name: Barclay Emerging Markets Latin America Index,   file: Barclay_Emerging_Markets_Latin_America_Indexhistorical_data.xls, sha256: 43e4ded9381f4c4020bf9f0c49d430e12b395885dc93e8c4b500fcc03758fe7f}
+  - {code: BH_OPT,    name: Barclay Option Strategies Index,                file: Barclay_Option_Strategies_Indexhistorical_data.xls, sha256: 6d97865bfb9a4c66238a94c720a9aed23382b9664f2c8919f1902edbd7a320ae}
+  - {code: BH_BAL,    name: Barclay Balanced (Stocks & Bonds) Index,        file: "Barclay_Balanced_(Stocks_&_Bonds)_Indexhistorical_data.xls", sha256: 6bcfd79f133e69eafebed4342998b076c4dfbcbd7f98d864dee62b52033b9ae6}
+  - {code: BH_EMME,   name: Barclay Emerging Markets MENA Index,            file: Barclay_Emerging_Markets_MENA_Indexhistorical_data.xls, sha256: 42cc1fab66d9e861a91382e81a88ba96ebf40afc6551f73656b6a585608c548b}
+  - {code: BH_VOL,    name: Barclay Volatility Trading Index,               file: Barclay_Volatility_Trading_Indexhistorical_data.xls, sha256: 4da7e690912d9bc8e1c496acdc89fc95b8edaa1ecaaa60ff7111c3bc89195f1e}

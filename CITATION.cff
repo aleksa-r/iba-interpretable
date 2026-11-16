@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper."
+title: "iba-interpretable: interpretable-by-construction factor reduction with Interpolative Boolean Algebra"
+repository-code: "https://github.com/aleksa-r/iba-interpretable"
+type: software
+authors:
+  - family-names: "Radosavčević"
+    given-names: "Aleksa"
+license: Apache-2.0
+version: 0.1.0
+preferred-citation:
+  type: unpublished
+  title: "Interpretable-by-Construction Factor Reduction with Interpolative Boolean Algebra for Forecasting Risk and Performance of Financial Index Time Series"
+  authors:
+    - family-names: "Radosavčević"
+      given-names: "Aleksa"
+  year: 2026
+  notes: "Manuscript."

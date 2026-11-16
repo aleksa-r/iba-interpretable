@@ -1,0 +1,370 @@
+{
+ "frequency": "weekly",
+ "asset_class": "credit_em_debt",
+ "procedure": "S",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "d5e9b09dc2566492e0f97be7a7e0b792d09886e6971db2735996f3e708b6aecb",
+ "attempts": [
+  {
+   "id": "msg_011Ch314tciQrw6uyKTj8XYa",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 5732,
+    "output_tokens": 4279
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A rising intermediate yield relative to the policy rate signals a repricing of the expected rate path. That hits the duration component of HY and EM sovereign bonds and tends to persist for a few weeks."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Widening credit spreads raise the forward risk premium. Spread shocks partly mean-revert, which lifts subsequent excess returns on risky debt."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High equity implied volatility marks elevated risk-bearing prices. Credit and EM debt earn higher subsequent returns as compensation."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong equity weeks tend to be priced into credit quickly. Bonds then partly give back gains as equity-driven risk appetite fades."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong momentum returns reflect crowded trend-following risk-on positioning. Its later unwinding weighs on lower-quality credit."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A strengthening dollar tightens global dollar funding and EM balance sheets. That depresses USD-denominated EM and high-yield debt returns."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising commodity prices support energy and materials issuers in HY and commodity-exporting EM sovereigns."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions restrict credit supply and refinancing. That predicts weaker returns for risky debt."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Credit indices show short-horizon return autocorrelation from stale pricing and slow information diffusion, with partial reversal after extremes."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T1YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Upward shifts in near-term policy expectations raise rate uncertainty. That uncertainty spills into risky bond price variability."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "EMB_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Joint selloffs in HY and EM debt indicate a broad credit shock. Through leverage and liquidity effects, such shocks raise future variance beyond its own history."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "Simultaneously elevated equity and gold implied volatility signals broad cross-asset uncertainty. Implied volatility forecasts realised variance beyond its own lags."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling developed and EM equities together indicate a global risk-off shock. Through the leverage effect this raises subsequent credit volatility."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong profitability-factor returns reflect flight to quality within equities. That accompanies rising risk aversion and turbulence."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Dollar appreciation tightens global financing conditions and stresses EM borrowers, raising volatility in USD-denominated risky debt."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Commodity price declines stress energy-heavy HY issuers and commodity-exporting sovereigns, raising future price variability."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions reduce dealer balance-sheet capacity and liquidity. That amplifies subsequent price swings."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Variance is persistent, but the residual after own-lag prediction tends to mean-revert when recent variance is extreme."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Bear steepening raises long yields and term premia. That hits the duration of EM sovereign and HY bonds and can trigger outflow-driven drawdowns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "EMB_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak EM sovereign debt returns signal fund outflows and deteriorating sentiment. These tend to cluster and precede further tail losses."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad cross-asset implied volatility widens the return distribution. That raises the probability of tail losses."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "EM equity weakness leads EM credit and signals global growth and risk-appetite deterioration."
+   },
+   "ST": {
+    "literals": [],
+    "rationale": "Equity style factors carry no clear mechanism for credit tail losses."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Dollar surges tighten EM and leveraged-borrower financing, a classic trigger of EM debt drawdowns."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "SLV_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Precious-metal rallies reflect hedging demand and rising perceived tail risk."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Joint tight conditions and elevated stress mark a fragile regime in which forced selling and illiquidity produce large losses."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Poor recent returns signal a stressed regime in which losses tend to cluster."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling intermediate yields relative to the policy rate indicate easing expectations. These support strong duration and credit rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "After spread widening, elevated risk premia make sharp rebounds more likely as spreads mean-revert."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility widens the distribution and coincides with high risk premia. Both raise the chance of large relief rallies."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong EM equity returns signal improving global risk appetite. EM sovereign and HY credit tend to follow."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum losses typically occur in sharp junk-led rebounds after stress. These coincide with large credit rallies."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A weakening dollar eases global dollar funding and EM financing conditions, fostering strong EM debt returns."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Oil rebounds lift energy-heavy HY issuers and oil-exporting sovereigns sharply."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated financial stress means depressed prices and high risk premia. When stress abates, recoveries are large."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Large gains in credit often follow poor returns, as oversold markets rebound."
+   }
+  }
+ },
+ "draw": 3
+}

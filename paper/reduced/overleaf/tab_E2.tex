@@ -1,0 +1,25 @@
+{\scriptsize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.139\linewidth}>{\raggedright\arraybackslash}p{0.085\linewidth}>{\raggedright\arraybackslash}p{0.085\linewidth}>{\raggedright\arraybackslash}p{0.085\linewidth}>{\raggedright\arraybackslash}p{0.068\linewidth}>{\raggedright\arraybackslash}p{0.068\linewidth}>{\raggedright\arraybackslash}p{0.120\linewidth}>{\raggedright\arraybackslash}p{0.068\linewidth}>{\raggedright\arraybackslash}p{0.068\linewidth}>{\raggedright\arraybackslash}p{0.120\linewidth}@{}}
+\caption{Secondary losses on the weekly confirmation series. (means over the 21 series; descriptive, no test). QLIKE and the log score are relative to HAR and to the base rate.}\label{tab:E2}\\
+\toprule
+\textbf{Method} & \textbf{QLIKE vs HAR, 1 w} & \textbf{QLIKE vs HAR, 4 w} & \textbf{QLIKE vs HAR, 13 w} & \textbf{Large loss: log score vs base rate} & \textbf{Large loss: AUC} & \textbf{Large loss: calibration error} & \textbf{Large gain: log score vs base rate} & \textbf{Large gain: AUC} & \textbf{Large gain: calibration error} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Method} & \textbf{QLIKE vs HAR, 1 w} & \textbf{QLIKE vs HAR, 4 w} & \textbf{QLIKE vs HAR, 13 w} & \textbf{Large loss: log score vs base rate} & \textbf{Large loss: AUC} & \textbf{Large loss: calibration error} & \textbf{Large gain: log score vs base rate} & \textbf{Large gain: AUC} & \textbf{Large gain: calibration error} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+IBA, interpretable reading & \ensuremath{-}12.4\,\% & \ensuremath{-}10.7\,\% & \ensuremath{-}4.3\,\% & +0.8\,\% & 0.53 & 5.3\,\% & \ensuremath{-}1.7\,\% & 0.599 & 5.5\,\% \\
+IBA, generic formulas & \ensuremath{-}9.6\,\% & \ensuremath{-}10.5\,\% & \ensuremath{-}3.9\,\% & +1.0\,\% & 0.56 & 5.7\,\% & \ensuremath{-}0.3\,\% & 0.584 & 5.7\,\% \\
+Group PCA & \ensuremath{-}12.6\,\% & \ensuremath{-}9.3\,\% & \ensuremath{-}0.6\,\% & +1.5\,\% & 0.507 & 5.7\,\% & \ensuremath{-}1.1\,\% & 0.575 & 5.6\,\% \\
+PCA & \ensuremath{-}8.5\,\% & \ensuremath{-}5.8\,\% & \ensuremath{-}1.0\,\% & +0.8\,\% & 0.506 & 5.5\,\% & \ensuremath{-}1.1\,\% & 0.572 & 5.7\,\% \\
+LASSO & \ensuremath{-}11.1\,\% & \ensuremath{-}8.8\,\% & +0.7\,\% & +0.7\,\% & 0.536 & 5.8\,\% & \ensuremath{-}0.8\,\% & 0.583 & 5.8\,\% \\
+Raw factors & \ensuremath{-}12.1\,\% & \ensuremath{-}12.2\,\% & \ensuremath{-}0.8\,\% & +1.9\,\% & 0.532 & 5.3\,\% & +1.0\,\% & 0.573 & 6.1\,\% \\
+Kernel PCA & \ensuremath{-}3.8\,\% & \ensuremath{-}0.2\,\% & +0.1\,\% & +1.0\,\% & 0.511 & 5.7\,\% & +0.2\,\% & 0.532 & 5.9\,\% \\
+Autoencoder & \ensuremath{-}7.2\,\% & \ensuremath{-}4.4\,\% & \ensuremath{-}0.9\,\% & +0.9\,\% & 0.513 & 5.5\,\% & \ensuremath{-}1.1\,\% & 0.565 & 5.7\,\% \\
+GARCH(1,1) / GARCH probability & \ensuremath{-}6.2\,\% & \ensuremath{-}13.5\,\% & \ensuremath{-}20.7\,\% & +3.2\,\% & 0.512 & 6.8\,\% & \ensuremath{-}7.0\,\% & 0.705 & 6.4\,\% \\
+Volatility logit & -- & -- & -- & +2.1\,\% & 0.487 & 6.2\,\% & \ensuremath{-}6.1\,\% & 0.675 & 5.9\,\% \\
+HAR / base rate & +0.0\,\% & +0.0\,\% & +0.0\,\% & +0.0\,\% & 0.559 & 5.3\,\% & +0.0\,\% & 0.524 & 6.2\,\% \\
+\end{longtable}}

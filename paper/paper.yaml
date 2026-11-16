@@ -1,0 +1,211 @@
+# Configuration of the paper: what it is built from, in which order, and what a public release contains.
+# Read by scripts/reproduce_paper.py and scripts/make_release.py. Nothing here changes a result:
+# the experiments are defined by the frozen specifications in specs/.
+
+title: >-
+  Interpretable-by-Construction Factor Reduction with Interpolative Boolean Algebra
+  for Forecasting Risk and Performance of Financial Index Time Series
+
+# The engine must reproduce these hashes of a fixed synthetic test case on the machine of a run
+# (iba.eval.fingerprint). A different hash means different numerics: the stored results can
+# still be rebuilt into the paper, but a re-run will not be bit-identical.
+engine:
+  fingerprint: 2bcaa0ad64aaa3ab35c5455d
+  xgb_hash: c6e501978f15890d889f6075
+  bench_hash: 6e8fef997182e116c313a365
+  python: "3.11"
+
+# The final method, as fixed on the development series (docs/results/SPEC-2026-11-14-wrapup/final_method.json).
+method:
+  formula_set: Kc                 # consensus of the five knowledge-only elicitation draws (priors/llm/K_consensus.yaml)
+  interpretable_reading: "Kc|lin" # consensus formulas, linear model
+  accuracy_reading: iba_ca_b      # average over the final ABC colony
+  search: ABC
+
+# The studies in the order they were run. `done` is the file whose presence means the study's
+# results are stored; `run` is executed by `reproduce_paper.py --full` only when `done` is missing.
+studies:
+  - spec: SPEC-2026-11-13-multitarget-study
+    role: development
+    what: benchmarks, fixed generic formulas, exhaustive search, first ABC, search comparison
+    run: [bash scripts/run_all_stages.sh, .venv/bin/python scripts/make_tests.py SPEC-2026-11-13-multitarget-study]
+    done: docs/results/SPEC-2026-11-13-multitarget-study/SUMMARY.md
+    hours: 4.2
+  - spec: SPEC-2026-11-14-abc-v2
+    role: development
+    what: ABC over wider search spaces (random starts, whole-vector moves, graded formulas)
+    run: [bash scripts/run_abc2.sh]
+    done: docs/results/SPEC-2026-11-14-abc-v2/report.md
+    hours: 2.5
+  - spec: SPEC-2026-11-14-abc-v3
+    role: development
+    what: pooled fitness per asset class, clean acceptance test, colony ensemble
+    run: [bash scripts/run_abc3.sh]
+    done: docs/results/SPEC-2026-11-14-abc-v3/report.md
+    hours: 4.0
+  - spec: SPEC-2026-11-14-wrapup
+    role: development
+    what: elicited, generic and random formula sets; XGBoost; five search algorithms; the final method
+    run: [bash scripts/run_wrapup.sh]
+    done: docs/results/SPEC-2026-11-14-wrapup/final_method.json
+    hours: 4.5
+  - spec: SPEC-2026-11-14-benchmarks-kpca-ae
+    role: development
+    what: kernel PCA and autoencoder benchmarks
+    run: [bash scripts/run_kpca_ae.sh]
+    done: docs/results/SPEC-2026-11-14-benchmarks-kpca-ae/report.md
+    hours: 0.3
+  - spec: extra-metrics-development
+    role: development
+    what: financial and classification measures of the development forecasts (descriptive)
+    run: [.venv/bin/python scripts/make_extra_metrics.py]
+    done: docs/results/extra-metrics-development/extra_metrics.md
+    hours: 0.1
+  - spec: SPEC-2026-11-14-confirmation
+    role: confirmation
+    what: the frozen method, benchmarks and controls on the 21 held-out series; the pre-written report decides the claims
+    run: [bash scripts/run_confirmation.sh]
+    done: docs/results/SPEC-2026-11-14-confirmation/claims.csv
+    hours: 1.1
+  - spec: SPEC-2026-11-15-confirmation-hf
+    role: confirmation
+    what: the frozen method on 23 monthly hedge-fund indices of a second provider (needs the licensed spreadsheets under data/raw/barclayhedge_2026_11)
+    run: [bash scripts/run_confirmation_hf.sh]
+    done: docs/results/SPEC-2026-11-15-confirmation-hf/claims.csv
+    hours: 0.7
+  - spec: SPEC-2026-11-15-ablations
+    role: development
+    what: one component of the interpretable reading changed at a time
+    run: [.venv/bin/python scripts/run_ablations.py, .venv/bin/python scripts/make_ablation_report.py]
+    done: docs/results/SPEC-2026-11-15-ablations/report.md
+    hours: 0.1
+
+# Steps that call the Anthropic API. Their stored records are part of the repository and are what
+# the paper uses; a new request gives a different text, so these are never repeated by default.
+language_model:
+  model: claude-opus-5-5
+  elicitation:
+    records: priors/llm            # every request, answer and rationale; consensus files derived from them
+    run: [.venv/bin/python scripts/elicit_priors.py, .venv/bin/python scripts/make_prior_files.py]
+  explanations:
+    records: explanations/raw
+    run: [.venv/bin/python scripts/explain.py]
+
+# The paper itself: generated tables and figures, then the assembled text and a reading copy.
+build:
+  source: paper/draft.md
+  steps:
+    - {name: result tables,   run: scripts/make_paper_tables.py,   needs_artifacts: true,  writes: paper/results_tables.md}
+    - {name: appendix tables, run: scripts/make_paper_appendix.py, needs_artifacts: false, writes: paper/appendix_tables.md}
+    - {name: figures,         run: scripts/make_paper_figures.py,  needs_artifacts: true,  writes: paper/figures}
+    - {name: assembled paper, run: scripts/build_paper.py,         needs_artifacts: false, writes: paper/paper_full.md}
+    - {name: reading copy,    run: scripts/render_paper.py,        needs_artifacts: false, writes: paper/paper_full.html, optional: true}
+
+# The reduced version of the paper (paper/reduced/): the one that is submitted and the one a public clone rebuilds.
+build_reduced:
+  source: paper/reduced/draft.md
+  steps:
+    - {name: result tables,   run: scripts/make_paper_tables.py,   needs_artifacts: true,  writes: paper/results_tables.md}
+    - {name: appendix tables, run: scripts/make_paper_appendix.py, needs_artifacts: false, writes: paper/appendix_tables.md}
+    - {name: figures,         run: scripts/make_paper_figures.py,  needs_artifacts: true,  writes: paper/figures}
+    - {name: assembled paper, run: scripts/build_paper.py --dir paper/reduced, needs_artifacts: false, writes: paper/reduced/paper_full.md}
+    - {name: LaTeX project,   run: scripts/make_overleaf.py --dir paper/reduced --compact, needs_artifacts: false, writes: paper/reduced/overleaf}
+
+# What scripts/make_release.py copies into a clean tree for publication.
+release:
+  include:
+    - src
+    - tests
+    - scripts
+    - specs
+    - priors
+    - explanations
+    - registry
+    - paper
+    - data/universe.yaml
+    - data/universe_hf_confirmation.yaml
+    - data/split_manifest.json
+    - data/manifests
+    - data/panels
+    - docs/protocol
+    - docs/results
+    - docs/explanations
+    - docs/DEVIATIONS.md
+    - docs/UNIVERSE.md
+    - pyproject.toml
+    - README.md
+    - LICENSE
+    - CITATION.cff
+    - .gitignore
+  exclude:
+    # internal working notes and the reconciliation with earlier, unpublished code
+    - CLAUDE.md
+    - bridge
+    - docs/DECISIONS.md
+    - docs/REPO_DESIGN.md
+    - docs/VERIFICATION.md
+    - docs/verification
+    - docs/literature
+    - scripts/verify_r6_stats.py
+    - paper/notes_related_work.md
+    - .githooks
+  # Data that this repository may not redistribute. Left out of the release unless the owner
+  # sets `include_licensed: true`; without them the monthly hedge-fund results cannot be re-run.
+  licensed:
+    - data/panels/monthly_2026-11-11/targets.csv      # CISDM hedge-fund strategy indices
+    - data/panels/monthly_confirmation_bh/returns.csv # BarclayHedge indices (the hedge-fund confirmation series)
+  include_licensed: false
+  # Third-party data that stay in the tree; the release check lists them so that their terms are confirmed.
+  review:
+    - "data/panels/monthly_2026-11-11/factors.csv: one MSCI index series (MSCIEM) and ICE BofA yield series from FRED"
+    - "data/panels/weekly_2026-11-11/factors.csv: ICE BofA and CBOE series from FRED, ETF returns from Yahoo Finance"
+    - "data/panels/weekly_dev_2026-11-13 and weekly_confirmation: returns and realised variance derived from Yahoo Finance prices"
+  gzip:
+    - registry/trials.jsonl                           # 112 MB: above the 100 MB file limit of GitHub
+  # Words that mark internal or earlier material; the release check lists where they still occur.
+  flag_terms: ["Claude Code", "the owner", "owner's", "handoff", "ibaml", "Dell", "r5", "r6", "r7", "r8"]
+
+# What goes to the GitHub repository (`make_release.py --profile github`): the code and what it needs to run.
+# No stored forecasts, no results, no paper, no working notes. The private repository carries the hedge-fund index
+# returns that cannot be downloaded by a script (the owner's decision of 2026-11-16).
+github:
+  include:
+    - src
+    - tests
+    - scripts
+    - specs                       # the engine runs a study only from its frozen specification
+    - priors                      # the formula files the method reads
+    - docs/protocol               # the manual and protocols the elicitation and explanation code read
+    - docs/DEVIATIONS.md
+    - docs/results                # the reports and tests of every study: the tables of the paper are built from them
+    - paper/paper.yaml
+    - paper/results_tables.md
+    - paper/appendix_tables.md
+    - paper/figures
+    - paper/reduced
+    - data/universe.yaml
+    - data/universe_hf_confirmation.yaml
+    - data/split_manifest.json
+    - data/manifests
+    - data/panels
+    - pyproject.toml
+    - README.md
+    - LICENSE
+    - CITATION.cff
+    - .env.example
+    - .gitignore
+  exclude:
+    - paper/reduced/PLAN.md
+    - scripts/verify_r6_stats.py
+    - scripts/render_paper.py
+    - scripts/make_release.py
+    - specs/SPEC-2026-11-13-multitarget-study.md.orig
+  licensed:
+    - data/panels/monthly_2026-11-11/targets.csv      # CISDM hedge-fund strategy indices
+    - data/panels/monthly_confirmation_bh/returns.csv # BarclayHedge indices
+  include_licensed: false
+  gzip: []
+  review:
+    - "data/panels/monthly_2026-11-11/factors.csv: one MSCI index series and ICE BofA yield series from FRED"
+    - "data/panels/weekly_*: returns and realised variance derived from Yahoo Finance prices; ICE BofA and CBOE series from FRED"
+  flag_terms: ["Claude Code", "handoff", "ibaml", "Dell"]

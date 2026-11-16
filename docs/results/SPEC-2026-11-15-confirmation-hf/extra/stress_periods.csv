@@ -1,0 +1,505 @@
+frequency,task,kind,h,period,method,forecasts,rel_to_reference
+monthly,return_h1,return,1,Q4 2018 sell-off,"IBA, K formulas (fixed)",69,0.12027030900343272
+monthly,return_h1,return,1,Q4 2018 sell-off,"IBA, K formulas (averaged)",69,0.10845517337616917
+monthly,return_h1,return,1,Q4 2018 sell-off,"IBA, generic formulas",69,0.12146009360363319
+monthly,return_h1,return,1,Q4 2018 sell-off,group PCA,69,0.10331584254293613
+monthly,return_h1,return,1,Q4 2018 sell-off,PCA,69,0.05276744974609593
+monthly,return_h1,return,1,Q4 2018 sell-off,kernel PCA,69,0.12612849697844886
+monthly,return_h1,return,1,Q4 2018 sell-off,autoencoder,69,0.11145631701725023
+monthly,return_h1,return,1,Q4 2018 sell-off,LASSO,69,0.09366146076054305
+monthly,return_h1,return,1,Q4 2018 sell-off,raw factors,69,0.13620925894024238
+monthly,return_h1,return,1,Q4 2018 sell-off,trailing momentum,69,0.18880925345571242
+monthly,return_h1,return,1,COVID-19 crash,"IBA, K formulas (fixed)",69,-0.022672387729284926
+monthly,return_h1,return,1,COVID-19 crash,"IBA, K formulas (averaged)",69,-0.020499133356461585
+monthly,return_h1,return,1,COVID-19 crash,"IBA, generic formulas",69,-0.0031514323899523022
+monthly,return_h1,return,1,COVID-19 crash,group PCA,69,0.02194761062317596
+monthly,return_h1,return,1,COVID-19 crash,PCA,69,0.05132535400741478
+monthly,return_h1,return,1,COVID-19 crash,kernel PCA,69,-0.03345153885138552
+monthly,return_h1,return,1,COVID-19 crash,autoencoder,69,-0.007755958751279657
+monthly,return_h1,return,1,COVID-19 crash,LASSO,69,0.042012731143150184
+monthly,return_h1,return,1,COVID-19 crash,raw factors,69,0.0728439425869698
+monthly,return_h1,return,1,COVID-19 crash,trailing momentum,69,0.0740663671684989
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,"IBA, K formulas (fixed)",207,0.004966089266705609
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,"IBA, K formulas (averaged)",207,-0.0027428533952953416
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,"IBA, generic formulas",207,-0.02101130991615352
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,group PCA,207,-0.012706223256934934
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,PCA,207,-0.002138199128480567
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,kernel PCA,207,-0.025898192528657993
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,autoencoder,207,0.01897765652439043
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,LASSO,207,0.006374053608019237
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,raw factors,207,0.0052879892219206415
+monthly,return_h1,return,1,2022: invasion of Ukraine and rate shock,trailing momentum,207,0.05115496439322165
+monthly,return_h1,return,1,other periods,"IBA, K formulas (fixed)",1863,0.01940421377158419
+monthly,return_h1,return,1,other periods,"IBA, K formulas (averaged)",1863,0.011121622850574386
+monthly,return_h1,return,1,other periods,"IBA, generic formulas",1863,0.02363266362946348
+monthly,return_h1,return,1,other periods,group PCA,1863,0.007666770778605114
+monthly,return_h1,return,1,other periods,PCA,1863,0.021531850802484653
+monthly,return_h1,return,1,other periods,kernel PCA,1863,0.03718449673466773
+monthly,return_h1,return,1,other periods,autoencoder,1863,0.017715744323597127
+monthly,return_h1,return,1,other periods,LASSO,1863,0.018987673183151532
+monthly,return_h1,return,1,other periods,raw factors,1863,0.019457444156574466
+monthly,return_h1,return,1,other periods,trailing momentum,1863,0.11737670282335944
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),"IBA, K formulas (fixed)",311,0.04877260658389737
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),"IBA, K formulas (averaged)",311,0.040647178352068325
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),"IBA, generic formulas",311,0.04537055452332739
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),group PCA,311,0.04286654353527375
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),PCA,311,0.059575844883480666
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),kernel PCA,311,0.03524863084176211
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),autoencoder,311,0.04710067119192085
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),LASSO,311,0.08366152767851065
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),raw factors,311,0.09006522019179708
+monthly,return_h1,return,1,in drawdown (at least 10 % below the peak),trailing momentum,311,0.1658715163163862
+monthly,return_h1,return,1,not in drawdown,"IBA, K formulas (fixed)",1897,-0.00547377772324964
+monthly,return_h1,return,1,not in drawdown,"IBA, K formulas (averaged)",1897,-0.01079887136744484
+monthly,return_h1,return,1,not in drawdown,"IBA, generic formulas",1897,0.0007520991320584258
+monthly,return_h1,return,1,not in drawdown,group PCA,1897,-0.004973346736212969
+monthly,return_h1,return,1,not in drawdown,PCA,1897,0.00707918062822932
+monthly,return_h1,return,1,not in drawdown,kernel PCA,1897,0.009224322857369405
+monthly,return_h1,return,1,not in drawdown,autoencoder,1897,0.0007432890824281557
+monthly,return_h1,return,1,not in drawdown,LASSO,1897,-0.006535715925593988
+monthly,return_h1,return,1,not in drawdown,raw factors,1897,0.002347137852157344
+monthly,return_h1,return,1,not in drawdown,trailing momentum,1897,0.06877927705351006
+monthly,return_h12,return,12,Q4 2018 sell-off,"IBA, K formulas (fixed)",69,0.09593173286915091
+monthly,return_h12,return,12,Q4 2018 sell-off,"IBA, K formulas (averaged)",69,0.09963008283810071
+monthly,return_h12,return,12,Q4 2018 sell-off,"IBA, generic formulas",69,0.25415124893999885
+monthly,return_h12,return,12,Q4 2018 sell-off,group PCA,69,0.1639333840214907
+monthly,return_h12,return,12,Q4 2018 sell-off,PCA,69,0.10904726259133302
+monthly,return_h12,return,12,Q4 2018 sell-off,kernel PCA,69,0.006095806772022927
+monthly,return_h12,return,12,Q4 2018 sell-off,autoencoder,69,0.09601278475253516
+monthly,return_h12,return,12,Q4 2018 sell-off,LASSO,69,0.23743108193241347
+monthly,return_h12,return,12,Q4 2018 sell-off,raw factors,69,-0.08146392367014754
+monthly,return_h12,return,12,Q4 2018 sell-off,trailing momentum,69,7.092877005406253
+monthly,return_h12,return,12,COVID-19 crash,"IBA, K formulas (fixed)",69,0.09131646220993894
+monthly,return_h12,return,12,COVID-19 crash,"IBA, K formulas (averaged)",69,0.11634578810740859
+monthly,return_h12,return,12,COVID-19 crash,"IBA, generic formulas",69,0.17257600386256766
+monthly,return_h12,return,12,COVID-19 crash,group PCA,69,0.1393379976837994
+monthly,return_h12,return,12,COVID-19 crash,PCA,69,0.13853844533403148
+monthly,return_h12,return,12,COVID-19 crash,kernel PCA,69,0.0388612370623469
+monthly,return_h12,return,12,COVID-19 crash,autoencoder,69,0.06463989473486031
+monthly,return_h12,return,12,COVID-19 crash,LASSO,69,0.11242492006475313
+monthly,return_h12,return,12,COVID-19 crash,raw factors,69,0.21767442338876486
+monthly,return_h12,return,12,COVID-19 crash,trailing momentum,69,0.9326796526280965
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,"IBA, K formulas (fixed)",207,-0.07258609140324823
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,"IBA, K formulas (averaged)",207,-0.07546441594422337
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,"IBA, generic formulas",207,-0.08336017147501196
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,group PCA,207,-0.05225937814995729
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,PCA,207,-0.01472875336119217
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,kernel PCA,207,-0.062318851201160874
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,autoencoder,207,-0.021426380848523996
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,LASSO,207,-0.05275541112637128
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,raw factors,207,-0.04313420875243257
+monthly,return_h12,return,12,2022: invasion of Ukraine and rate shock,trailing momentum,207,3.5063029428756165
+monthly,return_h12,return,12,other periods,"IBA, K formulas (fixed)",1863,-0.005129775728111907
+monthly,return_h12,return,12,other periods,"IBA, K formulas (averaged)",1863,-0.004826002951875075
+monthly,return_h12,return,12,other periods,"IBA, generic formulas",1863,-0.015301213613149844
+monthly,return_h12,return,12,other periods,group PCA,1863,0.0013904860832951726
+monthly,return_h12,return,12,other periods,PCA,1863,0.010862487602778748
+monthly,return_h12,return,12,other periods,kernel PCA,1863,-0.015239544851427977
+monthly,return_h12,return,12,other periods,autoencoder,1863,0.017418322244417084
+monthly,return_h12,return,12,other periods,LASSO,1863,-0.017416089311967364
+monthly,return_h12,return,12,other periods,raw factors,1863,0.007053727340867066
+monthly,return_h12,return,12,other periods,trailing momentum,1863,1.1860646439095568
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),"IBA, K formulas (fixed)",328,0.030135123276491482
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),"IBA, K formulas (averaged)",328,0.03728376340307338
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),"IBA, generic formulas",328,0.041210706223796745
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),group PCA,328,0.052378875596154284
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),PCA,328,0.05226308845268668
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),kernel PCA,328,0.034170952826563905
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),autoencoder,328,0.017729508642731373
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),LASSO,328,0.02150065173569038
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),raw factors,328,0.12093944108720622
+monthly,return_h12,return,12,in drawdown (at least 10 % below the peak),trailing momentum,328,1.7470268227365389
+monthly,return_h12,return,12,not in drawdown,"IBA, K formulas (fixed)",1880,-0.0026254700220529337
+monthly,return_h12,return,12,not in drawdown,"IBA, K formulas (averaged)",1880,-0.0002444709295834624
+monthly,return_h12,return,12,not in drawdown,"IBA, generic formulas",1880,-0.0020540509886753933
+monthly,return_h12,return,12,not in drawdown,group PCA,1880,0.00744553899003586
+monthly,return_h12,return,12,not in drawdown,PCA,1880,0.019517958782186984
+monthly,return_h12,return,12,not in drawdown,kernel PCA,1880,-0.024669666132862478
+monthly,return_h12,return,12,not in drawdown,autoencoder,1880,0.024243899592238716
+monthly,return_h12,return,12,not in drawdown,LASSO,1880,-0.007070921305425415
+monthly,return_h12,return,12,not in drawdown,raw factors,1880,0.0037481978625169
+monthly,return_h12,return,12,not in drawdown,trailing momentum,1880,1.125225420662121
+monthly,return_h3,return,3,Q4 2018 sell-off,"IBA, K formulas (fixed)",69,0.23929205287752509
+monthly,return_h3,return,3,Q4 2018 sell-off,"IBA, K formulas (averaged)",69,0.19756579079027348
+monthly,return_h3,return,3,Q4 2018 sell-off,"IBA, generic formulas",69,0.19668120568399683
+monthly,return_h3,return,3,Q4 2018 sell-off,group PCA,69,0.19391883731921356
+monthly,return_h3,return,3,Q4 2018 sell-off,PCA,69,0.041829218426160164
+monthly,return_h3,return,3,Q4 2018 sell-off,kernel PCA,69,0.12159554126098215
+monthly,return_h3,return,3,Q4 2018 sell-off,autoencoder,69,0.031835815957357516
+monthly,return_h3,return,3,Q4 2018 sell-off,LASSO,69,0.12589201637931868
+monthly,return_h3,return,3,Q4 2018 sell-off,raw factors,69,0.2725935331768825
+monthly,return_h3,return,3,Q4 2018 sell-off,trailing momentum,69,1.5334883552641014
+monthly,return_h3,return,3,COVID-19 crash,"IBA, K formulas (fixed)",69,0.038902076567809196
+monthly,return_h3,return,3,COVID-19 crash,"IBA, K formulas (averaged)",69,0.03746595324500035
+monthly,return_h3,return,3,COVID-19 crash,"IBA, generic formulas",69,0.07195735625983035
+monthly,return_h3,return,3,COVID-19 crash,group PCA,69,0.1307028606965399
+monthly,return_h3,return,3,COVID-19 crash,PCA,69,0.06084950682100709
+monthly,return_h3,return,3,COVID-19 crash,kernel PCA,69,0.021077676217223562
+monthly,return_h3,return,3,COVID-19 crash,autoencoder,69,0.025117141639142027
+monthly,return_h3,return,3,COVID-19 crash,LASSO,69,0.16956586396788897
+monthly,return_h3,return,3,COVID-19 crash,raw factors,69,0.23270979306493267
+monthly,return_h3,return,3,COVID-19 crash,trailing momentum,69,0.5998238236193358
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,"IBA, K formulas (fixed)",207,-0.02708580630291757
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,"IBA, K formulas (averaged)",207,0.00905390707105913
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,"IBA, generic formulas",207,-0.052224768017980594
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,group PCA,207,-0.031302235079046725
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,PCA,207,-0.009758261001005408
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,kernel PCA,207,0.000395979773263333
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,autoencoder,207,-0.0064519865746651694
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,LASSO,207,-0.02642525837581977
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,raw factors,207,-0.051538918814625134
+monthly,return_h3,return,3,2022: invasion of Ukraine and rate shock,trailing momentum,207,0.2725486997821578
+monthly,return_h3,return,3,other periods,"IBA, K formulas (fixed)",1863,0.027877514312594887
+monthly,return_h3,return,3,other periods,"IBA, K formulas (averaged)",1863,0.023845096398179333
+monthly,return_h3,return,3,other periods,"IBA, generic formulas",1863,0.015969165895066917
+monthly,return_h3,return,3,other periods,group PCA,1863,0.009724399380642179
+monthly,return_h3,return,3,other periods,PCA,1863,0.011155580405655563
+monthly,return_h3,return,3,other periods,kernel PCA,1863,0.024824189023551435
+monthly,return_h3,return,3,other periods,autoencoder,1863,0.010505794208887753
+monthly,return_h3,return,3,other periods,LASSO,1863,0.010571336352937166
+monthly,return_h3,return,3,other periods,raw factors,1863,0.07225534189940896
+monthly,return_h3,return,3,other periods,trailing momentum,1863,0.2886105740743179
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),"IBA, K formulas (fixed)",317,0.011099404939313162
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),"IBA, K formulas (averaged)",317,0.028926167229845756
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),"IBA, generic formulas",317,0.019267816612226873
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),group PCA,317,0.04165416359580809
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),PCA,317,0.018192936921676228
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),kernel PCA,317,0.03005164569766916
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),autoencoder,317,0.015588537683344228
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),LASSO,317,0.04739966755344516
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),raw factors,317,0.08146073510143137
+monthly,return_h3,return,3,in drawdown (at least 10 % below the peak),trailing momentum,317,0.48000596981205224
+monthly,return_h3,return,3,not in drawdown,"IBA, K formulas (fixed)",1891,0.032248811759779894
+monthly,return_h3,return,3,not in drawdown,"IBA, K formulas (averaged)",1891,0.024531230807882443
+monthly,return_h3,return,3,not in drawdown,"IBA, generic formulas",1891,0.014169577231597508
+monthly,return_h3,return,3,not in drawdown,group PCA,1891,0.007301610514885315
+monthly,return_h3,return,3,not in drawdown,PCA,1891,0.011215802675644593
+monthly,return_h3,return,3,not in drawdown,kernel PCA,1891,0.020384848211921325
+monthly,return_h3,return,3,not in drawdown,autoencoder,1891,0.007815982087864715
+monthly,return_h3,return,3,not in drawdown,LASSO,1891,0.009580725410785806
+monthly,return_h3,return,3,not in drawdown,raw factors,1891,0.07167991037483845
+monthly,return_h3,return,3,not in drawdown,trailing momentum,1891,0.2651692672932342
+monthly,return_h6,return,6,Q4 2018 sell-off,"IBA, K formulas (fixed)",69,0.19379642006685782
+monthly,return_h6,return,6,Q4 2018 sell-off,"IBA, K formulas (averaged)",69,0.1784195188052513
+monthly,return_h6,return,6,Q4 2018 sell-off,"IBA, generic formulas",69,0.3982202631906495
+monthly,return_h6,return,6,Q4 2018 sell-off,group PCA,69,0.13948213016673638
+monthly,return_h6,return,6,Q4 2018 sell-off,PCA,69,0.0037783146982830473
+monthly,return_h6,return,6,Q4 2018 sell-off,kernel PCA,69,0.14388608868578667
+monthly,return_h6,return,6,Q4 2018 sell-off,autoencoder,69,-0.01394937416231501
+monthly,return_h6,return,6,Q4 2018 sell-off,LASSO,69,0.10618006089677579
+monthly,return_h6,return,6,Q4 2018 sell-off,raw factors,69,-0.0020784522264201133
+monthly,return_h6,return,6,Q4 2018 sell-off,trailing momentum,69,3.5368655028764318
+monthly,return_h6,return,6,COVID-19 crash,"IBA, K formulas (fixed)",69,0.08800550295494625
+monthly,return_h6,return,6,COVID-19 crash,"IBA, K formulas (averaged)",69,0.07323654244649758
+monthly,return_h6,return,6,COVID-19 crash,"IBA, generic formulas",69,0.23467800048229837
+monthly,return_h6,return,6,COVID-19 crash,group PCA,69,0.21712724978437836
+monthly,return_h6,return,6,COVID-19 crash,PCA,69,0.10116637175668575
+monthly,return_h6,return,6,COVID-19 crash,kernel PCA,69,0.04947968691383853
+monthly,return_h6,return,6,COVID-19 crash,autoencoder,69,0.08631952942297683
+monthly,return_h6,return,6,COVID-19 crash,LASSO,69,0.1482633139951739
+monthly,return_h6,return,6,COVID-19 crash,raw factors,69,0.20953220127244898
+monthly,return_h6,return,6,COVID-19 crash,trailing momentum,69,1.195596064569378
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,"IBA, K formulas (fixed)",207,-0.07495450000312143
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,"IBA, K formulas (averaged)",207,-0.07176413201502041
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,"IBA, generic formulas",207,-0.07907832663833969
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,group PCA,207,-0.10184761209313997
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,PCA,207,-0.029996056637944468
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,kernel PCA,207,-0.04537170284313585
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,autoencoder,207,-0.047816627691894986
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,LASSO,207,-0.030044023824454147
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,raw factors,207,-0.11690252040282412
+monthly,return_h6,return,6,2022: invasion of Ukraine and rate shock,trailing momentum,207,0.991485003189442
+monthly,return_h6,return,6,other periods,"IBA, K formulas (fixed)",1863,-0.013719112691299329
+monthly,return_h6,return,6,other periods,"IBA, K formulas (averaged)",1863,-0.02335003533004365
+monthly,return_h6,return,6,other periods,"IBA, generic formulas",1863,-0.014222639648584279
+monthly,return_h6,return,6,other periods,group PCA,1863,-0.028751257881443726
+monthly,return_h6,return,6,other periods,PCA,1863,-0.008607523574877263
+monthly,return_h6,return,6,other periods,kernel PCA,1863,-0.021444661419340094
+monthly,return_h6,return,6,other periods,autoencoder,1863,0.010991279730170556
+monthly,return_h6,return,6,other periods,LASSO,1863,0.005913103263782471
+monthly,return_h6,return,6,other periods,raw factors,1863,0.01799530087527601
+monthly,return_h6,return,6,other periods,trailing momentum,1863,0.5328744043236622
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),"IBA, K formulas (fixed)",323,-0.019228961465885708
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),"IBA, K formulas (averaged)",323,-0.014008059486280033
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),"IBA, generic formulas",323,0.027690965772062093
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),group PCA,323,0.036914182138985785
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),PCA,323,0.042312360977937
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),kernel PCA,323,0.051079051254165675
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),autoencoder,323,0.03701152098694083
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),LASSO,323,0.0365308434562297
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),raw factors,323,0.0184483550485377
+monthly,return_h6,return,6,in drawdown (at least 10 % below the peak),trailing momentum,323,0.9601874862749766
+monthly,return_h6,return,6,not in drawdown,"IBA, K formulas (fixed)",1885,-0.008373698281174735
+monthly,return_h6,return,6,not in drawdown,"IBA, K formulas (averaged)",1885,-0.022377364374317366
+monthly,return_h6,return,6,not in drawdown,"IBA, generic formulas",1885,-0.0129005550443263
+monthly,return_h6,return,6,not in drawdown,group PCA,1885,-0.039594883181922946
+monthly,return_h6,return,6,not in drawdown,PCA,1885,-0.020616337909940774
+monthly,return_h6,return,6,not in drawdown,kernel PCA,1885,-0.04265545342037336
+monthly,return_h6,return,6,not in drawdown,autoencoder,1885,0.0009101329396359326
+monthly,return_h6,return,6,not in drawdown,LASSO,1885,0.0029659510912103393
+monthly,return_h6,return,6,not in drawdown,raw factors,1885,0.017721872612348477
+monthly,return_h6,return,6,not in drawdown,trailing momentum,1885,0.5112587529531218
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,"IBA, K formulas (fixed)",69,-0.004859470862463855
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,"IBA, K formulas (averaged)",69,-0.0065226790294568016
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,"IBA, generic formulas",69,-0.00531645061530972
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,group PCA,69,0.004093760396081114
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,PCA,69,0.01979377738514354
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,kernel PCA,69,0.06601527562512821
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,autoencoder,69,0.040521562690623236
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,LASSO,69,0.03734069925896488
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,raw factors,69,0.033362985266165435
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,volatility-based logit,69,0.03524196166193461
+monthly,tail_gain_q10_h3,tail_gain,3,Q4 2018 sell-off,GARCH-based probability,69,-0.09482966856202757
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,"IBA, K formulas (fixed)",69,0.0013420540560236116
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,"IBA, K formulas (averaged)",69,-0.006840858153155827
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,"IBA, generic formulas",69,0.0007658268982313476
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,group PCA,69,0.024528891822124033
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,PCA,69,0.008425367530421113
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,kernel PCA,69,0.05004154979889419
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,autoencoder,69,-0.012712718182630756
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,LASSO,69,0.039357980451034225
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,raw factors,69,0.03616479488985802
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,volatility-based logit,69,-0.1648747874532478
+monthly,tail_gain_q10_h3,tail_gain,3,COVID-19 crash,GARCH-based probability,69,-0.2890017444074142
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,"IBA, K formulas (fixed)",207,-0.017299630977261615
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,"IBA, K formulas (averaged)",207,-0.01577501104074286
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,"IBA, generic formulas",207,0.02597601565478369
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,group PCA,207,-0.00048420899666989925
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,PCA,207,0.027039963851017923
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,kernel PCA,207,0.010305978257870718
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,autoencoder,207,0.003086359520407811
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,LASSO,207,0.00848106441471419
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,raw factors,207,0.03786884784046407
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,volatility-based logit,207,0.011307652934428036
+monthly,tail_gain_q10_h3,tail_gain,3,2022: invasion of Ukraine and rate shock,GARCH-based probability,207,0.15384278196139234
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,"IBA, K formulas (fixed)",1863,0.005993766342385243
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,"IBA, K formulas (averaged)",1863,0.006552361935863393
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,"IBA, generic formulas",1863,0.010367197538295736
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,group PCA,1863,0.003784547178470765
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,PCA,1863,0.00576291323374023
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,kernel PCA,1863,0.004269600165184073
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,autoencoder,1863,0.010567983118780822
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,LASSO,1863,0.008669781994443237
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,raw factors,1863,0.020586295801432453
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,volatility-based logit,1863,-0.005801637637880663
+monthly,tail_gain_q10_h3,tail_gain,3,other periods,GARCH-based probability,1863,-0.061079178567660874
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),"IBA, K formulas (fixed)",317,-0.00879628894844764
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),"IBA, K formulas (averaged)",317,-0.005819452530595126
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),"IBA, generic formulas",317,0.00529573950727058
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),group PCA,317,0.006131470709041853
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),PCA,317,0.0056808245502648624
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),kernel PCA,317,0.00036905555520827527
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),autoencoder,317,-0.0010058398087934295
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),LASSO,317,0.003837040778507772
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),raw factors,317,0.05873338474536682
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),volatility-based logit,317,-0.046390976975690834
+monthly,tail_gain_q10_h3,tail_gain,3,in drawdown (at least 10 % below the peak),GARCH-based probability,317,-0.16797888312642806
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,"IBA, K formulas (fixed)",1891,0.0073872874399598665
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,"IBA, K formulas (averaged)",1891,0.006198011996745523
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,"IBA, generic formulas",1891,0.010456686828394846
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,group PCA,1891,0.005897284512590861
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,PCA,1891,0.007438681307878836
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,kernel PCA,1891,0.013277472005607471
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,autoencoder,1891,0.010488239455001436
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,LASSO,1891,0.014682831650270733
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,raw factors,1891,0.015220618198984459
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,volatility-based logit,1891,-0.016437086823059444
+monthly,tail_gain_q10_h3,tail_gain,3,not in drawdown,GARCH-based probability,1891,-0.05962376340440745
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,"IBA, K formulas (fixed)",69,-0.0029898611999576996
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,"IBA, K formulas (averaged)",69,0.006565803761419575
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,"IBA, generic formulas",69,0.054084913508569255
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,group PCA,69,-0.015316256895294367
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,PCA,69,0.0019534781699055426
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,kernel PCA,69,-0.09756563380081329
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,autoencoder,69,0.004040115015862211
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,LASSO,69,-0.04778000349587208
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,raw factors,69,0.00022868510584039825
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,volatility-based logit,69,-0.16724738208088563
+monthly,tail_gain_q10_h6,tail_gain,6,Q4 2018 sell-off,GARCH-based probability,69,-0.043126920857750606
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,"IBA, K formulas (fixed)",69,0.020069614756523357
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,"IBA, K formulas (averaged)",69,-0.00450420354019021
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,"IBA, generic formulas",69,0.01408704391117821
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,group PCA,69,0.004712791089334312
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,PCA,69,-0.0014758225436842798
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,kernel PCA,69,0.035126711548245426
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,autoencoder,69,-0.006000599993994937
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,LASSO,69,0.005591847151498186
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,raw factors,69,0.04850210293152779
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,volatility-based logit,69,-0.16258106145203144
+monthly,tail_gain_q10_h6,tail_gain,6,COVID-19 crash,GARCH-based probability,69,-0.21865012416407326
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,"IBA, K formulas (fixed)",207,0.0669998951458306
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,"IBA, K formulas (averaged)",207,0.07277335096395965
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,"IBA, generic formulas",207,0.019269432335954795
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,group PCA,207,0.03590064365274248
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,PCA,207,0.014841180732478199
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,kernel PCA,207,-0.06704883402622053
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,autoencoder,207,0.03577653812981407
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,LASSO,207,0.09677648877150635
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,raw factors,207,0.05177670145848756
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,volatility-based logit,207,0.013255099714051033
+monthly,tail_gain_q10_h6,tail_gain,6,2022: invasion of Ukraine and rate shock,GARCH-based probability,207,0.14354361004920424
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,"IBA, K formulas (fixed)",1863,0.007944332815961852
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,"IBA, K formulas (averaged)",1863,0.0005089775358786408
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,"IBA, generic formulas",1863,0.022259232771703497
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,group PCA,1863,0.006104610469099381
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,PCA,1863,0.0030453433943991026
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,kernel PCA,1863,0.020387003884590804
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,autoencoder,1863,0.0025189258107245482
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,LASSO,1863,0.008838377619339477
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,raw factors,1863,0.027092559654980475
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,volatility-based logit,1863,-0.029039468972056004
+monthly,tail_gain_q10_h6,tail_gain,6,other periods,GARCH-based probability,1863,-0.04855787739947248
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),"IBA, K formulas (fixed)",323,0.03259897151392077
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),"IBA, K formulas (averaged)",323,0.008641475711161473
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),"IBA, generic formulas",323,0.08663794980718165
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),group PCA,323,0.015037347206741769
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),PCA,323,0.005054396042566189
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),kernel PCA,323,0.024081606930084654
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),autoencoder,323,0.0033901286511952566
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),LASSO,323,0.010658041633484494
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),raw factors,323,0.025944455889798324
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),volatility-based logit,323,-0.009628054130386365
+monthly,tail_gain_q10_h6,tail_gain,6,in drawdown (at least 10 % below the peak),GARCH-based probability,323,-0.12934011937374323
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,"IBA, K formulas (fixed)",1885,0.005819055853721888
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,"IBA, K formulas (averaged)",1885,-4.994257629675758e-06
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,"IBA, generic formulas",1885,0.009356707237420325
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,group PCA,1885,0.004610637955168917
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,PCA,1885,0.002366246931376992
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,kernel PCA,1885,0.0180760445261392
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,autoencoder,1885,0.002076629507863581
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,LASSO,1885,0.009290396950315971
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,raw factors,1885,0.030046584911267882
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,volatility-based logit,1885,-0.04940013525365683
+monthly,tail_gain_q10_h6,tail_gain,6,not in drawdown,GARCH-based probability,1885,-0.04914571652911681
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,"IBA, K formulas (fixed)",69,0.26906153235489216
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,"IBA, K formulas (averaged)",69,0.2456294684415754
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,"IBA, generic formulas",69,0.5256159151826909
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,group PCA,69,0.18509207405890882
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,PCA,69,0.10771632500840855
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,kernel PCA,69,0.6253394046670222
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,autoencoder,69,0.11930269018841333
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,LASSO,69,1.1395433834875681
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,raw factors,69,0.3679675042300441
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,volatility-based logit,69,0.20698287200727483
+monthly,tail_loss_q10_h3,tail_loss,3,Q4 2018 sell-off,GARCH-based probability,69,0.07304071472188634
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,"IBA, K formulas (fixed)",69,0.04584598724211575
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,"IBA, K formulas (averaged)",69,0.07302059137995287
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,"IBA, generic formulas",69,0.14427063132862528
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,group PCA,69,0.08493681554526922
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,PCA,69,0.09882601159726678
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,kernel PCA,69,0.07379446451166638
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,autoencoder,69,0.029199603017347142
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,LASSO,69,0.12124063950801833
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,raw factors,69,0.04052323940533231
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,volatility-based logit,69,0.08999269915774466
+monthly,tail_loss_q10_h3,tail_loss,3,COVID-19 crash,GARCH-based probability,69,0.3980768837881239
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,"IBA, K formulas (fixed)",207,0.017023784465991065
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,"IBA, K formulas (averaged)",207,0.009129240129422955
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,"IBA, generic formulas",207,0.0021503177359600834
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,group PCA,207,0.005532117180706342
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,PCA,207,0.004127276458368634
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,kernel PCA,207,0.004964348354095538
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,autoencoder,207,0.003171582657502947
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,LASSO,207,0.010882077667575984
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,raw factors,207,-0.009667885592943959
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,volatility-based logit,207,0.0018120404926054157
+monthly,tail_loss_q10_h3,tail_loss,3,2022: invasion of Ukraine and rate shock,GARCH-based probability,207,0.047058137783197784
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,"IBA, K formulas (fixed)",1863,0.00794467938093013
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,"IBA, K formulas (averaged)",1863,0.0028612529631633077
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,"IBA, generic formulas",1863,-0.0021880015489973426
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,group PCA,1863,-7.21630693386599e-05
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,PCA,1863,0.0053923720522486285
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,kernel PCA,1863,0.025840353366478386
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,autoencoder,1863,0.004144923805221135
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,LASSO,1863,0.001985217948326401
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,raw factors,1863,0.014313586801765199
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,volatility-based logit,1863,0.06270629002329198
+monthly,tail_loss_q10_h3,tail_loss,3,other periods,GARCH-based probability,1863,0.07909259883717201
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),"IBA, K formulas (fixed)",317,0.021037386108921696
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),"IBA, K formulas (averaged)",317,0.007885262095935985
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),"IBA, generic formulas",317,0.06632773728272157
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),group PCA,317,0.03026043506783682
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),PCA,317,0.0318605763056774
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),kernel PCA,317,0.04104673385923774
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),autoencoder,317,0.030348674849737245
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),LASSO,317,0.0557486894325927
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),raw factors,317,0.029423875311042957
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),volatility-based logit,317,0.048297513913301726
+monthly,tail_loss_q10_h3,tail_loss,3,in drawdown (at least 10 % below the peak),GARCH-based probability,317,0.07096746860777192
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,"IBA, K formulas (fixed)",1891,0.010496965390365709
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,"IBA, K formulas (averaged)",1891,0.007287217610105978
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,"IBA, generic formulas",1891,-0.0040160371825055385
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,group PCA,1891,0.0003854546807180448
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,PCA,1891,0.004964872182769753
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,kernel PCA,1891,0.02412010946750409
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,autoencoder,1891,0.0012683290945720849
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,LASSO,1891,0.00564012152234028
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,raw factors,1891,0.009850814929144969
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,volatility-based logit,1891,0.054452877523113896
+monthly,tail_loss_q10_h3,tail_loss,3,not in drawdown,GARCH-based probability,1891,0.08607476338394648
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,"IBA, K formulas (fixed)",69,0.21400072410350202
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,"IBA, K formulas (averaged)",69,0.2104461107966027
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,"IBA, generic formulas",69,0.37094347034476427
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,group PCA,69,0.2641966644264435
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,PCA,69,0.2807059710403603
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,kernel PCA,69,0.20514217129472745
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,autoencoder,69,0.0189267927475123
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,LASSO,69,0.6946066747261479
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,raw factors,69,-0.08602472138808015
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,volatility-based logit,69,0.03293646575429032
+monthly,tail_loss_q10_h6,tail_loss,6,Q4 2018 sell-off,GARCH-based probability,69,-0.0395469823303477
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,"IBA, K formulas (fixed)",69,0.6030128065373563
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,"IBA, K formulas (averaged)",69,0.725008644712507
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,"IBA, generic formulas",69,0.2683215438283546
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,group PCA,69,0.5212730489382751
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,PCA,69,0.2616791438801298
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,kernel PCA,69,0.28308061465819034
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,autoencoder,69,0.19812347257416607
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,LASSO,69,2.7429596882792446
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,raw factors,69,4.787357024581767
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,volatility-based logit,69,0.19317012516757126
+monthly,tail_loss_q10_h6,tail_loss,6,COVID-19 crash,GARCH-based probability,69,1.284189880687772
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,"IBA, K formulas (fixed)",207,0.1823965711959432
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,"IBA, K formulas (averaged)",207,0.07189211080144697
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,"IBA, generic formulas",207,0.14140085622763587
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,group PCA,207,0.113757369542973
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,PCA,207,0.056330474868167
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,kernel PCA,207,0.00480455243879141
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,autoencoder,207,0.0062167644171502445
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,LASSO,207,0.026927275752868685
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,raw factors,207,-0.0012937348961392647
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,volatility-based logit,207,0.0275601283539757
+monthly,tail_loss_q10_h6,tail_loss,6,2022: invasion of Ukraine and rate shock,GARCH-based probability,207,0.003834024192050922
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,"IBA, K formulas (fixed)",1863,0.007039010875686591
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,"IBA, K formulas (averaged)",1863,0.004089847912669198
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,"IBA, generic formulas",1863,-0.009092483672605511
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,group PCA,1863,-0.0280854649932889
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,PCA,1863,-0.006104363793486001
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,kernel PCA,1863,0.011192772335116397
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,autoencoder,1863,0.0032753620036758413
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,LASSO,1863,0.05085939711463605
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,raw factors,1863,0.06490445519776777
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,volatility-based logit,1863,0.08200837264644001
+monthly,tail_loss_q10_h6,tail_loss,6,other periods,GARCH-based probability,1863,0.04732691071478112
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),"IBA, K formulas (fixed)",323,-0.029246189100665565
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),"IBA, K formulas (averaged)",323,-0.055566460346732516
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),"IBA, generic formulas",323,-0.013918245217616088
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),group PCA,323,0.0697134899178875
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),PCA,323,0.04012377649914933
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),kernel PCA,323,0.034807302231448345
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),autoencoder,323,0.005209591129938573
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),LASSO,323,0.1569537042044904
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),raw factors,323,0.3411174566009101
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),volatility-based logit,323,0.06409245705671052
+monthly,tail_loss_q10_h6,tail_loss,6,in drawdown (at least 10 % below the peak),GARCH-based probability,323,0.03397207528914503
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,"IBA, K formulas (fixed)",1885,0.04863774309542035
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,"IBA, K formulas (averaged)",1885,0.03259189639999982
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,"IBA, generic formulas",1885,0.022757383687657118
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,group PCA,1885,-0.009290586349973595
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,PCA,1885,0.003628631839289964
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,kernel PCA,1885,0.011829125705152155
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,autoencoder,1885,0.005680387372808182
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,LASSO,1885,0.06744634515141312
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,raw factors,1885,0.06510171147250277
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,volatility-based logit,1885,0.07618426140877066
+monthly,tail_loss_q10_h6,tail_loss,6,not in drawdown,GARCH-based probability,1885,0.0539849577541347

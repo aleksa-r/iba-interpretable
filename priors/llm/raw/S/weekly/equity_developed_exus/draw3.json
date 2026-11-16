@@ -1,0 +1,418 @@
+{
+ "frequency": "weekly",
+ "asset_class": "equity_developed_exus",
+ "procedure": "S",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "ccec55d50210803543a441143369c65a6d76f84b0b47fbcd1019ae959a742037",
+ "attempts": [
+  {
+   "id": "msg_011Ch31Hq3X5zDzKmgrXufSj",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 5770,
+    "output_tokens": 3033
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A rising 5Y-FedFunds spread signals repricing of the expected policy path and tighter global discount rates, which tends to weigh on subsequent foreign equity returns. The sample shows a consistent negative link."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "EMB_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong EM sovereign bond returns reflect easing global dollar funding and risk appetite that spill over to non-US developed equities."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "EPU",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "High policy uncertainty that is not accompanied by safe-haven stress in gold implies a priced uncertainty premium without crisis dynamics, consistent with higher subsequent returns as compensation for risk."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong recent US market returns get partly reversed at short horizons, and non-US indices that lag US moves are tied to this short-run reversal."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong momentum payoffs mark crowded trend-following positioning that is vulnerable to unwinding, with mildly weaker equity returns afterwards."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Dollar strength tightens global financial conditions and lowers dollar-denominated returns on foreign equities."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "high"
+     },
+     {
+      "factor": "SLV_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Rising oil without precious-metal safe-haven buying indicates global demand strength, which is favourable for cyclical European and Asian equities."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tighter US financial conditions predict lower risky-asset returns through funding and risk-bearing capacity channels; this is the strongest signal in the sample."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Short-horizon reversal in index returns after unusually strong weeks."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "TB3M_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising short rates reflect a clearer, less crisis-like policy environment, associated with lower unexpected volatility."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Widening Baa spreads together with weak high-yield returns signal deteriorating credit, which leads equity volatility through the leverage and funding channels."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated implied volatility across equity and safe-haven markets indicates broad risk not yet fully reflected in realised variance."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak equity returns in both the US and emerging markets raise subsequent volatility through the leverage effect and volatility feedback."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "high"
+     },
+     {
+      "factor": "ST_REV",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A flight to quality (strong profitability factor) with poor reversal payoffs indicates stressed liquidity provision, which precedes higher volatility."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A strengthening dollar is a global risk-off and funding-stress signal that raises foreign equity volatility."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling broad commodity prices signal weakening global demand and risk aversion, which come with higher equity volatility."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions predict higher future volatility beyond what volatility persistence alone implies."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Realised variance mean-reverts, so excess future variance is lower after very high recent variance."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Bear steepening raises term premia and discount rates, adding to the risk of sharp equity drawdowns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "AAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Compressed spreads alongside buoyant high-yield returns indicate stretched risk appetite, which is prone to abrupt reversal."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "GVZ",
+      "state": "high"
+     },
+     {
+      "factor": "OVX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated cross-asset implied volatility widens the left tail of the return distribution."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "SMB",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Small caps underperforming signals tightening liquidity and risk aversion that precede drawdowns."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "not_high"
+     },
+     {
+      "factor": "CMA",
+      "state": "high"
+     }
+    ],
+    "rationale": "Weak profitability alongside a conservative-investment tilt points to a defensive rotation that tends to precede drawdowns."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong AUD signals carry-trade crowding, whose unwinding coincides with equity crashes."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "SLV_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Falling commodities together with precious-metal buying point to growth fears and a flight to safety."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions combined with elevated financial stress raise the probability of large losses via deleveraging."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong recent gains leave room for corrections; the effect is weak."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling medium-term rates relative to policy rates signal expected easing, which supports sharp rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak recent credit returns leave depressed prices from which rebounds can be large."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "EPU",
+      "state": "high"
+     }
+    ],
+    "rationale": "High fear and uncertainty premia set up relief rallies; large gains cluster in high-volatility states."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     },
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Strong emerging-market equities while the US lags indicate a global, non-US-led growth rotation that favours foreign developed markets."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "CMA",
+      "state": "high"
+     },
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum crashes and value-like rebounds occur at market turning points that precede strong rallies."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "EURUSD_RET",
+      "state": "high"
+     },
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A weaker dollar lifts dollar-denominated returns on foreign equities and loosens global financial conditions."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "high"
+     },
+     {
+      "factor": "NATGAS_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Oil strength reflects global demand recovery, which supports cyclical upside."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     },
+     {
+      "factor": "CLAIMS_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Financial stress without real-economy deterioration tends to resolve in sharp rebounds."
+   },
+   "ENDG": {
+    "literals": [],
+    "rationale": "Recent own returns carry little information for upside tails."
+   }
+  }
+ },
+ "draw": 3
+}

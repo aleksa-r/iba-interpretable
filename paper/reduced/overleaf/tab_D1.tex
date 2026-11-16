@@ -1,0 +1,21 @@
+{\scriptsize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.448\linewidth}>{\raggedleft\arraybackslash}p{0.090\linewidth}>{\raggedleft\arraybackslash}p{0.133\linewidth}>{\raggedleft\arraybackslash}p{0.133\linewidth}>{\raggedleft\arraybackslash}p{0.133\linewidth}@{}}
+\caption{Loss relative to the reference as components are added (weekly development series).}\label{tab:D1}\\
+\toprule
+\textbf{Configuration} & \textbf{Return} & \textbf{Volatility} & \textbf{Large loss} & \textbf{Large gain} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Configuration} & \textbf{Return} & \textbf{Volatility} & \textbf{Large loss} & \textbf{Large gain} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Raw factors, no reduction & +2.9\,\% & \ensuremath{-}4.7\,\% & +1.6\,\% & \ensuremath{-}0.1\,\% \\
+One feature per group: group PCA & +1.5\,\% & \ensuremath{-}4.9\,\% & +1.4\,\% & \ensuremath{-}0.6\,\% \\
+Logical form, random content & +0.7\,\% & \ensuremath{-}2.6\,\% & +0.6\,\% & \ensuremath{-}0.5\,\% \\
+Logical form, generic content & +1.0\,\% & \ensuremath{-}5.3\,\% & +0.8\,\% & \ensuremath{-}0.4\,\% \\
+Logical form, elicited content (interpretable~reading) & +1.0\,\% & \ensuremath{-}5.9\,\% & +0.8\,\% & \ensuremath{-}1.1\,\% \\
++ averaging with random neighbours & +0.9\,\% & \ensuremath{-}6.0\,\% & +0.7\,\% & \ensuremath{-}1.1\,\% \\
++ averaging over the ABC colony (accuracy~reading) & +0.8\,\% & \ensuremath{-}6.0\,\% & +0.6\,\% & \ensuremath{-}1.2\,\% \\
+\end{longtable}}

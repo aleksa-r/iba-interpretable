@@ -1,0 +1,33 @@
+code,label,description,group,source,series,transform,lag
+T1YFF_CHG,1Y-FedFunds spread change,1-year Treasury minus Fed Funds; weekly change,IR,fred,T1YFF,mean_diff,0
+T10Y2Y_CHG,10Y-2Y term spread change,10-year minus 2-year Treasury; weekly change,IR,fred,T10Y2Y,mean_diff,0
+TB3M_CHG,3M T-bill rate change,3-month Treasury bill (daily series DTB3); weekly change,IR,fred,DTB3,mean_diff,0
+T5YFF_CHG,5Y-FedFunds spread change,5-year Treasury minus Fed Funds; weekly change,IR,fred,T5YFF,mean_diff,0
+BAA10Y_CHG,Baa credit spread change,Moody's Baa yield minus 10-year Treasury; weekly change,B,fred,BAA10Y,mean_diff,0
+AAA10Y_CHG,Aaa credit spread change,Moody's Aaa yield minus 10-year Treasury; weekly change,B,fred,AAA10Y,mean_diff,0
+HYG_RET,US high-yield bond return,iShares iBoxx High Yield Corporate Bond ETF; weekly total return,B,yahoo,HYG,last_logret,0
+EMB_RET,EM sovereign bond return,iShares J.P. Morgan USD Emerging Markets Bond ETF; weekly total return,B,yahoo,EMB,last_logret,0
+VIX,Equity VIX,CBOE equity volatility index; weekly mean,V,fred,VIXCLS,mean,0
+OVX,Crude-oil volatility (OVX),CBOE crude oil ETF volatility index; weekly mean,V,fred,OVXCLS,mean,0
+GVZ,Gold volatility (GVZ),CBOE gold ETF volatility index; weekly mean,V,fred,GVZCLS,mean,0
+EPU,Economic policy uncertainty,US daily news-based economic policy uncertainty index; weekly mean,V,fred,USEPUINDXD,mean,0
+Mkt_RF,Market excess return,Fama-French market excess return; weekly,AP,ken_french,Mkt-RF,sum,0
+SMB,SMB (size),Fama-French size factor; weekly,AP,ken_french,SMB,sum,0
+HML,HML (value),Fama-French value factor; weekly,AP,ken_french,HML,sum,0
+EEM_RET,Emerging-market equity return,iShares MSCI Emerging Markets ETF; weekly total return,AP,yahoo,EEM,last_logret,0
+MOM,Momentum (UMD),Fama-French momentum factor; weekly,ST,ken_french,Mom,sum,0
+RMW,RMW (profitability),Fama-French profitability factor; weekly,ST,ken_french,RMW,sum,0
+CMA,CMA (investment),Fama-French investment factor; weekly,ST,ken_french,CMA,sum,0
+ST_REV,Short-term reversal,Fama-French short-term reversal factor; weekly,ST,ken_french,ST_Rev,sum,0
+EURUSD_RET,EUR/USD return,US dollars per euro; weekly log return,FX,fred,DEXUSEU,last_logret,0
+USDJPY_RET,USD/JPY return,Yen per US dollar; weekly log return,FX,fred,DEXJPUS,last_logret,0
+AUDUSD_RET,AUD/USD return,US dollars per Australian dollar; weekly log return,FX,fred,DEXUSAL,last_logret,0
+USD_BROAD_RET,Broad dollar index return,Nominal broad US dollar index; weekly log return,FX,fred,DTWEXBGS,last_logret,0
+WTI_RET,Crude oil (WTI) return,WTI spot; log change of the weekly mean,COM,fred,DCOILWTICO,mean_logret,0
+NATGAS_RET,Natural gas return,Henry Hub spot; log change of the weekly mean,COM,fred,DHHNGSP,mean_logret,0
+DBC_RET,Broad commodity return,Invesco DB Commodity Index Tracking Fund; weekly return,COM,yahoo,DBC,last_logret,0
+SLV_RET,Silver return,iShares Silver Trust; weekly return,COM,yahoo,SLV,last_logret,0
+NFCI,Financial conditions (NFCI),Chicago Fed National Financial Conditions Index; 1-week publication lag,MC,fred,NFCI,last,1
+STLFSI,Financial stress (STLFSI),St. Louis Fed Financial Stress Index; 1-week publication lag,MC,fred,STLFSI4,last,1
+CLAIMS_CHG,Jobless claims change,"Initial jobless claims; weekly log change, 1-week publication lag",MC,fred,ICSA,last_logret,1
+T10YIE_CHG,Inflation expectations change,10-year breakeven inflation rate; weekly change,MC,fred,T10YIE,mean_diff,0

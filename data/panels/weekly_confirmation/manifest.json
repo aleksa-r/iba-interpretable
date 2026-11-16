@@ -1,0 +1,38 @@
+{
+  "built": "2026-11-15T00:18:27.153259+00:00",
+  "raw": "data/raw/yahoo_daily_conf_2026-11-15.csv",
+  "raw_sha256": "97b01bb61c7ac62507675a4fb11f5ac94c901615cb66b49dc496535bb9fe8fbe",
+  "factor_dir": "data/panels/weekly_2026-11-11",
+  "frequency": "W-FRI",
+  "weeks": 956,
+  "first": "2008-06-06",
+  "last": "2026-09-25",
+  "series": [
+    "DBP",
+    "EWA",
+    "EWC",
+    "EWD",
+    "EWJ",
+    "EWS",
+    "EWU",
+    "EWW",
+    "EWZ",
+    "IYR",
+    "LQD",
+    "MDY",
+    "MUB",
+    "QQQ",
+    "SHY",
+    "USO",
+    "XLB",
+    "XLF",
+    "XLK",
+    "XLU",
+    "^SPGSCI"
+  ],
+  "sha256": {
+    "returns.csv": "50f3b819f6c571768cca8d800cce45728d2769329ac1f3cd5021fd4425926df2",
+    "rv.csv": "0485731f0f06acb3ed350b0502a04a6f5bf4beaed94787d50ac7122b486aaae3",
+    "daily_logret.csv": "593a294e77209ddc4ae96ee03aea4f0d0b75e496ce03b5df2eff6595c69fe1fc"
+  }
+}

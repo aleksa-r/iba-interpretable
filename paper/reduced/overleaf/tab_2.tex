@@ -1,0 +1,18 @@
+{\scriptsize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.134\linewidth}>{\raggedright\arraybackslash}p{0.324\linewidth}>{\raggedright\arraybackslash}p{0.162\linewidth}>{\raggedright\arraybackslash}p{0.333\linewidth}@{}}
+\caption{Targets and the references each forecast must outperform.}\label{tab:2}\\
+\toprule
+\textbf{Target} & \textbf{Definition (index, horizon h)} & \textbf{Primary loss} & \textbf{References} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Target} & \textbf{Definition (index, horizon h)} & \textbf{Primary loss} & \textbf{References} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Return & compounded return over the next h periods & squared error & \textbf{Historical mean:} the average h-period return of the index up to the forecast date. \textbf{Time-series momentum:} the index's return over the past year, scaled to h. \\
+Volatility & log of realised variance (sum of squared daily log returns) over the next h weeks & squared error & \textbf{HAR:} regression of log variance on its values over the past 1, 4 and 13 weeks. \textbf{GARCH(1,1)} and \textbf{GJR-GARCH} on daily returns, aggregated to h weeks. \\
+Large loss & return over h falls below the 10\,\% quantile of past returns & Brier score & \textbf{Base rate:} the event's frequency in the training data. \textbf{Volatility logit:} logistic regression on past realised variance. \textbf{GARCH probability:} probability of crossing the threshold under a normal distribution with GARCH variance. \\
+Large gain & return over h rises above the 90\,\% quantile & Brier score & same three \\
+\end{longtable}}

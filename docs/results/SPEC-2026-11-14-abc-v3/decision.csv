@@ -1,0 +1,23 @@
+candidate,config,incumbent,tasks better,tasks worse,types with lower mean loss,mean rel. diff % (types equally weighted),qualifies
+"S noise-aware anchored, tested",iba_sna|lin,iba_e1|lin,0,4,0/4,0.3,False
+"S noise-aware spread, tested",iba_snw|lin,iba_e1|lin,0,7,0/4,0.547,False
+"C greedy anchored, tested",iba_ca|lin,iba_e1|lin,1,2,0/4,0.188,False
+"C greedy spread, tested",iba_cw|lin,iba_e1|lin,0,2,1/4,0.104,False
+"C noise-aware anchored, tested",iba_cna|lin,iba_e1|lin,1,3,0/4,0.145,False
+"C noise-aware spread, tested",iba_cnw|lin,iba_e1|lin,0,3,1/4,0.158,False
+"F greedy anchored, tested",iba_fa|lin,iba_e1|lin,1,2,0/4,0.135,False
+"F greedy spread, tested",iba_fw|lin,iba_e1|lin,0,1,0/4,0.167,False
+"F noise-aware anchored, tested",iba_fna|lin,iba_e1|lin,1,2,0/4,0.11,False
+"F noise-aware spread, tested",iba_fnw|lin,iba_e1|lin,0,1,1/4,0.184,False
+"S noise-aware anchored, ensemble",iba_sna_b,iba_b,1,0,2/4,0.004,False
+"S noise-aware spread, ensemble",iba_snw_b,iba_b,0,2,2/4,0.243,False
+"C greedy anchored, ensemble",iba_ca_b,iba_b,3,0,2/4,-0.044,False
+"C greedy spread, ensemble",iba_cw_b,iba_b,1,0,2/4,-0.037,False
+"C noise-aware anchored, ensemble",iba_cna_b,iba_b,3,1,2/4,-0.037,False
+"C noise-aware spread, ensemble",iba_cnw_b,iba_b,2,2,2/4,0.22,False
+"F greedy anchored, ensemble",iba_fa_b,iba_b,4,0,2/4,-0.062,False
+"F greedy spread, ensemble",iba_fw_b,iba_b,1,0,2/4,-0.041,False
+"F noise-aware anchored, ensemble",iba_fna_b,iba_b,4,1,2/4,-0.041,False
+"F noise-aware spread, ensemble",iba_fnw_b,iba_b,2,1,2/4,0.203,False
+"control a, ensemble",iba_rnda,iba_b,3,3,2/4,0.114,False
+"control w, ensemble",iba_rndw,iba_b,1,2,2/4,0.295,False

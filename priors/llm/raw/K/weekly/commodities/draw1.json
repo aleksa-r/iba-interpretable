@@ -1,0 +1,389 @@
+{
+ "frequency": "weekly",
+ "asset_class": "commodities",
+ "procedure": "K",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "d6e4fce0587c74f28c12ffca2791062f8c4c292b0cdd046f92e747eb1bf83731",
+ "attempts": [
+  {
+   "id": "msg_011Ch2zei72SjLfLVHtdFSR6",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 3605,
+    "output_tokens": 4161
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A steepening curve signals improving growth and inflation expectations, which raise expected demand for commodities and their reflation premium."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     },
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Strong high-yield returns with stable spreads mark easy credit and risk-on conditions. These support financing of inventories and speculative and index flows into commodities."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated commodity implied volatility tends to follow sell-offs and carries a risk premium paid to liquidity providers. That points to higher subsequent expected returns."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Emerging-market equities capture news about EM growth, the marginal driver of commodity demand. Their strength leads and accompanies commodity gains."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "high"
+     }
+    ],
+    "rationale": "Equity momentum performing well indicates orderly trending markets without risk-off reversals. This is a weak positive backdrop for risky-asset returns."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A weakening dollar raises dollar commodity prices through the pricing channel, and a strong commodity currency confirms global demand. Together they define a commodity-friendly FX state."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Commodity futures show documented time-series momentum, so recent broad basket gains tend to persist over weeks to months."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "T10YIE_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "NFCI",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Rising breakevens under loose financial conditions describe a reflationary regime, in which commodities as real assets tend to outperform."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Own-index momentum in commodity futures is a well-documented return predictor at one- to thirteen-week horizons."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling intermediate yields relative to policy rates signal flight to quality and downgraded growth outlooks. Both precede turbulent risk-asset markets."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening spreads with weak high-yield returns indicate tightening credit and deleveraging, which amplify commodity price swings."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "Commodity implied volatilities embed forward-looking information on future realised variance beyond its own history."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Equity declines raise leverage and risk aversion, which spill over into higher volatility across risky assets including commodities."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum losses typically occur in sharp market reversals and stressed regimes associated with elevated subsequent volatility."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Yen strength combined with Aussie weakness is the classic carry-unwind, risk-off FX state. It accompanies volatile global asset markets."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Commodity sell-offs strain inventories, margins and leveraged positions, so volatility tends to rise after negative basket returns."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "High financial stress reflects funding and liquidity strains that raise volatility across asset classes."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Volatility clustering means high recent realised variance carries information on its persistence beyond the baseline."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Declining yields relative to policy rates signal weakening growth expectations and flight to safety, which precede commodity demand shocks."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Credit tightening forces deleveraging and inventory liquidation, raising the odds of a sharp commodity drawdown."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     },
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Jointly high commodity and equity implied volatility fattens the left tail of the forward return distribution."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak emerging-market equities signal deteriorating EM demand and capital outflows, both key downside risks for commodities."
+   },
+   "ST": {
+    "literals": [],
+    "rationale": "Equity style factors carry little direct information about commodity left-tail events."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A surging dollar tightens global dollar financing and mechanically depresses dollar commodity prices, raising crash risk."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Negative commodity momentum and forced selling make further large losses more likely."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     },
+     {
+      "factor": "T10YIE_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Financial stress combined with falling inflation expectations describes a deflationary risk-off state, the typical setting of commodity crashes."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak recent own returns point to negative trend and elevated downside risk under commodity time-series momentum."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Curve steepening reflects reflationary growth news that can trigger strong commodity rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     },
+     {
+      "factor": "EMB_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong US high-yield and EM sovereign returns signal broad risk appetite and EM financing relief, which favour sharp commodity upswings."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High commodity implied volatility widens the whole distribution and raises the chance of large rebounds after sell-offs."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong EM equities indicate accelerating demand from commodity-intensive economies."
+   },
+   "ST": {
+    "literals": [],
+    "rationale": "Equity style factors carry little direct information about commodity right-tail events."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A weak dollar together with strong commodity currencies is the FX configuration under which large commodity gains occur."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Positive commodity momentum raises the chance of continued strong gains."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "T10YIE_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising inflation expectations reflect reflationary news and inflation-hedging demand that can drive large commodity rallies."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong recent own returns signal a positive trend that raises the probability of large subsequent gains."
+   }
+  }
+ },
+ "draw": 1
+}

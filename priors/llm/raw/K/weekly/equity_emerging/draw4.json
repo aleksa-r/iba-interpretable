@@ -1,0 +1,387 @@
+{
+ "frequency": "weekly",
+ "asset_class": "equity_emerging",
+ "procedure": "K",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "2900ad1654eef9efbae00adad34fedd0552f28c8e1d6b10ec804d9d987330ef5",
+ "attempts": [
+  {
+   "id": "msg_011Ch31bDdHUu47DmLvsm8eu",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 3591,
+    "output_tokens": 4438
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A hawkish repricing of the US policy path along the 5-year segment raises the global discount rate and pulls capital out of emerging markets. The absence of such repricing is the state that is benign for EM equity returns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "EMB_RET",
+      "state": "high"
+     },
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Strong EM sovereign bond returns alongside stable US corporate spreads describe easy external financing for emerging economies. Such conditions tend to carry over into EM equity returns."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated implied volatility signals a high price of risk. It tends to be followed by higher subsequent equity returns as the risk premium is earned."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     },
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "US equity returns lead international markets because information diffuses gradually. A strong US week not yet matched by EM equities therefore signals catch-up potential."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum losses typically occur when beaten-down, high-beta assets rebound. That regime favours risky segments such as EM equities."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A soft dollar together with a strong commodity currency marks global risk-on and eases EM dollar-debt burdens. Both support EM equity returns."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising broad commodity prices improve the terms of trade and earnings of commodity-exporting emerging markets."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions coincide with elevated required returns. Subsequent returns are higher on average as conditions normalise."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Equity index returns show time-series momentum at intermediate horizons. Recent strength therefore carries some information about continued gains."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Abrupt rises in US intermediate yields relative to the policy rate trigger capital-flow reversals from emerging markets. These reversals raise EM equity volatility."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "EMB_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Widening corporate spreads combined with weak EM sovereign bonds signal deteriorating credit risk appetite. This state precedes turbulence in risky assets."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Implied volatility is forward-looking. It contains information about future realised variance beyond what past realised variance already shows."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Through leverage and volatility-feedback effects, negative equity returns raise subsequent volatility more than positive returns do."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum drawdowns cluster in panic and rebound phases, when market volatility is elevated and persistent."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     },
+     {
+      "factor": "USDJPY_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Dollar strength together with yen appreciation reflects safe-haven flows and carry unwinds. Both accompany turbulent EM markets."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Oil price slumps hit exporter economies and signal weak global demand. Both raise EM equity volatility."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated financial stress reflects funding strains and deleveraging that spill over into volatility in risky asset markets."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Variance is highly persistent, so recent high realised variance signals that the volatility regime will continue."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T1YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A sharp repricing toward faster US tightening at the short end raises the risk of sudden stops in EM capital flows and sharp sell-offs."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "BAA10Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "EMB_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Simultaneous widening of US credit spreads and losses on EM sovereign debt mark a credit risk-off state. Equity crashes are more likely in this state."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     },
+     {
+      "factor": "EPU",
+      "state": "high"
+     }
+    ],
+    "rationale": "High market fear combined with high policy uncertainty widens the left tail of the return distribution."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak recent EM returns signal deteriorating risk appetite and raise the odds of further tail losses through deleveraging."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum underperformance indicates unstable, high-volatility regimes in which large market moves in either direction are more frequent."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A surging dollar tightens financing for EM dollar borrowers and coincides with capital outflows. This raises crash risk."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling commodity prices worsen EM terms of trade and fiscal positions. This raises the probability of large equity losses."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions are associated with fat left tails in future returns, consistent with the growth-at-risk literature."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Recent weakness signals a stressed regime in which further large losses are more likely because volatility clusters."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling US intermediate yields relative to the policy rate ease global financing conditions. This can trigger strong inflows into EM equities."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "EMB_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong EM sovereign bond rallies signal compressing EM risk premia, which tend to accompany large equity gains."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "High implied volatility widens both tails. Large relief rallies are most frequent after fear spikes."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong US equity returns lead global markets and raise the chance of a large subsequent EM gain."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Momentum crashes coincide with sharp rebounds of beaten-down high-beta assets, a group that includes EM equities."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A weakening dollar together with commodity-currency strength marks a global reflation and risk-on state that favours large EM gains."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Commodity rallies boost exporter earnings and EM sentiment, fattening the right tail of returns."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Large gains cluster in high-stress periods as markets rebound once stress abates."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "After sell-offs, high volatility and elevated risk premia make sharp rebounds more likely."
+   }
+  }
+ },
+ "draw": 4
+}

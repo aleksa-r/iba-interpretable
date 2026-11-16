@@ -1,0 +1,423 @@
+{
+ "frequency": "weekly",
+ "asset_class": "bonds_gov_ig",
+ "procedure": "S",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "c6dff9939d2212bdf3c2d99b7f408ac16975681ba406c8f9428bbc0f7fb9aa1b",
+ "attempts": [
+  {
+   "id": "msg_011Ch2zWHUxS4HvLo2RZ6vju",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 5767,
+    "output_tokens": 5314
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "TB3M_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Intermediate yields rising relative to policy while bill rates are not rising points to a higher term premium rather than expected tightening. Such a premium tends to be earned back, so subsequent excess bond returns are higher."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "AAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Stable high-grade spreads together with strong high-yield returns describe easy credit conditions. That supports the corporate and spread components of aggregate bond indices."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     },
+     {
+      "factor": "GVZ",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "High oil uncertainty without safe-haven or monetary uncertainty signals growth and disinflation risk. That state tends to pull yields down."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "EEM_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong EM equities signal global risk appetite and capital flows that coincide with steady demand for duration and spread assets."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "high"
+     }
+    ],
+    "rationale": "Outperformance of profitable firms is a quality, defensive tilt that tends to accompany falling yields."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "EURUSD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "USDJPY_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Broad dollar strength tightens US financial conditions and is disinflationary, which supports Treasury prices."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling oil lowers inflation expectations and breakevens, which reduces nominal yields."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions raise flight-to-quality demand and the expected path of easier policy, both bullish for duration."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Bond returns show mild reversal at weekly-to-quarterly horizons as term-premium shocks partially unwind."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A sharp steepening alongside rising intermediate yields signals active repricing of the rate path and term premium. Such repricing episodes cluster in volatility."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "EMB_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak high-yield and EM sovereign returns mark broad risk-off. That raises the volatility of safe-haven and spread bonds alike."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "GVZ",
+      "state": "high"
+     },
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Joint elevation of gold and equity implied volatility reflects cross-asset macro and monetary uncertainty that spills into rates volatility."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     },
+     {
+      "factor": "EEM_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Global equity weakness triggers flight-to-quality flows. Those flows raise realised variance in bond prices."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Poor short-term reversal returns indicate strained liquidity provision, a sign of fragile market-making that raises volatility."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A rapidly strengthening dollar reflects global dollar funding pressure, which is associated with higher volatility across fixed income."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Commodity sell-offs signal global growth scares, which tend to bring large moves in yields."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     },
+     {
+      "factor": "T10YIE_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Tight financial conditions with falling breakevens describe a deflationary scare. Large yield moves then follow."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Variance mean-reverts, so when recent variance is high, future variance tends to fall short of what persistence alone implies."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Bear steepening, with long and intermediate yields rising versus policy, marks a term-premium sell-off. Such sell-offs show momentum and produce large duration losses."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "EMB_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak EM dollar bonds often reflect rising US yields and capital outflows, a state that precedes further bond losses."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "High gold volatility captures uncertainty about real rates and monetary policy, which raises the left tail of bond returns."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "HML",
+      "state": "high"
+     }
+    ],
+    "rationale": "Value outperformance accompanies reflation and rising yields, which is a bearish state for duration."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "RMW",
+      "state": "not_high"
+     },
+     {
+      "factor": "MOM",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Junk and low-momentum rallies mark a reflationary risk-on rotation away from defensive assets. That rotation is associated with bond sell-offs."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     },
+     {
+      "factor": "EURUSD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Dollar weakness, especially against the euro, signals global reflation and reduced foreign demand for Treasuries. Both raise the risk of large losses."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising oil lifts inflation expectations and nominal yields, which fattens the loss tail."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "STLFSI",
+      "state": "high"
+     },
+     {
+      "factor": "T10YIE_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Financial stress combined with rising breakevens points to rate-driven stress, a tantrum-like state in which bonds are the source of risk rather than the hedge."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Bond sell-offs show short-horizon persistence, so recent weak returns raise the chance of a further large loss."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "TB3M_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "An elevated term premium without front-end tightening tends to unwind. That unwinding can produce outsized rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "AAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Compressing high-grade spreads with strong high-yield returns indicate supportive credit conditions that lift aggregate bond returns."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     },
+     {
+      "factor": "VIX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated oil and equity uncertainty set up flight-to-quality episodes that produce large Treasury rallies."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong equity markets coincide with abundant liquidity and risk-bearing capacity, which supports outsized gains in duration and spread bonds."
+   },
+   "ST": {
+    "literals": [
+     {
+      "factor": "ST_REV",
+      "state": "high"
+     }
+    ],
+    "rationale": "Healthy reversal returns indicate well-functioning liquidity provision, which allows sharp price rallies."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "AUDUSD_RET",
+      "state": "high"
+     },
+     {
+      "factor": "USDJPY_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong carry currencies signal global search for yield and inflows into dollar fixed income."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "SLV_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising silver reflects falling real rates and a weaker policy outlook, both associated with strong bond rallies."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions raise the odds of policy easing and flight-to-quality, which fattens the upper tail of bond returns."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "After weak recent returns, term-premium reversal raises the chance of a large rebound."
+   }
+  }
+ },
+ "draw": 3
+}

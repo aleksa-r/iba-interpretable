@@ -1,0 +1,327 @@
+{
+ "frequency": "weekly",
+ "asset_class": "bonds_gov_ig",
+ "procedure": "S",
+ "model": "claude-opus-5-5",
+ "cutoff": "30 September 2017",
+ "prompt_sha256": "c6dff9939d2212bdf3c2d99b7f408ac16975681ba406c8f9428bbc0f7fb9aa1b",
+ "attempts": [
+  {
+   "id": "msg_011Ch2zZnAhWQTSq7dTqTgoo",
+   "stop_reason": "end_turn",
+   "served_model": "claude-opus-5-5",
+   "usage": {
+    "input_tokens": 5767,
+    "output_tokens": 5495
+   },
+   "problems": []
+  }
+ ],
+ "answer": {
+  "return": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "TB3M_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A rising belly-minus-policy spread with no matching rise in front-end bill rates means term premium is being rebuilt without policy tightening. Term-premium predictability (Fama-Bliss, Cochrane-Piazzesi) says this should raise subsequent excess bond returns."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "AAA10Y_CHG",
+      "state": "not_high"
+     },
+     {
+      "factor": "HYG_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Stable or narrowing high-grade spreads together with strong high-yield returns describe easy credit conditions. That state shifts demand between duration and credit and so bears on investment-grade and Treasury returns."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Elevated oil volatility often accompanies growth and disinflation scares. These push investors toward safe duration and lower expected policy rates."
+   },
+   "AP": {
+    "literals": [],
+    "rationale": "Equity factor returns carry little stable predictive information for the next-period level of government bond returns beyond what credit and volatility already capture."
+   },
+   "ST": {
+    "literals": [],
+    "rationale": "Equity style factors have no clear mechanism linking them to subsequent Treasury returns."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "A strengthening dollar tightens global financial conditions and dampens imported inflation. Both support lower yields and positive bond returns."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling oil prices lower inflation expectations and breakevens, which feeds into lower nominal yields."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions raise flight-to-quality demand and expectations of accommodative policy, both of which favour government bonds."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Bond returns show time-series momentum at medium horizons and some short-horizon reversal. The index's own recent return state is therefore informative, and the model sets the sign."
+   }
+  },
+  "volatility": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Sharp curve steepening signals term-premium or inflation-risk repricing at the long end. Such episodes cluster with elevated rate volatility."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "HYG_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak high-yield returns signal credit stress. That brings flight-to-quality flows and larger subsequent swings in Treasury yields."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "Gold volatility reflects uncertainty about real rates, inflation and the dollar, which is closely tied to future bond-market volatility."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "Mkt_RF",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Equity sell-offs trigger safe-haven reallocations and repricing of policy expectations, raising subsequent bond volatility."
+   },
+   "ST": {
+    "literals": [],
+    "rationale": "Equity style factors have no direct mechanism tying them to future rate volatility."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Sharp dollar appreciation tightens global funding conditions and is often linked to shifts in Fed expectations. This raises uncertainty about yields."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "DBC_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Broad commodity declines feed disinflation and growth scares that reprice the rate path, adding to bond volatility."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions are associated with higher future volatility across asset classes, including rates, beyond what own-volatility persistence captures."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Realised bond variance is persistent but mean-reverting. Its own recent level indicates whether future variance will exceed what persistence alone implies."
+   }
+  },
+  "large_loss": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "T10Y2Y_CHG",
+      "state": "high"
+     },
+     {
+      "factor": "T5YFF_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "A bear-steepening state, with long and intermediate yields rising relative to the policy rate, marks term-premium repricing. Such repricing tends to extend into large duration losses."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "EMB_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Weak EM sovereign returns signal an unwinding of global reach-for-yield positions. That can coincide with rising US yields and sell-offs in dollar duration."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "GVZ",
+      "state": "high"
+     }
+    ],
+    "rationale": "High gold volatility signals uncertainty about real rates and inflation, which raises the chance of a sharp bond sell-off."
+   },
+   "AP": {
+    "literals": [
+     {
+      "factor": "HML",
+      "state": "high"
+     }
+    ],
+    "rationale": "Value outperformance, led by financials and cyclicals, reflects reflation and rising-yield expectations. That state precedes bond losses."
+   },
+   "ST": {
+    "literals": [],
+    "rationale": "Equity style factors offer no clear mechanism for the left tail of bond returns."
+   },
+   "FX": {
+    "literals": [
+     {
+      "factor": "USD_BROAD_RET",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "A weakening dollar points to reflation and reduced foreign demand for Treasuries. Both raise the risk of large yield increases."
+   },
+   "COM": {
+    "literals": [
+     {
+      "factor": "WTI_RET",
+      "state": "high"
+     }
+    ],
+    "rationale": "Oil price surges lift inflation expectations and nominal yields, raising the chance of large bond losses."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "T10YIE_CHG",
+      "state": "high"
+     }
+    ],
+    "rationale": "Rising breakeven inflation feeds directly into nominal yields and inflation-risk premia. This is a main driver of bond sell-offs."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Recent weak bond returns indicate an ongoing sell-off that can continue through momentum or deleveraging, or reverse; the model sets which."
+   }
+  },
+  "large_gain": {
+   "IR": {
+    "literals": [
+     {
+      "factor": "TB3M_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Falling bill rates signal flight to safety or expectations of policy easing, which precede strong duration rallies."
+   },
+   "B": {
+    "literals": [
+     {
+      "factor": "AAA10Y_CHG",
+      "state": "not_high"
+     }
+    ],
+    "rationale": "Movements in high-grade spreads relative to Treasuries capture the safe-asset premium. Their state is informative about subsequent large rallies in government and investment-grade bonds."
+   },
+   "V": {
+    "literals": [
+     {
+      "factor": "OVX",
+      "state": "high"
+     }
+    ],
+    "rationale": "Commodity-driven uncertainty spikes accompany growth and disinflation scares that produce large bond rallies."
+   },
+   "AP": {
+    "literals": [],
+    "rationale": "Equity factor returns add little reliable information on the right tail of bond returns beyond the volatility and financial-conditions groups."
+   },
+   "ST": {
+    "literals": [],
+    "rationale": "Equity style factors have no clear mechanism for large bond gains."
+   },
+   "FX": {
+    "literals": [],
+    "rationale": "Currency moves relate to bond rallies mainly through channels already captured by financial conditions and volatility."
+   },
+   "COM": {
+    "literals": [],
+    "rationale": "Commodity returns' information on large bond gains is largely captured by the volatility and inflation-expectation factors."
+   },
+   "MC": {
+    "literals": [
+     {
+      "factor": "NFCI",
+      "state": "high"
+     }
+    ],
+    "rationale": "Tight financial conditions raise the probability of flight-to-quality episodes and policy easing that generate large Treasury gains."
+   },
+   "ENDG": {
+    "literals": [
+     {
+      "factor": "__target__",
+      "state": "high"
+     }
+    ],
+    "rationale": "Strong recent bond returns indicate a rally in progress, which may extend through momentum or mean-revert; the model sets the direction."
+   }
+  }
+ },
+ "draw": 4
+}

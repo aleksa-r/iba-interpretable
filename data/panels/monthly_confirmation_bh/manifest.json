@@ -1,0 +1,507 @@
+{
+  "spec": "SPEC-2026-11-15-confirmation-hf",
+  "raw_dir": "data/raw/barclayhedge_2026_11",
+  "factor_dir": "data/panels/monthly_2026-11-11",
+  "frequency": "monthly",
+  "months": 261,
+  "first": "2005-01-31",
+  "last": "2026-09-30",
+  "series": [
+    "BH_HF",
+    "BH_CA",
+    "BH_DS",
+    "BH_EM",
+    "BH_ELB",
+    "BH_ELS",
+    "BH_EMN",
+    "BH_ED",
+    "BH_FIA",
+    "BH_FOF",
+    "BH_GM",
+    "BH_MA",
+    "BH_MS",
+    "BH_EUR",
+    "BH_HCB",
+    "BH_PAC",
+    "BH_TECH",
+    "BH_EMAS",
+    "BH_EMAE",
+    "BH_EMEE",
+    "BH_EMGE",
+    "BH_EMLA",
+    "BH_OPT"
+  ],
+  "files": [
+    {
+      "code": "BH_HF",
+      "name": "Barclay Hedge Fund Index",
+      "file": "Barclay_Hedge_Fund_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "ccb878a88dbd5568e18eeb48a96ed641969b21d8afd2557b84c5140092de749d",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_CA",
+      "name": "Barclay Convertible Arbitrage Index",
+      "file": "Barclay_Convertible_Arbitrage_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "11949ac3600713b2c20a6a70bb10a1138d54ebc4d81986d6bf4628fb383e8c8b",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_DS",
+      "name": "Barclay Distressed Securities Index",
+      "file": "Barclay_Distressed_Securities_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "1b4615f49f29f001b900509a03ccd4ef777e1d3405a23c03ae3967042b1f68ee",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_EM",
+      "name": "Barclay Emerging Markets Index",
+      "file": "Barclay_Emerging_Markets_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "0ddeb368f52b6b7f495fe6b8743fe4650060453125472a2eeae8387f95368ba9",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_ELB",
+      "name": "Barclay Equity Long Bias Index",
+      "file": "Barclay_Equity_Long_Bias_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "f71e0e213beba490736b429a8c6b1d02229005d1ab95df240f825d84e7af8980",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_ELS",
+      "name": "Barclay Equity Long/Short Index",
+      "file": "Barclay_Equity_Long_Short_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "36804964756cdbaa73ba0206aec1a943e13e53184f743a408c41e482a6598fba",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_EMN",
+      "name": "Barclay Equity Market Neutral Index",
+      "file": "Barclay_Equity_Market_Neutral_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "0d98f23e23fa0230f98a3420902da855dfb7c2f92065582ff74d90317efcc198",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_ED",
+      "name": "Barclay Event Driven Index",
+      "file": "Barclay_Event_Driven_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "341f91c979310cb057e2ab3f3652c6107eada2649c462ca54d2e37a18ad9000e",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_FIA",
+      "name": "Barclay Fixed Income Arbitrage Index",
+      "file": "Barclay_Fixed_Income_Arbitrage_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "28fdf6238d464868a2948338ce7d0df470f85c9d8d913d3b0cb11db730b6f2d0",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_FOF",
+      "name": "Barclay Fund of Funds Index",
+      "file": "Barclay_Fund_of_Funds_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "1efd00ecdb8ccbaffb7647eb7c87b48c76825586dc15fcd0125ed973f68d833c",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_GM",
+      "name": "Barclay Global Macro Index",
+      "file": "Barclay_Global_Macro_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "4a780d2847f16adb80eb82ee6bf25c515bc0b65bf04ed574a6b724af2a54c22e",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_MA",
+      "name": "Barclay Merger Arbitrage Index",
+      "file": "Barclay_Merger_Arbitrage_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "d11f361243298e0efb3d4d950556ba1c2b6127f1672c3240125df408580025dd",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_MS",
+      "name": "Barclay Multi Strategy Index",
+      "file": "Barclay_Multi_Strategy_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "809d843f27e4be7883f19a4f6ef28ec05af9588128f54bbe16915d701a1ba5cf",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_EUR",
+      "name": "Barclay European Equities Index",
+      "file": "Barclay_European_Equities_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "de94fcbaaf298cad30aa984c74971d0d10d32fb9fecf8677a7ee8e0684d365e2",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_HCB",
+      "name": "Barclay Healthcare & Biotechnology Index",
+      "file": "Barclay_Healthcare_&_Biotechnology_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "f2dec045cd48ef29b49b497ab327ffc6c39c8d3a38cc1c196df3dcfb4f71a25c",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_PAC",
+      "name": "Barclay Pacific Rim Equities Index",
+      "file": "Barclay_Pacific_Rim_Equities_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "100bdf0dda5634683c0446b356e3ca6afe2d9fcb6a8e428ee0fc2162202f47a1",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_TECH",
+      "name": "Barclay Technology Index",
+      "file": "Barclay_Technology_Indexhistorical_data.xls",
+      "first": "1997-01-31",
+      "last": "2026-10-31",
+      "months": 358,
+      "scale": 1.0,
+      "years_verified": 30,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "02cae97bfa59e9321228e219477f9ac7b82caa9c004860c0bdc60456333cc645",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_EMAS",
+      "name": "Barclay Emerging Markets Asia Index",
+      "file": "Barclay_Emerging_Markets_Asia_Indexhistorical_data.xls",
+      "first": "2002-01-31",
+      "last": "2026-10-31",
+      "months": 298,
+      "scale": 1.0,
+      "years_verified": 25,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "04f3afb1e7a4749cc36186442316c532c27fce75438dc8bf1967fb7c5a67de6d",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_EMAE",
+      "name": "Barclay Emerging Markets Asian Equities Index",
+      "file": "Barclay_Emerging_Markets_Asian_Equities_Indexhistorical_data.xls",
+      "first": "2002-01-31",
+      "last": "2026-10-31",
+      "months": 298,
+      "scale": 1.0,
+      "years_verified": 25,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "8cb47302e55aa959e664f23c3c779baf48d195fea1f4438a811e55b27a26d3f3",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_EMEE",
+      "name": "Barclay Emerging Markets Eastern Europe Index",
+      "file": "Barclay_Emerging_Markets_Eastern_Europe_Indexhistorical_data.xls",
+      "first": "2002-01-31",
+      "last": "2026-10-31",
+      "months": 298,
+      "scale": 1.0,
+      "years_verified": 25,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "61349034e25269455174f194390531d9adcaa3a41d579dfbea17e5e3c591aa09",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_EMGE",
+      "name": "Barclay Emerging Markets Global Equities Index",
+      "file": "Barclay_Emerging_Markets_Global_Equities_Indexhistorical_data.xls",
+      "first": "2002-01-31",
+      "last": "2026-10-31",
+      "months": 298,
+      "scale": 1.0,
+      "years_verified": 25,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "2cbf8dbfdb8e66368e700eb451fb7a12cf4c110acdaf94cd012f3387ae28c4d2",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_EMLA",
+      "name": "Barclay Emerging Markets Latin America Index",
+      "file": "Barclay_Emerging_Markets_Latin_America_Indexhistorical_data.xls",
+      "first": "2002-01-31",
+      "last": "2026-10-31",
+      "months": 298,
+      "scale": 1.0,
+      "years_verified": 25,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "43e4ded9381f4c4020bf9f0c49d430e12b395885dc93e8c4b500fcc03758fe7f",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_OPT",
+      "name": "Barclay Option Strategies Index",
+      "file": "Barclay_Option_Strategies_Indexhistorical_data.xls",
+      "first": "2002-01-31",
+      "last": "2026-10-31",
+      "months": 298,
+      "scale": 1.0,
+      "years_verified": 25,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "6d97865bfb9a4c66238a94c720a9aed23382b9664f2c8919f1902edbd7a320ae",
+      "included": true,
+      "reason": ""
+    },
+    {
+      "code": "BH_BAL",
+      "name": "Barclay Balanced (Stocks & Bonds) Index",
+      "file": "Barclay_Balanced_(Stocks_&_Bonds)_Indexhistorical_data.xls",
+      "first": "2009-01-31",
+      "last": "2026-10-31",
+      "months": 214,
+      "scale": 1.0,
+      "years_verified": 18,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "6bcfd79f133e69eafebed4342998b076c4dfbcbd7f98d864dee62b52033b9ae6",
+      "included": false,
+      "reason": "48 months of the panel are missing (first: 2005-01-31)"
+    },
+    {
+      "code": "BH_EMME",
+      "name": "Barclay Emerging Markets MENA Index",
+      "file": "Barclay_Emerging_Markets_MENA_Indexhistorical_data.xls",
+      "first": "2009-01-31",
+      "last": "2026-10-31",
+      "months": 214,
+      "scale": 1.0,
+      "years_verified": 18,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "42cc1fab66d9e861a91382e81a88ba96ebf40afc6551f73656b6a585608c548b",
+      "included": false,
+      "reason": "48 months of the panel are missing (first: 2005-01-31)"
+    },
+    {
+      "code": "BH_VOL",
+      "name": "Barclay Volatility Trading Index",
+      "file": "Barclay_Volatility_Trading_Indexhistorical_data.xls",
+      "first": "2009-01-31",
+      "last": "2026-10-31",
+      "months": 214,
+      "scale": 1.0,
+      "years_verified": 18,
+      "years_unverified": [],
+      "estimated_in_panel": [
+        "2026-09-30"
+      ],
+      "sha256": "4da7e690912d9bc8e1c496acdc89fc95b8edaa1ecaaa60ff7111c3bc89195f1e",
+      "included": false,
+      "reason": "48 months of the panel are missing (first: 2005-01-31)"
+    }
+  ],
+  "rows_as_development": {
+    "BH_HF": true,
+    "BH_CA": true,
+    "BH_DS": true,
+    "BH_EM": true,
+    "BH_ELB": true,
+    "BH_ELS": true,
+    "BH_EMN": true,
+    "BH_ED": true,
+    "BH_FIA": true,
+    "BH_FOF": true,
+    "BH_GM": true,
+    "BH_MA": true,
+    "BH_MS": true,
+    "BH_EUR": true,
+    "BH_HCB": true,
+    "BH_PAC": true,
+    "BH_TECH": true,
+    "BH_EMAS": true,
+    "BH_EMAE": true,
+    "BH_EMEE": true,
+    "BH_EMGE": true,
+    "BH_EMLA": true,
+    "BH_OPT": true
+  },
+  "built": "2026-11-15T11:45:37.432784+00:00",
+  "sha256": {
+    "returns.csv": "ffae57a5d388097c1d289105e8dab849fc9caf471d5a40172533bb50debf507e"
+  }
+}

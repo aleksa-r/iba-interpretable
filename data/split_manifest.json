@@ -1,0 +1,154 @@
+{
+  "amendments": [
+    {
+      "date": "2026-11-13",
+      "move_to_development": [
+        "EEM",
+        "SLV"
+      ],
+      "reason": "Both are predictors in the weekly factor panel (EEM_RET, SLV_RET) and EEM was a leg of the r7 target EEM_SPY, so development code had already loaded them; the forced-development list omitted them by oversight. Made before any series of the new universe was downloaded. One-way rule: a series may be moved out of confirmation, never into it."
+    }
+  ],
+  "confirmation": {
+    "bonds_gov_ig": [
+      "LQD",
+      "MUB",
+      "SHY"
+    ],
+    "commodities": [
+      "DBP",
+      "SLV",
+      "USO",
+      "^SPGSCI"
+    ],
+    "credit_em_debt": [],
+    "equity_developed_exus": [
+      "EWA",
+      "EWC",
+      "EWD",
+      "EWJ",
+      "EWS",
+      "EWU"
+    ],
+    "equity_emerging": [
+      "EEM",
+      "EWW",
+      "EWZ"
+    ],
+    "equity_us_broad": [
+      "MDY",
+      "QQQ"
+    ],
+    "equity_us_sectors": [
+      "XLB",
+      "XLF",
+      "XLK",
+      "XLU"
+    ],
+    "hedge_fund_daily": [
+      "SG_CTA",
+      "SG_TREND"
+    ],
+    "hedge_fund_monthly": [],
+    "real_estate": [
+      "IYR"
+    ]
+  },
+  "created": "2026-11-13T16:58:20+00:00",
+  "development": {
+    "bonds_gov_ig": [
+      "AGG",
+      "BND",
+      "IEF",
+      "TIP",
+      "TLT"
+    ],
+    "commodities": [
+      "DBA",
+      "DBB",
+      "DBC",
+      "DBE",
+      "GLD",
+      "GSG",
+      "UNG"
+    ],
+    "credit_em_debt": [
+      "EMB",
+      "HYG"
+    ],
+    "equity_developed_exus": [
+      "EFA",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWL",
+      "EWN",
+      "EWP",
+      "EWQ"
+    ],
+    "equity_emerging": [
+      "EWT",
+      "EWY",
+      "EZA",
+      "FXI"
+    ],
+    "equity_us_broad": [
+      "DIA",
+      "IWM",
+      "SPY"
+    ],
+    "equity_us_sectors": [
+      "XLE",
+      "XLI",
+      "XLP",
+      "XLV",
+      "XLY"
+    ],
+    "hedge_fund_daily": [],
+    "hedge_fund_monthly": [
+      "CA",
+      "CTA",
+      "DS",
+      "EDMS",
+      "ELS",
+      "EMN",
+      "EWHF",
+      "FIA",
+      "FOF",
+      "GM",
+      "MA"
+    ],
+    "real_estate": [
+      "VNQ"
+    ]
+  },
+  "development_share": 0.6,
+  "forced_development": [
+    "AGG",
+    "CA",
+    "CTA",
+    "DS",
+    "EDMS",
+    "EFA",
+    "ELS",
+    "EMB",
+    "EMN",
+    "EWHF",
+    "FIA",
+    "FOF",
+    "GLD",
+    "GM",
+    "HYG",
+    "IWM",
+    "MA",
+    "SPY",
+    "TLT",
+    "VNQ",
+    "XLE"
+  ],
+  "min_confirmation": 2,
+  "note": "One-time split, approved by the owner 2026-11-13. Confirmation series are never loaded by development code; the frozen final spec runs on them once.",
+  "salt": "iba-next-2026-11-13",
+  "universe_file_sha256": "68c7576098d5212446d4a520d2987191620c9d7a7f8e279c8abb16a2ae8f2fe6",
+  "universe_sha256": "8150101aa01420d348dc86b9809a0042061004e93b855a6e3829baaf6b34f5fc"
+}

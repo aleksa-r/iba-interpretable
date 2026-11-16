@@ -1,0 +1,241 @@
+frequency,task,kind,method,fifth,n,mean_forecast,observed
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (fixed)",1,1747,0.06793973227523845,0.07727532913566114
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (fixed)",2,1747,0.09036287873692012,0.11047510017172295
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (fixed)",3,1747,0.09894815869505716,0.12936462507155122
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (fixed)",4,1747,0.10341535854575827,0.17344018317115054
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (fixed)",5,1748,0.14915016181838378,0.15503432494279176
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (averaged)",1,1747,0.07057495438343875,0.07326846021751574
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (averaged)",2,1747,0.08979451090585688,0.11505437893531768
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (averaged)",3,1747,0.09791676495961839,0.135661133371494
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (averaged)",4,1747,0.10445575918594206,0.17344018317115054
+weekly,tail_gain_q10_h13,tail_gain,"IBA, K formulas (averaged)",5,1748,0.1453370532609032,0.14816933638443935
+weekly,tail_gain_q10_h13,tail_gain,"IBA, generic formulas",1,1747,0.06659173725644367,0.10131654264453349
+weekly,tail_gain_q10_h13,tail_gain,"IBA, generic formulas",2,1747,0.09277794150906486,0.11219232970807098
+weekly,tail_gain_q10_h13,tail_gain,"IBA, generic formulas",3,1747,0.09972655210128929,0.12421293646250715
+weekly,tail_gain_q10_h13,tail_gain,"IBA, generic formulas",4,1747,0.10392596528927946,0.15798511734401832
+weekly,tail_gain_q10_h13,tail_gain,"IBA, generic formulas",5,1748,0.15656763058120285,0.14988558352402745
+weekly,tail_gain_q10_h13,tail_gain,group PCA,1,1747,0.07683643592454871,0.11677160847166572
+weekly,tail_gain_q10_h13,tail_gain,group PCA,2,1747,0.09670311708503081,0.11677160847166572
+weekly,tail_gain_q10_h13,tail_gain,group PCA,3,1747,0.09988105671260873,0.11963365769891242
+weekly,tail_gain_q10_h13,tail_gain,group PCA,4,1747,0.10250627394925005,0.14882655981682885
+weekly,tail_gain_q10_h13,tail_gain,group PCA,5,1748,0.13141258076514084,0.14359267734553777
+weekly,tail_gain_q10_h13,tail_gain,PCA,1,1747,0.07480376026963899,0.10246136233543217
+weekly,tail_gain_q10_h13,tail_gain,PCA,2,1747,0.09739301682652059,0.12192329708070979
+weekly,tail_gain_q10_h13,tail_gain,PCA,3,1747,0.1001059666222188,0.11619919862621637
+weekly,tail_gain_q10_h13,tail_gain,PCA,4,1747,0.10186151515846557,0.14882655981682885
+weekly,tail_gain_q10_h13,tail_gain,PCA,5,1748,0.1317065840028861,0.15617848970251716
+weekly,tail_gain_q10_h13,tail_gain,kernel PCA,1,1747,0.07040035892323133,0.12535775615340583
+weekly,tail_gain_q10_h13,tail_gain,kernel PCA,2,1747,0.09792020461421742,0.12707498568975387
+weekly,tail_gain_q10_h13,tail_gain,kernel PCA,3,1747,0.10039247469801112,0.12593016599885518
+weekly,tail_gain_q10_h13,tail_gain,kernel PCA,4,1747,0.10224157996741189,0.1316542644533486
+weekly,tail_gain_q10_h13,tail_gain,kernel PCA,5,1748,0.13231875687872496,0.13558352402745996
+weekly,tail_gain_q10_h13,tail_gain,autoencoder,1,1747,0.07265486858182905,0.10303377218088151
+weekly,tail_gain_q10_h13,tail_gain,autoencoder,2,1747,0.09671646805175305,0.12135088723526044
+weekly,tail_gain_q10_h13,tail_gain,autoencoder,3,1747,0.1000804638801315,0.1327990841442473
+weekly,tail_gain_q10_h13,tail_gain,autoencoder,4,1747,0.10183326574769343,0.14024041213508873
+weekly,tail_gain_q10_h13,tail_gain,autoencoder,5,1748,0.13241857251825695,0.14816933638443935
+weekly,tail_gain_q10_h13,tail_gain,LASSO,1,1747,0.06316012672011054,0.10188895248998282
+weekly,tail_gain_q10_h13,tail_gain,LASSO,2,1747,0.09184187796731703,0.12364052661705781
+weekly,tail_gain_q10_h13,tail_gain,LASSO,3,1747,0.09902464557627247,0.12306811677160848
+weekly,tail_gain_q10_h13,tail_gain,LASSO,4,1747,0.10335337108390194,0.13222667429879795
+weekly,tail_gain_q10_h13,tail_gain,LASSO,5,1748,0.14697210683188042,0.16475972540045766
+weekly,tail_gain_q10_h13,tail_gain,raw factors,1,1747,0.04011397202478867,0.09101316542644533
+weekly,tail_gain_q10_h13,tail_gain,raw factors,2,1747,0.08470149931567936,0.13737836290784203
+weekly,tail_gain_q10_h13,tail_gain,raw factors,3,1747,0.0969273653900139,0.11333714939896966
+weekly,tail_gain_q10_h13,tail_gain,raw factors,4,1747,0.10614736285755107,0.14596451058958215
+weekly,tail_gain_q10_h13,tail_gain,raw factors,5,1748,0.16936101486875152,0.15789473684210525
+weekly,tail_gain_q10_h13,tail_gain,base rate,1,1680,0.09985328667426466,0.1244047619047619
+weekly,tail_gain_q10_h13,tail_gain,base rate,2,1764,0.10013283310410087,0.13095238095238096
+weekly,tail_gain_q10_h13,tail_gain,base rate,3,1764,0.1004348180246043,0.10317460317460317
+weekly,tail_gain_q10_h13,tail_gain,base rate,4,1764,0.1007009106214629,0.17517006802721088
+weekly,tail_gain_q10_h13,tail_gain,base rate,5,1764,0.10104917699722975,0.1116780045351474
+weekly,tail_gain_q10_h13,tail_gain,volatility-based logit,1,1747,0.02563186567207268,0.05037206639954207
+weekly,tail_gain_q10_h13,tail_gain,volatility-based logit,2,1747,0.0463384497675239,0.08013737836290784
+weekly,tail_gain_q10_h13,tail_gain,volatility-based logit,3,1747,0.0693502815227977,0.12421293646250715
+weekly,tail_gain_q10_h13,tail_gain,volatility-based logit,4,1747,0.09956091292936069,0.1511161991986262
+weekly,tail_gain_q10_h13,tail_gain,volatility-based logit,5,1748,0.24287241719297045,0.2397025171624714
+weekly,tail_gain_q10_h13,tail_gain,GARCH-based probability,1,1747,0.08427582943566404,0.07899255867200916
+weekly,tail_gain_q10_h13,tail_gain,GARCH-based probability,2,1747,0.12223182160640585,0.08128219805380653
+weekly,tail_gain_q10_h13,tail_gain,GARCH-based probability,3,1747,0.14616525078040754,0.08299942759015455
+weekly,tail_gain_q10_h13,tail_gain,GARCH-based probability,4,1747,0.17450794640658357,0.14253005151688608
+weekly,tail_gain_q10_h13,tail_gain,GARCH-based probability,5,1748,0.24548721207958035,0.2597254004576659
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (fixed)",1,1747,0.060359235899895364,0.07784773898111047
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (fixed)",2,1747,0.08246226625864704,0.09616485403548941
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (fixed)",3,1747,0.09649801051651874,0.09673726388093876
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (fixed)",4,1747,0.10349608738657089,0.1345163136805953
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (fixed)",5,1748,0.16074248838856328,0.2053775743707094
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (averaged)",1,1747,0.06309772559872553,0.06926159129937035
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (averaged)",2,1747,0.08369497250247306,0.09101316542644533
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (averaged)",3,1747,0.09598675356379609,0.11333714939896966
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (averaged)",4,1747,0.10429707430421428,0.12249570692615913
+weekly,tail_gain_q10_h4,tail_gain,"IBA, K formulas (averaged)",5,1748,0.15935994497562994,0.2145308924485126
+weekly,tail_gain_q10_h4,tail_gain,"IBA, generic formulas",1,1747,0.06018727577147524,0.07899255867200916
+weekly,tail_gain_q10_h4,tail_gain,"IBA, generic formulas",2,1747,0.08380025133058791,0.09788208357183743
+weekly,tail_gain_q10_h4,tail_gain,"IBA, generic formulas",3,1747,0.09719165544348111,0.09444762449914139
+weekly,tail_gain_q10_h4,tail_gain,"IBA, generic formulas",4,1747,0.10528159410077352,0.1482541499713795
+weekly,tail_gain_q10_h4,tail_gain,"IBA, generic formulas",5,1748,0.16251027701847648,0.19107551487414187
+weekly,tail_gain_q10_h4,tail_gain,group PCA,1,1747,0.0646380346255063,0.07842014882655982
+weekly,tail_gain_q10_h4,tail_gain,group PCA,2,1747,0.08560956035164087,0.08700629650829994
+weekly,tail_gain_q10_h4,tail_gain,group PCA,3,1747,0.09712964995022423,0.09788208357183743
+weekly,tail_gain_q10_h4,tail_gain,group PCA,4,1747,0.10555219624006675,0.14481969089868346
+weekly,tail_gain_q10_h4,tail_gain,group PCA,5,1748,0.15607559883794625,0.20251716247139587
+weekly,tail_gain_q10_h4,tail_gain,PCA,1,1747,0.0642427403664537,0.08471665712650257
+weekly,tail_gain_q10_h4,tail_gain,PCA,2,1747,0.08619721428795651,0.09444762449914139
+weekly,tail_gain_q10_h4,tail_gain,PCA,3,1747,0.09831403057456628,0.09730967372638809
+weekly,tail_gain_q10_h4,tail_gain,PCA,4,1747,0.10419678603947942,0.1327990841442473
+weekly,tail_gain_q10_h4,tail_gain,PCA,5,1748,0.15795031979470103,0.20137299771167047
+weekly,tail_gain_q10_h4,tail_gain,kernel PCA,1,1747,0.06596338854117226,0.10303377218088151
+weekly,tail_gain_q10_h4,tail_gain,kernel PCA,2,1747,0.0959579318941999,0.09215798511734402
+weekly,tail_gain_q10_h4,tail_gain,kernel PCA,3,1747,0.10050088505142173,0.10417859187178019
+weekly,tail_gain_q10_h4,tail_gain,kernel PCA,4,1747,0.10509090058183519,0.1482541499713795
+weekly,tail_gain_q10_h4,tail_gain,kernel PCA,5,1748,0.1424368593694247,0.16304347826086957
+weekly,tail_gain_q10_h4,tail_gain,autoencoder,1,1747,0.0625629572698744,0.08299942759015455
+weekly,tail_gain_q10_h4,tail_gain,autoencoder,2,1747,0.08463683137056115,0.1001717229536348
+weekly,tail_gain_q10_h4,tail_gain,autoencoder,3,1747,0.0983792692142976,0.09444762449914139
+weekly,tail_gain_q10_h4,tail_gain,autoencoder,4,1747,0.10442682212847616,0.13508872352604465
+weekly,tail_gain_q10_h4,tail_gain,autoencoder,5,1748,0.15721301496433007,0.19794050343249428
+weekly,tail_gain_q10_h4,tail_gain,LASSO,1,1747,0.05889440828706823,0.07613050944476245
+weekly,tail_gain_q10_h4,tail_gain,LASSO,2,1747,0.08262688939807221,0.09845449341728678
+weekly,tail_gain_q10_h4,tail_gain,LASSO,3,1747,0.09661354946640482,0.10646823125357756
+weekly,tail_gain_q10_h4,tail_gain,LASSO,4,1747,0.10453198744944037,0.1333714939896966
+weekly,tail_gain_q10_h4,tail_gain,LASSO,5,1748,0.15927977223593617,0.19622425629290619
+weekly,tail_gain_q10_h4,tail_gain,raw factors,1,1747,0.04773057145761934,0.09444762449914139
+weekly,tail_gain_q10_h4,tail_gain,raw factors,2,1747,0.08197655519722769,0.08299942759015455
+weekly,tail_gain_q10_h4,tail_gain,raw factors,3,1747,0.0955623664743665,0.1070406410990269
+weekly,tail_gain_q10_h4,tail_gain,raw factors,4,1747,0.10707884691648142,0.13222667429879795
+weekly,tail_gain_q10_h4,tail_gain,raw factors,5,1748,0.16992731871844605,0.19393592677345536
+weekly,tail_gain_q10_h4,tail_gain,base rate,1,1680,0.0998554676056694,0.125
+weekly,tail_gain_q10_h4,tail_gain,base rate,2,1764,0.10012698712577082,0.1082766439909297
+weekly,tail_gain_q10_h4,tail_gain,base rate,3,1764,0.10041150492687932,0.10204081632653061
+weekly,tail_gain_q10_h4,tail_gain,base rate,4,1764,0.10068637675643947,0.11507936507936507
+weekly,tail_gain_q10_h4,tail_gain,base rate,5,1764,0.10100681409578478,0.16043083900226757
+weekly,tail_gain_q10_h4,tail_gain,volatility-based logit,1,1747,0.03460438632791466,0.04178591871780195
+weekly,tail_gain_q10_h4,tail_gain,volatility-based logit,2,1747,0.05675860443068616,0.07212364052661706
+weekly,tail_gain_q10_h4,tail_gain,volatility-based logit,3,1747,0.07643238056405151,0.09730967372638809
+weekly,tail_gain_q10_h4,tail_gain,volatility-based logit,4,1747,0.10337231667708287,0.14195764167143674
+weekly,tail_gain_q10_h4,tail_gain,volatility-based logit,5,1748,0.22263755860107876,0.2574370709382151
+weekly,tail_gain_q10_h4,tail_gain,GARCH-based probability,1,1747,0.055967461138151715,0.04751001717229536
+weekly,tail_gain_q10_h4,tail_gain,GARCH-based probability,2,1747,0.08934536346312356,0.061820263308528904
+weekly,tail_gain_q10_h4,tail_gain,GARCH-based probability,3,1747,0.11618701084308511,0.08986834573554665
+weekly,tail_gain_q10_h4,tail_gain,GARCH-based probability,4,1747,0.15276969381850405,0.13909559244419004
+weekly,tail_gain_q10_h4,tail_gain,GARCH-based probability,5,1748,0.2433258633524075,0.2723112128146453
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (fixed)",1,1747,0.07141346358096917,0.10532341156267888
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (fixed)",2,1747,0.09635609440035174,0.08528906697195192
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (fixed)",3,1747,0.0997414511127051,0.08070978820835718
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (fixed)",4,1747,0.1020148200299043,0.11619919862621637
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (fixed)",5,1748,0.13122970016956026,0.11670480549199085
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (averaged)",1,1747,0.07477056580338318,0.10818546078992558
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (averaged)",2,1747,0.0952750465139999,0.08013737836290784
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (averaged)",3,1747,0.09951092333310693,0.07613050944476245
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (averaged)",4,1747,0.10214902451360061,0.12593016599885518
+weekly,tail_loss_q10_h13,tail_loss,"IBA, K formulas (averaged)",5,1748,0.1297560509479721,0.11384439359267734
+weekly,tail_loss_q10_h13,tail_loss,"IBA, generic formulas",1,1747,0.057279308670938174,0.08700629650829994
+weekly,tail_loss_q10_h13,tail_loss,"IBA, generic formulas",2,1747,0.09348713603241991,0.07784773898111047
+weekly,tail_loss_q10_h13,tail_loss,"IBA, generic formulas",3,1747,0.09924736326862227,0.09215798511734402
+weekly,tail_loss_q10_h13,tail_loss,"IBA, generic formulas",4,1747,0.10232546684017421,0.14424728105323412
+weekly,tail_loss_q10_h13,tail_loss,"IBA, generic formulas",5,1748,0.14716300949370684,0.10297482837528604
+weekly,tail_loss_q10_h13,tail_loss,group PCA,1,1747,0.07507879722062322,0.1001717229536348
+weekly,tail_loss_q10_h13,tail_loss,group PCA,2,1747,0.09769830495876135,0.09273039496279337
+weekly,tail_loss_q10_h13,tail_loss,group PCA,3,1747,0.09999388113335318,0.10131654264453349
+weekly,tail_loss_q10_h13,tail_loss,group PCA,4,1747,0.1019880897624233,0.11505437893531768
+weekly,tail_loss_q10_h13,tail_loss,group PCA,5,1748,0.1276373128815436,0.09496567505720824
+weekly,tail_loss_q10_h13,tail_loss,PCA,1,1747,0.08826977562328342,0.113909559244419
+weekly,tail_loss_q10_h13,tail_loss,PCA,2,1747,0.09903335159481319,0.09616485403548941
+weekly,tail_loss_q10_h13,tail_loss,PCA,3,1747,0.10035614209058027,0.10188895248998282
+weekly,tail_loss_q10_h13,tail_loss,PCA,4,1747,0.10174373333252937,0.10933028048082427
+weekly,tail_loss_q10_h13,tail_loss,PCA,5,1748,0.12111753493756247,0.08295194508009153
+weekly,tail_loss_q10_h13,tail_loss,kernel PCA,1,1747,0.08530615966328427,0.090440755580996
+weekly,tail_loss_q10_h13,tail_loss,kernel PCA,2,1747,0.09920773422091364,0.1070406410990269
+weekly,tail_loss_q10_h13,tail_loss,kernel PCA,3,1747,0.10058010517206092,0.11734401831711505
+weekly,tail_loss_q10_h13,tail_loss,kernel PCA,4,1747,0.10197919365336716,0.11906124785346307
+weekly,tail_loss_q10_h13,tail_loss,kernel PCA,5,1748,0.12420760224201682,0.07036613272311212
+weekly,tail_loss_q10_h13,tail_loss,autoencoder,1,1747,0.08616673138111143,0.10818546078992558
+weekly,tail_loss_q10_h13,tail_loss,autoencoder,2,1747,0.0986754711860533,0.09788208357183743
+weekly,tail_loss_q10_h13,tail_loss,autoencoder,3,1747,0.10022856505243469,0.10246136233543217
+weekly,tail_loss_q10_h13,tail_loss,autoencoder,4,1747,0.10187012293337935,0.10360618202633086
+weekly,tail_loss_q10_h13,tail_loss,autoencoder,5,1748,0.12339575066094001,0.09210526315789473
+weekly,tail_loss_q10_h13,tail_loss,LASSO,1,1747,0.06749839663626218,0.09845449341728678
+weekly,tail_loss_q10_h13,tail_loss,LASSO,2,1747,0.09486464273972647,0.10303377218088151
+weekly,tail_loss_q10_h13,tail_loss,LASSO,3,1747,0.09907612803351949,0.10131654264453349
+weekly,tail_loss_q10_h13,tail_loss,LASSO,4,1747,0.10255606278234376,0.10188895248998282
+weekly,tail_loss_q10_h13,tail_loss,LASSO,5,1748,0.13762676443934865,0.09954233409610984
+weekly,tail_loss_q10_h13,tail_loss,raw factors,1,1747,0.061699709778829034,0.09387521465369204
+weekly,tail_loss_q10_h13,tail_loss,raw factors,2,1747,0.09188772427692965,0.09444762449914139
+weekly,tail_loss_q10_h13,tail_loss,raw factors,3,1747,0.09836161819952757,0.09387521465369204
+weekly,tail_loss_q10_h13,tail_loss,raw factors,4,1747,0.1042776100437408,0.10475100171722954
+weekly,tail_loss_q10_h13,tail_loss,raw factors,5,1748,0.1411398364829056,0.11727688787185354
+weekly,tail_loss_q10_h13,tail_loss,base rate,1,1680,0.09985328667426466,0.08154761904761905
+weekly,tail_loss_q10_h13,tail_loss,base rate,2,1764,0.10013283310410087,0.09863945578231292
+weekly,tail_loss_q10_h13,tail_loss,base rate,3,1764,0.1004348180246043,0.07993197278911565
+weekly,tail_loss_q10_h13,tail_loss,base rate,4,1764,0.1007009106214629,0.0992063492063492
+weekly,tail_loss_q10_h13,tail_loss,base rate,5,1764,0.10104917699722975,0.14399092970521543
+weekly,tail_loss_q10_h13,tail_loss,volatility-based logit,1,1747,0.06403117569246,0.12020606754436176
+weekly,tail_loss_q10_h13,tail_loss,volatility-based logit,2,1747,0.08580266307040034,0.10818546078992558
+weekly,tail_loss_q10_h13,tail_loss,volatility-based logit,3,1747,0.09816935572067563,0.10074413279908415
+weekly,tail_loss_q10_h13,tail_loss,volatility-based logit,4,1747,0.11056320943316775,0.08986834573554665
+weekly,tail_loss_q10_h13,tail_loss,volatility-based logit,5,1748,0.15349107633335135,0.08524027459954234
+weekly,tail_loss_q10_h13,tail_loss,GARCH-based probability,1,1747,0.08006518990365181,0.09387521465369204
+weekly,tail_loss_q10_h13,tail_loss,GARCH-based probability,2,1747,0.1122316967309647,0.0824270177447052
+weekly,tail_loss_q10_h13,tail_loss,GARCH-based probability,3,1747,0.13295577634782446,0.10188895248998282
+weekly,tail_loss_q10_h13,tail_loss,GARCH-based probability,4,1747,0.15997980418430502,0.0933028048082427
+weekly,tail_loss_q10_h13,tail_loss,GARCH-based probability,5,1748,0.23468475651717352,0.13272311212814644
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (fixed)",1,1747,0.0717798096799939,0.07384087006296508
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (fixed)",2,1747,0.09263980414107216,0.08986834573554665
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (fixed)",3,1747,0.09864196333641664,0.10532341156267888
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (fixed)",4,1747,0.10203608036298412,0.10933028048082427
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (fixed)",5,1748,0.13687828100924834,0.14016018306636155
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (averaged)",1,1747,0.07328836784893608,0.0795649685174585
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (averaged)",2,1747,0.09189900413559511,0.09158557527189468
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (averaged)",3,1747,0.09817435509929012,0.09444762449914139
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (averaged)",4,1747,0.10228253087893772,0.1110475100171723
+weekly,tail_loss_q10_h4,tail_loss,"IBA, K formulas (averaged)",5,1748,0.13576236394667815,0.14187643020594964
+weekly,tail_loss_q10_h4,tail_loss,"IBA, generic formulas",1,1747,0.061957929960462725,0.06811677160847167
+weekly,tail_loss_q10_h4,tail_loss,"IBA, generic formulas",2,1747,0.08728191917707435,0.07899255867200916
+weekly,tail_loss_q10_h4,tail_loss,"IBA, generic formulas",3,1747,0.09827148454926618,0.09616485403548941
+weekly,tail_loss_q10_h4,tail_loss,"IBA, generic formulas",4,1747,0.10409658094771879,0.11848883800801374
+weekly,tail_loss_q10_h4,tail_loss,"IBA, generic formulas",5,1748,0.1503225797311968,0.15675057208237986
+weekly,tail_loss_q10_h4,tail_loss,group PCA,1,1747,0.07437240832639941,0.09559244419004007
+weekly,tail_loss_q10_h4,tail_loss,group PCA,2,1747,0.09332447952693722,0.09387521465369204
+weekly,tail_loss_q10_h4,tail_loss,group PCA,3,1747,0.09893906930793991,0.08757870635374929
+weekly,tail_loss_q10_h4,tail_loss,group PCA,4,1747,0.10317181454494063,0.11963365769891242
+weekly,tail_loss_q10_h4,tail_loss,group PCA,5,1748,0.1391223024139984,0.12185354691075514
+weekly,tail_loss_q10_h4,tail_loss,PCA,1,1747,0.07506003033890439,0.08986834573554665
+weekly,tail_loss_q10_h4,tail_loss,PCA,2,1747,0.0954281721466257,0.090440755580996
+weekly,tail_loss_q10_h4,tail_loss,PCA,3,1747,0.0997543167719017,0.08471665712650257
+weekly,tail_loss_q10_h4,tail_loss,PCA,4,1747,0.10298387268188383,0.12993703491700057
+weekly,tail_loss_q10_h4,tail_loss,PCA,5,1748,0.14107156600279006,0.12356979405034325
+weekly,tail_loss_q10_h4,tail_loss,kernel PCA,1,1747,0.061147394644184144,0.08815111619919863
+weekly,tail_loss_q10_h4,tail_loss,kernel PCA,2,1747,0.09043240296228464,0.07727532913566114
+weekly,tail_loss_q10_h4,tail_loss,kernel PCA,3,1747,0.10051109458663014,0.10360618202633086
+weekly,tail_loss_q10_h4,tail_loss,kernel PCA,4,1747,0.10894270148510075,0.13508872352604465
+weekly,tail_loss_q10_h4,tail_loss,kernel PCA,5,1748,0.1486134769201521,0.11441647597254005
+weekly,tail_loss_q10_h4,tail_loss,autoencoder,1,1747,0.07105733414858821,0.090440755580996
+weekly,tail_loss_q10_h4,tail_loss,autoencoder,2,1747,0.0932395567360954,0.08757870635374929
+weekly,tail_loss_q10_h4,tail_loss,autoencoder,3,1747,0.09951702240010338,0.09158557527189468
+weekly,tail_loss_q10_h4,tail_loss,autoencoder,4,1747,0.10386111138606134,0.113909559244419
+weekly,tail_loss_q10_h4,tail_loss,autoencoder,5,1748,0.14370084249740633,0.13501144164759726
+weekly,tail_loss_q10_h4,tail_loss,LASSO,1,1747,0.0605161242186086,0.08128219805380653
+weekly,tail_loss_q10_h4,tail_loss,LASSO,2,1747,0.08436366321802383,0.07097882083571837
+weekly,tail_loss_q10_h4,tail_loss,LASSO,3,1747,0.09659494972798875,0.09158557527189468
+weekly,tail_loss_q10_h4,tail_loss,LASSO,4,1747,0.10591603893642028,0.1276473955352032
+weekly,tail_loss_q10_h4,tail_loss,LASSO,5,1748,0.1566771201428955,0.14702517162471396
+weekly,tail_loss_q10_h4,tail_loss,raw factors,1,1747,0.0653123100538835,0.08872352604464796
+weekly,tail_loss_q10_h4,tail_loss,raw factors,2,1747,0.08865282304285385,0.08414424728105323
+weekly,tail_loss_q10_h4,tail_loss,raw factors,3,1747,0.09709998189114966,0.09845449341728678
+weekly,tail_loss_q10_h4,tail_loss,raw factors,4,1747,0.1060765795559607,0.10646823125357756
+weekly,tail_loss_q10_h4,tail_loss,raw factors,5,1748,0.1481892701298297,0.14073226544622425
+weekly,tail_loss_q10_h4,tail_loss,base rate,1,1680,0.0998554676056694,0.0869047619047619
+weekly,tail_loss_q10_h4,tail_loss,base rate,2,1764,0.10012698712577082,0.08673469387755102
+weekly,tail_loss_q10_h4,tail_loss,base rate,3,1764,0.10041150492687932,0.10147392290249434
+weekly,tail_loss_q10_h4,tail_loss,base rate,4,1764,0.10068637675643947,0.11224489795918367
+weekly,tail_loss_q10_h4,tail_loss,base rate,5,1764,0.10100681409578478,0.13038548752834467
+weekly,tail_loss_q10_h4,tail_loss,volatility-based logit,1,1747,0.053710874257135006,0.08929593589009731
+weekly,tail_loss_q10_h4,tail_loss,volatility-based logit,2,1747,0.07829851129836375,0.08128219805380653
+weekly,tail_loss_q10_h4,tail_loss,volatility-based logit,3,1747,0.09281363896738035,0.09959931310818546
+weekly,tail_loss_q10_h4,tail_loss,volatility-based logit,4,1747,0.1096289784016561,0.11047510017172295
+weekly,tail_loss_q10_h4,tail_loss,volatility-based logit,5,1748,0.17475120316362205,0.13787185354691076
+weekly,tail_loss_q10_h4,tail_loss,GARCH-based probability,1,1747,0.04606304038299929,0.0835718374356039
+weekly,tail_loss_q10_h4,tail_loss,GARCH-based probability,2,1747,0.07789953044519866,0.08070978820835718
+weekly,tail_loss_q10_h4,tail_loss,GARCH-based probability,3,1747,0.1023543447253967,0.09215798511734402
+weekly,tail_loss_q10_h4,tail_loss,GARCH-based probability,4,1747,0.1371561429232955,0.10532341156267888
+weekly,tail_loss_q10_h4,tail_loss,GARCH-based probability,5,1748,0.23132708796806278,0.15675057208237986
